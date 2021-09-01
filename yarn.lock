@@ -3949,7 +3949,7 @@ broccoli-funnel@^2.0.0, broccoli-funnel@^2.0.1, broccoli-funnel@^2.0.2:
     symlink-or-copy "^1.0.0"
     walk-sync "^0.3.1"
 
-broccoli-funnel@^3.0.1, broccoli-funnel@^3.0.3, broccoli-funnel@^3.0.5, broccoli-funnel@^3.0.8:
+broccoli-funnel@^3.0.3, broccoli-funnel@^3.0.5, broccoli-funnel@^3.0.8:
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/broccoli-funnel/-/broccoli-funnel-3.0.8.tgz#f5b62e2763c3918026a15a3c833edc889971279b"
   integrity sha512-ng4eIhPYiXqMw6SyGoxPHR3YAwEd2lr9FgBI1CyTbspl4txZovOsmzFkMkGAlu88xyvYXJqHiM2crfLa65T1BQ==
@@ -5984,7 +5984,7 @@ ember-cli-babel@^7.0.0, ember-cli-babel@^7.13.0, ember-cli-babel@^7.13.2, ember-
     rimraf "^3.0.1"
     semver "^5.5.0"
 
-ember-cli-code-coverage@^1.0.0-beta.8:
+ember-cli-code-coverage@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/ember-cli-code-coverage/-/ember-cli-code-coverage-1.0.3.tgz#9a6e5e6350d70761eba749d68ebe2e0d9aa3492f"
   integrity sha512-tyWeQ22vxpDmfhIrRCMqZPq9Coppefg19hBgME4yb9Na2qslxCNK0USThigZhesb7hfw2ZgdrKJCrmCVNwkq7g==
@@ -6362,7 +6362,7 @@ ember-export-application-global@^2.0.1:
   resolved "https://registry.yarnpkg.com/ember-export-application-global/-/ember-export-application-global-2.0.1.tgz#b120a70e322ab208defc9e2daebe8d0dfc2dcd46"
   integrity sha512-B7wiurPgsxsSGzJuPFkpBWnaeuCu2PGpG2BjyrfA1VcL7//o+5RSnZqiCEY326y7qmxb2GoCgo0ft03KBU0rRw==
 
-ember-fetch@^8.0.2:
+ember-fetch@^8.1.1:
   version "8.1.1"
   resolved "https://registry.yarnpkg.com/ember-fetch/-/ember-fetch-8.1.1.tgz#d68d4a58529121a572ec09c39c6a3ad174c83a2e"
   integrity sha512-Xi1wNmPtVmfIoFH675AA0ELIdYUcoZ2p+6j9c8eDFjiGJiFesyp01bDtl5ryBI/1VPOByJLsDkT+4C11HixsJw==
@@ -6494,7 +6494,7 @@ ember-source@~3.28.0:
     semver "^7.3.4"
     silent-error "^1.1.1"
 
-ember-svg-jar@^2.1.0:
+ember-svg-jar@^2.3.3:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/ember-svg-jar/-/ember-svg-jar-2.3.3.tgz#aede3f23e58bdcacc0e59a297c1ebad71a472e31"
   integrity sha512-Obs8vEMKPfS2R48bKBAfNSLphFsDwUMRqi8TVKtlLE6okTXC8NebGg7pA/IutIGnakqJRAz4/dWAZyI74duDuQ==
