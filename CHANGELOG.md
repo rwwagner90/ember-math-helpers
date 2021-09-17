@@ -1,3 +1,12 @@
+## v2.17.0 (2021-09-17)
+
+#### :house: Internal
+* [#587](https://github.com/shipshapecode/ember-math-helpers/pull/587) Move documentation to /docs ([@rwwagner90](https://github.com/rwwagner90))
+* [#495](https://github.com/shipshapecode/ember-math-helpers/pull/495) Add dependabot automerge ([@rwwagner90](https://github.com/rwwagner90))
+
+#### Committers: 1
+- Robert Wagner ([@rwwagner90](https://github.com/rwwagner90))
+
 ## v2.16.0 (2021-05-08)
 
 #### :rocket: Enhancement
