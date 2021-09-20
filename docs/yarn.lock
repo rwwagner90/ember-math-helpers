@@ -6599,7 +6599,7 @@ ember-source@~3.28.0:
     semver "^7.3.4"
     silent-error "^1.1.1"
 
-ember-svg-jar@^2.2.3:
+ember-svg-jar@^2.2.3, ember-svg-jar@^2.3.3:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/ember-svg-jar/-/ember-svg-jar-2.3.3.tgz#aede3f23e58bdcacc0e59a297c1ebad71a472e31"
   integrity sha512-Obs8vEMKPfS2R48bKBAfNSLphFsDwUMRqi8TVKtlLE6okTXC8NebGg7pA/IutIGnakqJRAz4/dWAZyI74duDuQ==
