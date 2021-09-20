@@ -15,6 +15,7 @@
 /.eslintcache
 /connect.lock
 /coverage/
+/deploy-docs/
 /libpeerconnection.log
 /npm-debug.log*
 /testem.log
