@@ -4,6 +4,6 @@ import { module, test } from 'qunit';
 module('Unit | Helper | log10', function () {
   test('log10 works', function (assert) {
     const result = log10([2]);
-    assert.equal(result.toFixed(3), 0.301);
+    assert.strictEqual(Number(result.toFixed(3)), 0.301);
   });
 });

@@ -4,7 +4,7 @@ import { module, test } from 'qunit';
 module('Unit | Helper | sqrt', function () {
   test('square root works', function (assert) {
     const result = sqrt([25]);
-    assert.equal(result, 5);
+    assert.strictEqual(result, 5);
   });
 
   test('negative square root is NaN', function (assert) {
