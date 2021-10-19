@@ -11,6 +11,10 @@ module('Unit | Helper | max', function () {
 
     assert.strictEqual(max([42]), 42, 'accepts one argument');
 
-    assert.strictEqual(max([]), Number.NEGATIVE_INFINITY, 'accepts zero arguments');
+    assert.strictEqual(
+      max([]),
+      Number.NEGATIVE_INFINITY,
+      'accepts zero arguments'
+    );
   });
 });
