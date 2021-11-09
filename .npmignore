@@ -24,6 +24,7 @@
 /config/ember-try.js
 /CONTRIBUTING.md
 /docs/
+/deploy-docs/
 /ember-cli-build.js
 /testem.js
 /tests/
@@ -38,3 +39,4 @@
 
 .idea/
 /config/addon-docs.js
+
