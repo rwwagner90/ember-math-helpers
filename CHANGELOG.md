@@ -1,3 +1,16 @@
+
+## v2.18.0 (2021-11-09)
+
+#### :rocket: Enhancement
+* [#614](https://github.com/shipshapecode/ember-math-helpers/pull/614) implement sum helper as strict alias for add helper ([@Mifrill](https://github.com/Mifrill))
+
+#### :house: Internal
+* [#658](https://github.com/shipshapecode/ember-math-helpers/pull/658) exclude deploy-docs from publish ([@jakesjews](https://github.com/jakesjews))
+
+#### Committers: 2
+- Aleksei Strizhak ([@Mifrill](https://github.com/Mifrill))
+- Jacob Jewell ([@jakesjews](https://github.com/jakesjews))
+
 ## v2.17.3 (2021-09-20)
 
 ## v2.17.2 (2021-09-20)
