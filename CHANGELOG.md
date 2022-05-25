@@ -1,5 +1,14 @@
 
 
+
+## v2.18.2 (2022-05-25)
+
+#### :house: Internal
+* [#796](https://github.com/shipshapecode/ember-math-helpers/pull/796) ember-cli 4.3 ([@rwwagner90](https://github.com/rwwagner90))
+
+#### Committers: 1
+- Robert Wagner ([@rwwagner90](https://github.com/rwwagner90))
+
 ## v2.18.1 (2022-01-25)
 
 #### :house: Internal
