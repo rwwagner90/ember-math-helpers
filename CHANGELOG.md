@@ -4,7 +4,7 @@
 ## v2.18.2 (2022-05-25)
 
 #### :house: Internal
-* [#796](https://github.com/shipshapecode/ember-math-helpers/pull/796) ember-cli 4.3 ([@rwwagner90](https://github.com/rwwagner90))
+* [#796](https://github.com/rwwagner90/ember-math-helpers/pull/796) ember-cli 4.3 ([@rwwagner90](https://github.com/rwwagner90))
 
 #### Committers: 1
 - Robert Wagner ([@rwwagner90](https://github.com/rwwagner90))
@@ -12,7 +12,7 @@
 ## v2.18.1 (2022-01-25)
 
 #### :house: Internal
-* [#702](https://github.com/shipshapecode/ember-math-helpers/pull/702) ember-cli 4.1 ([@rwwagner90](https://github.com/rwwagner90))
+* [#702](https://github.com/rwwagner90/ember-math-helpers/pull/702) ember-cli 4.1 ([@rwwagner90](https://github.com/rwwagner90))
 
 #### Committers: 1
 - Robert Wagner ([@rwwagner90](https://github.com/rwwagner90))
@@ -20,10 +20,10 @@
 ## v2.18.0 (2021-11-09)
 
 #### :rocket: Enhancement
-* [#614](https://github.com/shipshapecode/ember-math-helpers/pull/614) implement sum helper as strict alias for add helper ([@Mifrill](https://github.com/Mifrill))
+* [#614](https://github.com/rwwagner90/ember-math-helpers/pull/614) implement sum helper as strict alias for add helper ([@Mifrill](https://github.com/Mifrill))
 
 #### :house: Internal
-* [#658](https://github.com/shipshapecode/ember-math-helpers/pull/658) exclude deploy-docs from publish ([@jakesjews](https://github.com/jakesjews))
+* [#658](https://github.com/rwwagner90/ember-math-helpers/pull/658) exclude deploy-docs from publish ([@jakesjews](https://github.com/jakesjews))
 
 #### Committers: 2
 - Aleksei Strizhak ([@Mifrill](https://github.com/Mifrill))
@@ -38,8 +38,8 @@
 ## v2.17.0 (2021-09-17)
 
 #### :house: Internal
-* [#587](https://github.com/shipshapecode/ember-math-helpers/pull/587) Move documentation to /docs ([@rwwagner90](https://github.com/rwwagner90))
-* [#495](https://github.com/shipshapecode/ember-math-helpers/pull/495) Add dependabot automerge ([@rwwagner90](https://github.com/rwwagner90))
+* [#587](https://github.com/rwwagner90/ember-math-helpers/pull/587) Move documentation to /docs ([@rwwagner90](https://github.com/rwwagner90))
+* [#495](https://github.com/rwwagner90/ember-math-helpers/pull/495) Add dependabot automerge ([@rwwagner90](https://github.com/rwwagner90))
 
 #### Committers: 1
 - Robert Wagner ([@rwwagner90](https://github.com/rwwagner90))
@@ -47,10 +47,10 @@
 ## v2.16.0 (2021-05-08)
 
 #### :rocket: Enhancement
-* [#324](https://github.com/shipshapecode/ember-math-helpers/pull/324) Ember 3.20 ([@rwwagner90](https://github.com/rwwagner90))
+* [#324](https://github.com/rwwagner90/ember-math-helpers/pull/324) Ember 3.20 ([@rwwagner90](https://github.com/rwwagner90))
 
 #### :house: Internal
-* [#401](https://github.com/shipshapecode/ember-math-helpers/pull/401) Update eslint-plugin-ember, fix lint ([@rwwagner90](https://github.com/rwwagner90))
+* [#401](https://github.com/rwwagner90/ember-math-helpers/pull/401) Update eslint-plugin-ember, fix lint ([@rwwagner90](https://github.com/rwwagner90))
 
 #### Committers: 2
 - Robert Wagner ([@rwwagner90](https://github.com/rwwagner90))
@@ -59,14 +59,14 @@
 ## v2.15.0 (2020-07-13)
 
 #### :house: Internal
-* [#299](https://github.com/shipshapecode/ember-math-helpers/pull/299) ember / ember-cli 3.19 ([@rwwagner90](https://github.com/rwwagner90))
+* [#299](https://github.com/rwwagner90/ember-math-helpers/pull/299) ember / ember-cli 3.19 ([@rwwagner90](https://github.com/rwwagner90))
 
 #### Committers: 2
 - Robert Wagner ([@rwwagner90](https://github.com/rwwagner90))
 - [@dependabot-preview[bot]](https://github.com/apps/dependabot-preview)
 
 # 2.7.0 (2018-09-04)
-* Implement `gcd` helper [#136](https://github.com/shipshapecode/ember-math-helpers/pull/136)
+* Implement `gcd` helper [#136](https://github.com/rwwagner90/ember-math-helpers/pull/136)
 
 # 2.6.0 (2018-07-30)
 * Bump to Ember 3.3.0
