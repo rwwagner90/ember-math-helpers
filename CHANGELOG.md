@@ -1,6 +1,15 @@
 
 
 
+
+## v3.0.0 (2022-10-25)
+
+#### :boom: Breaking Change
+* [#833](https://github.com/rwwagner90/ember-math-helpers/pull/833) Require node >= 14 ([@rwwagner90](https://github.com/rwwagner90))
+
+#### Committers: 1
+- Robert Wagner ([@rwwagner90](https://github.com/rwwagner90))
+
 ## v2.18.2 (2022-05-25)
 
 #### :house: Internal
