@@ -1,4 +1,54 @@
-<DocsViewer as |viewer|>
+<DocfyOutput @scope="docs" as |node|>
+  <ul class="list-disc list-inside space-y-2">
+    {{#each node.pages as |page|}}
+      <li>
+        <DocfyLink @to={{page.url}}>
+          {{page.title}}
+        </DocfyLink>
+      </li>
+    {{/each}}
+
+    {{#each node.children as |child|}}
+      <li class="block ml-4">
+        <div class="py-2">
+          {{child.label}}
+        </div>
+
+        <ul class="list-disc list-inside space-y-2">
+          {{#each child.pages as |page|}}
+            <li>
+              <DocfyLink @to={{page.url}}>
+                {{page.title}}
+              </DocfyLink>
+            </li>
+          {{/each}}
+        </ul>
+      </li>
+    {{/each}}
+  </ul>
+</DocfyOutput>
+
+<DocfyPreviousAndNextPage as |previous next|>
+  <div>
+    {{#if previous}}
+      Previous:
+
+      <DocfyLink @to={{previous.url}}>
+        {{previous.title}}
+      </DocfyLink>
+    {{/if}}
+  </div>
+  <div>
+    {{#if next}}
+      Next:
+
+      <DocfyLink @to={{next.url}}>
+        {{next.title}}
+      </DocfyLink>
+    {{/if}}
+  </div>
+</DocfyPreviousAndNextPage>
+{{!-- <DocsViewer as |viewer|>
   <viewer.nav as |nav|>
     {{nav.section "Introduction"}}
     {{nav.item "Introduction" "docs.index"}}
@@ -16,4 +66,4 @@
       </div>
     </div>
   </viewer.main>
-</DocsViewer>
+</DocsViewer> --}}
