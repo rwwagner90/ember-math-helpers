@@ -19,17 +19,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Install Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 14.x
-          cache: yarn
-      - name: Install Dependencies
-        run: yarn install --frozen-lockfile
+      - uses: ./.github/actions/pnpm
       - name: Lint
-        run: yarn lint
+        run: pnpm lint
       - name: Run Tests
-        run: yarn test:ember
+        run: pnpm test
 
   floating:
     name: "Floating Dependencies"
@@ -38,14 +32,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 14.x
-          cache: yarn
-      - name: Install Dependencies
-        run: yarn install --no-lockfile
+      - uses: ./.github/actions/pnpm
       - name: Run Tests
-        run: yarn test:ember
+        run: pnpm test
 
   try-scenarios:
     name: ${{ matrix.try-scenario }}
@@ -68,13 +57,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Install Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 14.x
-          cache: yarn
-      - name: Install Dependencies
-        run: yarn install --frozen-lockfile
+      - uses: ./.github/actions/pnpm
       - name: Run Tests
         run: ./node_modules/.bin/ember try:one ${{ matrix.try-scenario }}
 
