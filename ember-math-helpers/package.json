@@ -10,7 +10,6 @@
     "url": "https://github.com/rwwagner90"
   },
   "exports": {
-    ".": "./dist/index.js",
     "./*": "./dist/*"
   },
   "files": [
@@ -34,8 +33,7 @@
     "prepublishOnly": "pnpm build"
   },
   "dependencies": {
-    "@embroider/addon-shim": "1.8.4",
-    "broccoli-funnel": "^3.0.8"
+    "@embroider/addon-shim": "1.8.4"
   },
   "devDependencies": {
     "@babel/core": "7.20.12",
