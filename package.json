@@ -13,8 +13,7 @@
     "url": "https://github.com/rwwagner90"
   },
   "scripts": {
-    "build": "yarn workspace ember-math-helpers build",
-    "build:docs": "cp ../README.md ./README.md"
+    "build": "yarn workspace ember-math-helpers build"
   },
   "volta": {
     "node": "12.22.1",
