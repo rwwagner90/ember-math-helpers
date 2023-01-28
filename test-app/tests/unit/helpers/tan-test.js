@@ -1,4 +1,4 @@
-import { tan } from 'dummy/helpers/tan';
+import { tan } from 'test-app/helpers/tan';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | tan', function () {

@@ -1,4 +1,4 @@
-import { sign } from 'dummy/helpers/sign';
+import { sign } from 'test-app/helpers/sign';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | sign', function () {

@@ -1,4 +1,4 @@
-import { div } from 'dummy/helpers/div';
+import { div } from 'test-app/helpers/div';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | div', function () {

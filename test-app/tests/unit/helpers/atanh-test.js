@@ -1,4 +1,4 @@
-import { atanh } from 'dummy/helpers/atanh';
+import { atanh } from 'test-app/helpers/atanh';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | atanh', function () {

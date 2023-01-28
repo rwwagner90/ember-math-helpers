@@ -56,6 +56,9 @@
     "eslint": "^7.0.0",
     "@rollup/plugin-babel": "6.0.3"
   },
+  "peerDependencies": {
+    "ember-source": "*"
+  },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },

@@ -1,4 +1,4 @@
-import { asin } from 'dummy/helpers/asin';
+import { asin } from 'test-app/helpers/asin';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | asin', function () {

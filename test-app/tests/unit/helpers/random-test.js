@@ -1,4 +1,4 @@
-import { random } from 'dummy/helpers/random';
+import { random } from 'test-app/helpers/random';
 import range from '../../helpers/range';
 import { module, test } from 'qunit';
 

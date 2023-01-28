@@ -1,4 +1,4 @@
-import { cos } from 'dummy/helpers/cos';
+import { cos } from 'test-app/helpers/cos';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | cos', function () {

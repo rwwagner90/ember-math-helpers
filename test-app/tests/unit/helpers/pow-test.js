@@ -1,4 +1,4 @@
-import { pow } from 'dummy/helpers/pow';
+import { pow } from 'test-app/helpers/pow';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | pow', function () {

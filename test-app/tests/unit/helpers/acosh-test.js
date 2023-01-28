@@ -1,4 +1,4 @@
-import { acosh } from 'dummy/helpers/acosh';
+import { acosh } from 'test-app/helpers/acosh';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | acosh', function () {

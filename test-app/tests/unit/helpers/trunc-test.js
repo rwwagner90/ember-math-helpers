@@ -1,4 +1,4 @@
-import { trunc } from 'dummy/helpers/trunc';
+import { trunc } from 'test-app/helpers/trunc';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | trunc', function () {

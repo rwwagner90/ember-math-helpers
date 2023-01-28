@@ -1,4 +1,4 @@
-import { tanh } from 'dummy/helpers/tanh';
+import { tanh } from 'test-app/helpers/tanh';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | tanh', function () {

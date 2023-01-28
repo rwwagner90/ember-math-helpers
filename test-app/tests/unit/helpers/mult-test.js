@@ -1,4 +1,4 @@
-import { mult } from 'dummy/helpers/mult';
+import { mult } from 'test-app/helpers/mult';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | mult', function () {

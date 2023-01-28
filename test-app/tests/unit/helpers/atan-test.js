@@ -1,4 +1,4 @@
-import { atan } from 'dummy/helpers/atan';
+import { atan } from 'test-app/helpers/atan';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | atan', function () {

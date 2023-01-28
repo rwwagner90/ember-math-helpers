@@ -1,4 +1,4 @@
-import { cosh } from 'dummy/helpers/cosh';
+import { cosh } from 'test-app/helpers/cosh';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | cosh', function () {

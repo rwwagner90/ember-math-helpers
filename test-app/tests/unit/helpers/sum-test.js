@@ -1,5 +1,5 @@
-import { sum } from 'dummy/helpers/sum';
-import { add } from 'dummy/helpers/add';
+import { sum } from 'test-app/helpers/sum';
+import { add } from 'test-app/helpers/add';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | sum', function () {

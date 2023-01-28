@@ -1,4 +1,4 @@
-import { acos } from 'dummy/helpers/acos';
+import { acos } from 'test-app/helpers/acos';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | acos', function () {

@@ -1,4 +1,4 @@
-import { exp } from 'dummy/helpers/exp';
+import { exp } from 'test-app/helpers/exp';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | exp', function () {

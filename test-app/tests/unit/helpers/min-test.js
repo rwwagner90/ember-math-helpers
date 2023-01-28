@@ -1,4 +1,4 @@
-import { min } from 'dummy/helpers/min';
+import { min } from 'test-app/helpers/min';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | min', function () {

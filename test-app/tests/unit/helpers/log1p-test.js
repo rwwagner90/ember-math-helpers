@@ -1,4 +1,4 @@
-import { log1p } from 'dummy/helpers/log1p';
+import { log1p } from 'test-app/helpers/log1p';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | log1p', function () {
