@@ -19,7 +19,7 @@
     "lint:fix": "npm-run-all --aggregate-output --continue-on-error --parallel lint:fix:*",
     "lint:fix:addon": "pnpm -F ember-math-helpers lint:fix",
     "lint:fix:test-app": "pnpm -F test-app lint:fix",
-    "test": "npm-run-all --aggregate-output --continue-on-error --parallel \"test:!(watch)\"",
+    "test": "pnpm -F test-app test:ember",
     "test:watch": "npm-run-all --aggregate-output --continue-on-error --parallel test:watch:*",
     "test:test-app": "pnpm -F test-app test",
     "test:watch:test-app": "pnpm -F test-app test:watch",
