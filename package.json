@@ -1,10 +1,5 @@
 {
   "private": true,
-  "workspaces": [
-    "docs",
-    "ember-math-helpers",
-    "test-app"
-  ],
   "repository": "https://github.com/rwwagner90/ember-math-helpers",
   "license": "MIT",
   "author": {
@@ -13,13 +8,25 @@
     "url": "https://github.com/rwwagner90"
   },
   "scripts": {
-    "build": "yarn workspace ember-math-helpers build"
-  },
-  "volta": {
-    "node": "12.22.1",
-    "yarn": "1.22.10"
+    "prepare": "pnpm -F ember-math-helpers prepare",
+    "release": "pnpm prepare && pnpm -F ember-math-helpers release",
+    "start": "npm-run-all --parallel start:*",
+    "start:addon": "pnpm -F ember-math-helpers start",
+    "start:test-app": "pnpm -F test-app start",
+    "lint": "npm-run-all --aggregate-output --continue-on-error --parallel \"lint:!(fix)\"",
+    "lint:addon": "pnpm -F ember-math-helpers lint",
+    "lint:test-app": "pnpm -F test-app lint",
+    "lint:fix": "npm-run-all --aggregate-output --continue-on-error --parallel lint:fix:*",
+    "lint:fix:addon": "pnpm -F ember-math-helpers lint:fix",
+    "lint:fix:test-app": "pnpm -F test-app lint:fix",
+    "test": "npm-run-all --aggregate-output --continue-on-error --parallel \"test:!(watch)\"",
+    "test:watch": "npm-run-all --aggregate-output --continue-on-error --parallel test:watch:*",
+    "test:test-app": "pnpm -F test-app test",
+    "test:watch:test-app": "pnpm -F test-app test:watch",
+    "test:watch:addon": "pnpm -F ember-math-helpers start"
   },
   "engines": {
-    "node": "14.* || 16.* || >= 18"
+    "node": ">= 16",
+    "pnpm": ">= 7"
   }
 }
