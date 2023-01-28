@@ -1,4 +1,4 @@
-import { abs } from 'dummy/helpers/abs';
+import { abs } from 'test-app/helpers/abs';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | abs', function () {

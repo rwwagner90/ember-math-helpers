@@ -1,4 +1,4 @@
-import { round } from 'dummy/helpers/round';
+import { round } from 'test-app/helpers/round';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | round', function () {

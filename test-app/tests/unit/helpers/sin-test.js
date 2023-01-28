@@ -1,4 +1,4 @@
-import { sin } from 'dummy/helpers/sin';
+import { sin } from 'test-app/helpers/sin';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | sin', function () {

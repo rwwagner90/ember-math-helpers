@@ -1,4 +1,4 @@
-import { logE } from 'dummy/helpers/log-e';
+import { logE } from 'test-app/helpers/log-e';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | logE', function () {

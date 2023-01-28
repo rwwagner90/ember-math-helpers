@@ -1,4 +1,4 @@
-import { expm1 } from 'dummy/helpers/expm1';
+import { expm1 } from 'test-app/helpers/expm1';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | expm1', function () {

@@ -1,4 +1,4 @@
-import { asinh } from 'dummy/helpers/asinh';
+import { asinh } from 'test-app/helpers/asinh';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | asinh', function () {

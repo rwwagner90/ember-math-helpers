@@ -1,4 +1,4 @@
-import { sqrt } from 'dummy/helpers/sqrt';
+import { sqrt } from 'test-app/helpers/sqrt';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | sqrt', function () {

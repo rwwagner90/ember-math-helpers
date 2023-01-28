@@ -1,4 +1,4 @@
-import { imul } from 'dummy/helpers/imul';
+import { imul } from 'test-app/helpers/imul';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | imul', function () {

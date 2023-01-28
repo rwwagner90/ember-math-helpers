@@ -1,4 +1,4 @@
-import { floor } from 'dummy/helpers/floor';
+import { floor } from 'test-app/helpers/floor';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | floor', function () {

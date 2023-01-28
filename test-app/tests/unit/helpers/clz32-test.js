@@ -1,4 +1,4 @@
-import { clz32 } from 'dummy/helpers/clz32';
+import { clz32 } from 'test-app/helpers/clz32';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | clz32', function () {

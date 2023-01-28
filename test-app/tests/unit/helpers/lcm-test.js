@@ -1,4 +1,4 @@
-import { lcm } from 'dummy/helpers/lcm';
+import { lcm } from 'test-app/helpers/lcm';
 import { module, test } from 'qunit';
 import { setupTest } from 'ember-qunit';
 

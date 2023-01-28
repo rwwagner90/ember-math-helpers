@@ -1,4 +1,4 @@
-import { add } from 'dummy/helpers/add';
+import { add } from 'test-app/helpers/add';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | add', function () {

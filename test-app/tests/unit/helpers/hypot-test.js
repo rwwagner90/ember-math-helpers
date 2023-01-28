@@ -1,4 +1,4 @@
-import { hypot } from 'dummy/helpers/hypot';
+import { hypot } from 'test-app/helpers/hypot';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | hypot', function () {
