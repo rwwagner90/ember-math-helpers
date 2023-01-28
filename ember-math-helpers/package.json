@@ -30,8 +30,8 @@
     "lint:js": "eslint . --cache",
     "lint:js:fix": "eslint . --fix",
     "test": "echo 'Addon does not have tests, run tests in test-app'",
-    "prepare": "yarn run build",
-    "prepublishOnly": "yarn run build"
+    "prepare": "pnpm build",
+    "prepublishOnly": "pnpm build"
   },
   "dependencies": {
     "@embroider/addon-shim": "1.8.4",

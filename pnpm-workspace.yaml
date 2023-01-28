@@ -1,0 +1,4 @@
+packages:
+  - docs
+  - ember-math-helpers
+  - test-app
