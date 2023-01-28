@@ -1,11 +1,1 @@
-:root {
-  --brand-primary: #ef898b;
-}
-
-body {
-  background-color: white !important;
-}
-
-.hero {
-  padding: 0 2rem;
-}
+/* Styles now live at assets/styles.css */
