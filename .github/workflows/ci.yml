@@ -18,7 +18,6 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - uses: actions/checkout@v3
       - uses: ./.github/actions/pnpm
       - name: Lint
         run: pnpm lint
@@ -31,7 +30,6 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - uses: actions/checkout@v3
       - uses: ./.github/actions/pnpm
       - name: Run Tests
         run: pnpm test
@@ -56,7 +54,6 @@ jobs:
           - embroider-optimized
 
     steps:
-      - uses: actions/checkout@v3
       - uses: ./.github/actions/pnpm
       - name: Run Tests
         run: ./node_modules/.bin/ember try:one ${{ matrix.try-scenario }}
