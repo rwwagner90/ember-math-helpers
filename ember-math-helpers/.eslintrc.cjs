@@ -2,4 +2,4 @@
 
 const { configs } = require('@nullvoxpopuli/eslint-configs');
 
-module.exports = configs.ember();
+module.exports = configs.ember({ prettierIntegration: true });

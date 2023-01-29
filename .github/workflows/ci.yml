@@ -22,8 +22,6 @@ jobs:
       - uses: ./.github/actions/pnpm
       - name: Lint
         run: pnpm lint
-      - name: Formatting
-        run: pnpm format:check
       - name: Run Tests
         run: pnpm test
 

@@ -15,7 +15,6 @@
     "start:test-app": "pnpm -F test-app start",
     "lint": "pnpm --filter '*' lint",
     "lint:fix": "pnpm --filter '*' lint:fix",
-    "format": "pnpm --filter '*' format",
     "format:check": "pnpm --filter '*' format:check",
     "test": "pnpm -F test-app test:ember",
     "test:watch": "npm-run-all --aggregate-output --continue-on-error --parallel test:watch:*",

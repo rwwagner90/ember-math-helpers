@@ -13,8 +13,6 @@
   },
   "scripts": {
     "build": "ember build --environment=production",
-    "format": "prettier -w .",
-    "format:check": "prettier -c .",
     "lint": "concurrently \"npm:lint:*(!fix)\" --names \"lint:\"",
     "lint:fix": "concurrently \"npm:lint:*:fix\" --names \"fix:\"",
     "lint:hbs": "ember-template-lint .",
