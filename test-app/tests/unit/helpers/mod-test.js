@@ -1,4 +1,4 @@
-import { mod } from 'test-app/helpers/mod';
+import { mod } from 'ember-math-helpers/helpers/mod';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | mod', function () {

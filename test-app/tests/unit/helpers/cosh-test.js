@@ -1,4 +1,4 @@
-import { cosh } from 'test-app/helpers/cosh';
+import { cosh } from 'ember-math-helpers/helpers/cosh';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | cosh', function () {

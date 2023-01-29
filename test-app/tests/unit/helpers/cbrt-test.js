@@ -1,4 +1,4 @@
-import { cbrt } from 'test-app/helpers/cbrt';
+import { cbrt } from 'ember-math-helpers/helpers/cbrt';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | cbrt', function () {

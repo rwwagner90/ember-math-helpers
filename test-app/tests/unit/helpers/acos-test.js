@@ -1,4 +1,4 @@
-import { acos } from 'test-app/helpers/acos';
+import { acos } from 'ember-math-helpers/helpers/acos';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | acos', function () {

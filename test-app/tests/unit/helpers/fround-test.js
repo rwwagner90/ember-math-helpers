@@ -1,4 +1,4 @@
-import { fround } from 'test-app/helpers/fround';
+import { fround } from 'ember-math-helpers/helpers/fround';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | fround', function () {

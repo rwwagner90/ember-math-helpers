@@ -1,4 +1,4 @@
-import { sub } from 'test-app/helpers/sub';
+import { sub } from 'ember-math-helpers/helpers/sub';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | sub', function () {

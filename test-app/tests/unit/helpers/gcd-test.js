@@ -1,4 +1,4 @@
-import { gcd } from 'test-app/helpers/gcd';
+import { gcd } from 'ember-math-helpers/helpers/gcd';
 import { module, test } from 'qunit';
 import { setupTest } from 'ember-qunit';
 

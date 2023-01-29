@@ -1,4 +1,4 @@
-import { random } from 'test-app/helpers/random';
+import { random } from 'ember-math-helpers/helpers/random';
 import range from '../../helpers/range';
 import { module, test } from 'qunit';
 

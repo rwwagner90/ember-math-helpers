@@ -1,4 +1,4 @@
-import { sqrt } from 'test-app/helpers/sqrt';
+import { sqrt } from 'ember-math-helpers/helpers/sqrt';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | sqrt', function () {

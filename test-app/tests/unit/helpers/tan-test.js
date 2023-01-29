@@ -1,4 +1,4 @@
-import { tan } from 'test-app/helpers/tan';
+import { tan } from 'ember-math-helpers/helpers/tan';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | tan', function () {

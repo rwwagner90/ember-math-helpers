@@ -1,4 +1,4 @@
-import { hypot } from 'test-app/helpers/hypot';
+import { hypot } from 'ember-math-helpers/helpers/hypot';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | hypot', function () {

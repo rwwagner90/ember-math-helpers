@@ -1,4 +1,4 @@
-import { pow } from 'test-app/helpers/pow';
+import { pow } from 'ember-math-helpers/helpers/pow';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | pow', function () {

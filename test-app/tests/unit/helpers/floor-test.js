@@ -1,4 +1,4 @@
-import { floor } from 'test-app/helpers/floor';
+import { floor } from 'ember-math-helpers/helpers/floor';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | floor', function () {

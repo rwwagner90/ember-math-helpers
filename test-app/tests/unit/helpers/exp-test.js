@@ -1,4 +1,4 @@
-import { exp } from 'test-app/helpers/exp';
+import { exp } from 'ember-math-helpers/helpers/exp';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | exp', function () {

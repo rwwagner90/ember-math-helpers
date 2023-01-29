@@ -1,4 +1,4 @@
-import { log10 } from 'test-app/helpers/log10';
+import { log10 } from 'ember-math-helpers/helpers/log10';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | log10', function () {

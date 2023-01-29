@@ -1,4 +1,4 @@
-import { log2 } from 'test-app/helpers/log2';
+import { log2 } from 'ember-math-helpers/helpers/log2';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | log2', function () {
