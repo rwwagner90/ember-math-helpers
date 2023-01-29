@@ -1,4 +1,4 @@
-import { abs } from 'test-app/helpers/abs';
+import { abs } from 'ember-math-helpers/helpers/abs';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | abs', function () {

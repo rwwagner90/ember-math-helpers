@@ -10,7 +10,8 @@
     "url": "https://github.com/rwwagner90"
   },
   "exports": {
-    "./*": "./dist/*"
+    "./*": "./dist/*",
+    "./addon-main.js": "./addon-main.js"
   },
   "files": [
     "dist",
@@ -57,7 +58,7 @@
     "rollup": "^3.12.0"
   },
   "peerDependencies": {
-    "ember-source": "*"
+    "ember-source": "^3.28.0 || ^4.0.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"

@@ -1,4 +1,4 @@
-import { ceil } from 'test-app/helpers/ceil';
+import { ceil } from 'ember-math-helpers/helpers/ceil';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | ceil', function () {

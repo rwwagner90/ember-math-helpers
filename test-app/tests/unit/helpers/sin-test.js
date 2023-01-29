@@ -1,4 +1,4 @@
-import { sin } from 'test-app/helpers/sin';
+import { sin } from 'ember-math-helpers/helpers/sin';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | sin', function () {

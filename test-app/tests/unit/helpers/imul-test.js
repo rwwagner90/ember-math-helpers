@@ -1,4 +1,4 @@
-import { imul } from 'test-app/helpers/imul';
+import { imul } from 'ember-math-helpers/helpers/imul';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | imul', function () {

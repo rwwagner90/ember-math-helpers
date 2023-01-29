@@ -1,4 +1,4 @@
-import { trunc } from 'test-app/helpers/trunc';
+import { trunc } from 'ember-math-helpers/helpers/trunc';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | trunc', function () {

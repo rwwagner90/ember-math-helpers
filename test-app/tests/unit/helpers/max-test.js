@@ -1,4 +1,4 @@
-import { max } from 'test-app/helpers/max';
+import { max } from 'ember-math-helpers/helpers/max';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | max', function () {

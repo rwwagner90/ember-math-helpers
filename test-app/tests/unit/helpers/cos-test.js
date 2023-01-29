@@ -1,4 +1,4 @@
-import { cos } from 'test-app/helpers/cos';
+import { cos } from 'ember-math-helpers/helpers/cos';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | cos', function () {

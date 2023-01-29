@@ -1,4 +1,4 @@
-import { tanh } from 'test-app/helpers/tanh';
+import { tanh } from 'ember-math-helpers/helpers/tanh';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | tanh', function () {

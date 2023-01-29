@@ -1,4 +1,4 @@
-import { acosh } from 'test-app/helpers/acosh';
+import { acosh } from 'ember-math-helpers/helpers/acosh';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | acosh', function () {

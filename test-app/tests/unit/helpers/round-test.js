@@ -1,4 +1,4 @@
-import { round } from 'test-app/helpers/round';
+import { round } from 'ember-math-helpers/helpers/round';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | round', function () {

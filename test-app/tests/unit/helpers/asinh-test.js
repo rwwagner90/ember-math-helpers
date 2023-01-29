@@ -1,4 +1,4 @@
-import { asinh } from 'test-app/helpers/asinh';
+import { asinh } from 'ember-math-helpers/helpers/asinh';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | asinh', function () {

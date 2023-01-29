@@ -1,4 +1,4 @@
-import { atanh } from 'test-app/helpers/atanh';
+import { atanh } from 'ember-math-helpers/helpers/atanh';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | atanh', function () {
