@@ -2,6 +2,9 @@
   "name": "ember-math-helpers",
   "version": "3.0.0",
   "description": "HTMLBars helpers for basic arithmetic",
+  "keywords": [
+    "ember-addon"
+  ],
   "repository": "https://github.com/rwwagner90/ember-math-helpers",
   "license": "MIT",
   "author": {
