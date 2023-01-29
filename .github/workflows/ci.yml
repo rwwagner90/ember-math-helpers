@@ -33,6 +33,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: ./.github/actions/pnpm
+      - name: Install with no lockfile
+        run: |
+          rm pnpm-lock.yaml
+          pnpm install
       - name: Run Tests
         run: pnpm test
 
