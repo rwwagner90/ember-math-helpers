@@ -1,5 +1,3 @@
-
-
 name: Setup node and pnpm
 description: Setup node and install dependencies using pnpm
 runs:
@@ -10,6 +8,7 @@ runs:
         version: 7.26.1
     - uses: actions/setup-node@v3
       with:
+        node-version: 18
         cache: 'pnpm'
     - name: 'Install dependencies'
       shell: 'bash'
