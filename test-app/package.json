@@ -26,6 +26,7 @@
     "ember-math-helpers": "workspace:*"
   },
   "devDependencies": {
+    "@babel/core": "7.20.12",
     "@babel/eslint-parser": "^7.19.1",
     "@babel/helper-call-delegate": "^7.12.13",
     "@ember/optional-features": "^2.0.0",
