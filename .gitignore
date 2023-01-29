@@ -11,9 +11,9 @@ node_modules/
 /.env*
 /.pnp*
 /.sass-cache
-/.eslintcache
+.eslintcache
 /connect.lock
-/coverage/
+coverage/
 /deploy-docs/
 /libpeerconnection.log
 /npm-debug.log*

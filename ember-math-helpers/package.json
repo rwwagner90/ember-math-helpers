@@ -27,6 +27,8 @@
     "build:docs": "cp ../README.md ./README.md",
     "build:js": "rollup -c ./rollup.config.mjs",
     "watch:js": "rollup -c --watch --no-watch.clearScreen",
+    "format": "prettier -w .",
+    "format:check": "prettier -c .",
     "lint": "concurrently 'npm:lint:js'",
     "lint:fix": "concurrently 'npm:lint:js:fix'",
     "lint:js": "eslint . --cache",
