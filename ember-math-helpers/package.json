@@ -120,8 +120,5 @@
   },
   "engines": {
     "node": "14.* || 16.* || >= 18"
-  },
-  "volta": {
-    "extends": "../package.json"
   }
 }
