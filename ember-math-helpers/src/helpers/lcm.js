@@ -1,4 +1,5 @@
 import { helper } from '@ember/component/helper';
+
 import { gcd } from './gcd';
 
 /**
@@ -17,4 +18,5 @@ export function lcm([number1 = 0, number2 = 0]) {
     ? 0
     : Math.abs(number1 * number2) / gcd([number1, number2]);
 }
+
 export default helper(lcm);

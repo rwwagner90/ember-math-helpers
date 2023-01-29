@@ -1,5 +1,5 @@
-import { helper } from '@ember/component/helper';
 import { isArray } from '@ember/array';
+import { helper } from '@ember/component/helper';
 
 const { min, max } = Math;
 
@@ -62,6 +62,7 @@ export function random(params, { decimals } = DEFAULT_OPTS) {
     if (upperBound < lowerBound) {
       [lowerBound, upperBound] = [upperBound, lowerBound];
     }
+
     return +(lowerBound + Math.random() * (upperBound - lowerBound)).toFixed(
       max(0, min(MAX_DECIMALS, decimals))
     );
