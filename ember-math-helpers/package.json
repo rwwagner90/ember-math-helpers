@@ -10,8 +10,7 @@
     "url": "https://github.com/rwwagner90"
   },
   "exports": {
-    "./*": "./dist/*",
-    "./addon-main.js": "./addon-main.js"
+    "./*": "./dist/*"
   },
   "files": [
     "dist",
