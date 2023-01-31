@@ -25,7 +25,9 @@ module.exports = {
     {
       files: [
         './.eslintrc.js',
+        './postcss.config.js',
         './.prettierrc.js',
+        './tailwind.config.js',
         './.template-lintrc.js',
         './ember-cli-build.js',
         './testem.js',
@@ -41,16 +43,10 @@ module.exports = {
         browser: false,
         node: true,
       },
-      plugins: ['node'],
-      extends: ['plugin:node/recommended'],
-      rules: {
-        // this can be removed once the following is fixed
-        // https://github.com/mysticatea/eslint-plugin-node/issues/77
-        'node/no-unpublished-require': 'off',
-      },
+      extends: ['plugin:n/recommended'],
     },
     {
-      // Test files:
+      // test files
       files: ['tests/**/*-test.{js,ts}'],
       extends: ['plugin:qunit/recommended'],
     },

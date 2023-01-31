@@ -1,19 +1,54 @@
-<DocsViewer as |viewer|>
-  <viewer.nav as |nav|>
-    {{nav.section "Introduction"}}
-    {{nav.item "Introduction" "docs.index"}}
-    {{nav.item "Configuration" "docs.configuration"}}
-    {{nav.item "Usage" "docs.usage"}}
+<DocfyOutput @scope="docs" as |node|>
+  <ul class="list-disc list-inside space-y-2">
+    {{#each node.pages as |page|}}
+      <li>
+        <DocfyLink @to={{page.url}}>
+          {{page.title}}
+        </DocfyLink>
+      </li>
+    {{/each}}
 
-    {{nav.section "Playground"}}
-    {{nav.item "Playground" "docs.playground"}}
-  </viewer.nav>
+    {{#each node.children as |child|}}
+      <li class="block ml-4">
+        <div class="py-2">
+          {{child.label}}
+        </div>
 
-  <viewer.main>
-    <div class="docs-container">
-      <div class="docs-section">
-        {{outlet}}
-      </div>
-    </div>
-  </viewer.main>
-</DocsViewer>
+        <ul class="list-disc list-inside space-y-2">
+          {{#each child.pages as |page|}}
+            <li>
+              <DocfyLink @to={{page.url}}>
+                {{page.title}}
+              </DocfyLink>
+            </li>
+          {{/each}}
+        </ul>
+      </li>
+    {{/each}}
+  </ul>
+</DocfyOutput>
+
+<div>
+  {{outlet}}
+</div>
+
+<DocfyPreviousAndNextPage as |previous next|>
+  <div>
+    {{#if previous}}
+      Previous:
+
+      <DocfyLink @to={{previous.url}}>
+        {{previous.title}}
+      </DocfyLink>
+    {{/if}}
+  </div>
+  <div>
+    {{#if next}}
+      Next:
+
+      <DocfyLink @to={{next.url}}>
+        {{next.title}}
+      </DocfyLink>
+    {{/if}}
+  </div>
+</DocfyPreviousAndNextPage>

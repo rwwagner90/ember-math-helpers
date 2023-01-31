@@ -1,19 +1,12 @@
-import AddonDocsRouter, { docsRoute } from 'ember-cli-addon-docs/router';
-import config from 'docs/config/environment';
+import EmberRouter from '@ember/routing/router';
+import config from './config/environment';
+import { addDocfyRoutes } from '@docfy/ember';
 
-const Router = AddonDocsRouter.extend({
-  location: config.locationType,
-  rootURL: config.rootURL,
-});
+export default class Router extends EmberRouter {
+  location = config.locationType;
+  rootURL = config.rootURL;
+}
 
 Router.map(function () {
-  docsRoute(this, function () {
-    this.route('configuration');
-    this.route('playground');
-    this.route('usage');
-
-    this.route('not-found', { path: '/*path' });
-  });
+  addDocfyRoutes(this);
 });
-
-export default Router;
