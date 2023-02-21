@@ -8,7 +8,7 @@
 ![Download count all time](https://img.shields.io/npm/dt/ember-math-helpers.svg)
 [![npm](https://img.shields.io/npm/dm/ember-math-helpers.svg)]()
 [![Ember Observer Score](http://emberobserver.com/badges/ember-math-helpers.svg)](http://emberobserver.com/addons/ember-math-helpers)
-![CI Build](https://github.com/rwwagner90/ember-math-helpers/workflows/CI%20Build/badge.svg)
+![CI Build](https://github.com/RobbieTheWagner/ember-math-helpers/workflows/CI%20Build/badge.svg)
 [![Code Climate](https://codeclimate.com/github/rwwagner90/ember-math-helpers/badges/gpa.svg)](https://codeclimate.com/github/rwwagner90/ember-math-helpers)
 [![Test Coverage](https://codeclimate.com/github/rwwagner90/ember-math-helpers/badges/coverage.svg)](https://codeclimate.com/github/rwwagner90/ember-math-helpers/coverage)
 
@@ -26,7 +26,7 @@ HTMLBars template helpers for doing basic arithmetic operations
 
 ## Documentation
 
-[View Docs](https://rwwagner90.github.io/ember-math-helpers/)
+[View Docs](https://robbiethewagner.github.io/ember-math-helpers/)
 
 ## Contributing
 
