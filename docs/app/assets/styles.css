@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import "./markdown/structure.css";
+@import "./markdown/light.css";
+@import "./markdown/dark.css";
+@import "./highlight.css";
+@import "./docfy-demo.css";
+
+@screen md {
+  .angled {
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 8rem), 0 100%);
+  }
+}
+
+.bg-dot-lg {
+  background: url(/img/dot-large.svg);
+}
+.bg-dot-brighter-lg {
+  background: url(/img/dot-large-brighter.svg);
+}
