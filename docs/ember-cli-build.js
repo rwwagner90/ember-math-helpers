@@ -51,6 +51,16 @@ module.exports = function (defaults) {
             },
           ],
         },
+        node: {
+          global: false,
+          __filename: true,
+          __dirname: true,
+        },
+        resolve: {
+          fallback: {
+            path: require.resolve('path-browserify'),
+          },
+        },
       },
     },
     extraPublicTrees: [],
