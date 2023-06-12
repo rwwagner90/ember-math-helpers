@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.20.12",
-    "@babel/eslint-parser": "^7.19.1",
+    "@babel/eslint-parser": "^7.22.5",
     "@babel/helper-call-delegate": "^7.12.13",
     "@ember/optional-features": "^2.0.0",
     "@ember/string": "^3.0.1",
