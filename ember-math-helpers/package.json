@@ -47,7 +47,7 @@
     "@nullvoxpopuli/eslint-configs": "3.0.4",
     "@rollup/plugin-babel": "6.0.3",
     "babel-eslint": "10.1.0",
-    "concurrently": "7.6.0",
+    "concurrently": "8.2.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "8.6.0",
     "eslint-plugin-decorator-position": "5.0.2",
