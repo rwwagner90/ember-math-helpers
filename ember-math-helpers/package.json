@@ -49,7 +49,7 @@
     "babel-eslint": "10.1.0",
     "concurrently": "7.6.0",
     "eslint": "^7.32.0",
-    "eslint-config-prettier": "8.6.0",
+    "eslint-config-prettier": "8.8.0",
     "eslint-plugin-decorator-position": "5.0.2",
     "eslint-plugin-ember": "11.4.4",
     "eslint-plugin-import": "2.27.5",
