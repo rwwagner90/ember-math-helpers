@@ -19,6 +19,19 @@ module.exports = function (defaults) {
     staticModifiers: true,
     staticComponents: true,
     splitAtRoutes: [],
+    packageRules: [
+      {
+        package: 'ember-dynamic-render-template',
+        semverRange: '*',
+        addonTemplates: {
+          'templates/components/render-template.hbs': {
+            disambiguate: {
+              result: 'data',
+            },
+          },
+        },
+      },
+    ],
     packagerOptions: {
       // publicAssetURL is used similarly to Ember CLI's asset fingerprint prepend option.
       publicAssetURL: '/',
