@@ -15,9 +15,11 @@
     &:hover {
       @apply text-green-800;
     }
+
     strong {
       @apply text-green-700;
     }
+
     code {
       @apply text-green-700;
     }
@@ -81,6 +83,7 @@
     th {
       @apply text-gray-700 bg-gray-100;
     }
+
     td {
       @apply border-gray-200;
     }

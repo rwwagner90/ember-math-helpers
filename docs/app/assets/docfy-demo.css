@@ -19,6 +19,7 @@
 
     &__edit-url {
       @apply text-sm;
+
       &:hover {
         @apply text-green-600;
       }
@@ -54,6 +55,7 @@
     @apply text-sm leading-normal;
     @apply font-mono;
     @apply rounded-b;
+
     scrollbar-width: none;
   }
 }

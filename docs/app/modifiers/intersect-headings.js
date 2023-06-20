@@ -76,7 +76,7 @@ export default class IntersectHeadingsModifier extends Modifier {
     if ('IntersectionObserver' in window) {
       this.observer = new IntersectionObserver(this.handleObserver, {
         rootMargin: '-96px', // Distance from top to heading id
-        threshold: 1.0
+        threshold: 1.0,
       });
 
       this.headings.forEach((id) => {

@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "./markdown/structure.css";
-@import "./markdown/light.css";
-@import "./markdown/dark.css";
-@import "./highlight.css";
-@import "./docfy-demo.css";
+@import url("./markdown/structure.css");
+@import url("./markdown/light.css");
+@import url("./markdown/dark.css");
+@import url("./highlight.css");
+@import url("./docfy-demo.css");
 
 @screen md {
   .angled {
@@ -15,8 +15,9 @@
 }
 
 .bg-dot-lg {
-  background: url(/img/dot-large.svg);
+  background: url("/img/dot-large.svg");
 }
+
 .bg-dot-brighter-lg {
-  background: url(/img/dot-large-brighter.svg);
+  background: url("/img/dot-large-brighter.svg");
 }
