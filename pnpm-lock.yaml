@@ -223,8 +223,8 @@ importers:
         specifier: ^3.1.1
         version: 3.1.1(rollup@3.12.0)
       '@nullvoxpopuli/eslint-configs':
-        specifier: 3.0.4
-        version: 3.0.4(@babel/core@7.20.12)(eslint-config-prettier@8.6.0)(eslint-plugin-ember@11.4.4)(eslint@8.43.0)(prettier@2.8.8)
+        specifier: 3.1.3
+        version: 3.1.3(@babel/core@7.20.12)(eslint-config-prettier@8.6.0)(eslint-plugin-ember@11.4.4)(eslint@8.43.0)(prettier@2.8.8)
       '@rollup/plugin-babel':
         specifier: 6.0.3
         version: 6.0.3(@babel/core@7.20.12)(rollup@3.12.0)
@@ -3000,18 +3000,18 @@ packages:
       rimraf: 3.0.2
     dev: true
 
-  /@nullvoxpopuli/eslint-configs@3.0.4(@babel/core@7.20.12)(eslint-config-prettier@8.6.0)(eslint-plugin-ember@11.4.4)(eslint@8.43.0)(prettier@2.8.8):
-    resolution: {integrity: sha512-D0hHBq66dfey2cX3Svvq7/zblYtInAqWxpe1+dCf+zVaTk6QRJXilPRbDnYycbY10mnblqKUxuAGet3ZEjI0bA==}
+  /@nullvoxpopuli/eslint-configs@3.1.3(@babel/core@7.20.12)(eslint-config-prettier@8.6.0)(eslint-plugin-ember@11.4.4)(eslint@8.43.0)(prettier@2.8.8):
+    resolution: {integrity: sha512-55sKdkcewceBRUMoF5HSv5cbHX0ZIHkv6ObpZha0g73U7leR26sGIAO2Vxxnu0fmktwmMVJBjQvq7jpqO0VJ9A==}
     engines: {node: '>= v16.0.0'}
     peerDependencies:
       '@babel/core': ^7.20.12
       '@babel/eslint-parser': ^7.19.1
-      '@typescript-eslint/eslint-plugin': ^5.48.1
-      '@typescript-eslint/parser': ^5.48.1
+      '@typescript-eslint/eslint-plugin': ^5.51.0
+      '@typescript-eslint/parser': ^5.51.0
       eslint: ^7.0.0 || ^8.0.0
-      eslint-plugin-ember: ^11.4.3
+      eslint-plugin-ember: ^11.4.6
       eslint-plugin-qunit: ^7.3.4
-      prettier: ^2.8.3
+      prettier: ^2.8.4
     peerDependenciesMeta:
       '@babel/core':
         optional: true
@@ -3029,7 +3029,7 @@ packages:
         optional: true
     dependencies:
       '@babel/core': 7.20.12(supports-color@8.1.1)
-      cosmiconfig: 8.0.0
+      cosmiconfig: 8.2.0
       eslint: 8.43.0
       eslint-import-resolver-typescript: 3.5.3(eslint-plugin-import@2.27.5)(eslint@8.43.0)
       eslint-plugin-decorator-position: 5.0.2(eslint@8.43.0)
@@ -3038,9 +3038,9 @@ packages:
       eslint-plugin-json: 3.1.0
       eslint-plugin-n: 15.6.1(eslint@8.43.0)
       eslint-plugin-prettier: 4.2.1(eslint-config-prettier@8.6.0)(eslint@8.43.0)(prettier@2.8.8)
-      eslint-plugin-simple-import-sort: 8.0.0(eslint@8.43.0)
+      eslint-plugin-simple-import-sort: 10.0.0(eslint@8.43.0)
       prettier: 2.8.8
-      prettier-plugin-ember-template-tag: 0.3.0
+      prettier-plugin-ember-template-tag: 0.3.2
     transitivePeerDependencies:
       - eslint-config-prettier
       - eslint-import-resolver-webpack
@@ -4395,13 +4395,6 @@ packages:
       line-column: 1.0.2
       magic-string: 0.26.7
       string.prototype.matchall: 4.0.8
-    dev: true
-
-  /babel-plugin-ember-template-compilation@2.0.0:
-    resolution: {integrity: sha512-d+4jaB2ik0rt9TH0K9kOlKJeRBHEb373FgFMcU9ZaJL2zYuVXe19bqy+cWlLpLf1tpOBcBG9QTlFBCoImlOt1g==}
-    engines: {node: '>= 12.*'}
-    dependencies:
-      babel-import-util: 1.3.0
     dev: true
 
   /babel-plugin-ember-template-compilation@2.0.3:
@@ -6510,6 +6503,11 @@ packages:
     deprecated: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
     requiresBuild: true
 
+  /core-js@3.31.0:
+    resolution: {integrity: sha512-NIp2TQSGfR6ba5aalZD+ZQ1fSxGhDo/s1w0nx3RYzf2pnJxt7YynxFlFScP6eV7+GZsKO95NSjGxyJsU3DZgeQ==}
+    requiresBuild: true
+    dev: true
+
   /core-object@2.0.6:
     resolution: {integrity: sha512-gS1NpJFBKh/r+cYdNeaQ+ab/+2rRBq5B7nUgdXVZ9brCgpWnhYXY//tyBooYXxyuQZC9zE5yUAeCdokcwUajlQ==}
     dependencies:
@@ -7591,7 +7589,7 @@ packages:
     engines: {node: 12.* || 14.* || >= 16}
     dependencies:
       '@ember/edition-utils': 1.2.0
-      babel-plugin-ember-template-compilation: 2.0.0
+      babel-plugin-ember-template-compilation: 2.0.3
       babel-plugin-htmlbars-inline-precompile: 5.3.1
       broccoli-debug: 0.6.5
       broccoli-persistent-filter: 3.1.3
@@ -8903,14 +8901,6 @@ packages:
 
   /eslint-plugin-simple-import-sort@10.0.0(eslint@8.43.0):
     resolution: {integrity: sha512-AeTvO9UCMSNzIHRkg8S6c3RPy5YEwKWSQPx3DYghLedo2ZQxowPFLGDN1AZ2evfg6r6mjBSZSLxLFsWSu3acsw==}
-    peerDependencies:
-      eslint: '>=5.0.0'
-    dependencies:
-      eslint: 8.43.0
-    dev: true
-
-  /eslint-plugin-simple-import-sort@8.0.0(eslint@8.43.0):
-    resolution: {integrity: sha512-bXgJQ+lqhtQBCuWY/FUWdB27j4+lqcvXv5rUARkzbeWLwea+S5eBZEQrhnO+WgX3ZoJHVj0cn943iyXwByHHQw==}
     peerDependencies:
       eslint: '>=5.0.0'
     dependencies:
@@ -14160,14 +14150,16 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier-plugin-ember-template-tag@0.3.0:
-    resolution: {integrity: sha512-0WeYOyutMKAMP39e0E45HI+xX5/tS0iOvZWpKUxIbzKAoLwTzkfFe7Rc7Fxp0aSJbuAavtkrpQB/6WQj3cySPg==}
+  /prettier-plugin-ember-template-tag@0.3.2:
+    resolution: {integrity: sha512-L/15ujsvuOpuIB9y9XJJs/QOPgdot76T0U1Q34C19igS1lsaL/cdRw8rXIVC5Z2x362yZI33Qodo//7kK7ItkA==}
+    engines: {node: 14.* || 16.* || >= 18}
     dependencies:
       '@babel/core': 7.20.12(supports-color@8.1.1)
-      '@glimmer/syntax': 0.84.2
+      '@glimmer/syntax': 0.84.3
       ember-cli-htmlbars: 6.2.0
       ember-template-imports: 3.4.2
       prettier: 2.8.8
+      ts-replace-all: 1.0.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -16561,6 +16553,12 @@ packages:
 
   /ts-interface-checker@0.1.13:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
+    dev: true
+
+  /ts-replace-all@1.0.0:
+    resolution: {integrity: sha512-6uBtdkw3jHXkPtx/e9xB/5vcngMm17CyJYsS2YZeQ+9FdRnt6Ev5g931Sg2p+dxbtMGoCm13m3ax/obicTZIkQ==}
+    dependencies:
+      core-js: 3.31.0
     dev: true
 
   /tsconfig-paths@3.14.1:
