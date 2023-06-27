@@ -77,7 +77,7 @@
     "eslint-plugin-qunit": "^7.3.4",
     "loader.js": "^4.7.0",
     "postcss": "^8.4.24",
-    "postcss-loader": "^7.0.2",
+    "postcss-loader": "^7.3.3",
     "prettier": "^2.8.8",
     "qunit": "^2.19.4",
     "qunit-dom": "^2.0.0",
