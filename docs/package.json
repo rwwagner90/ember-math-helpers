@@ -68,7 +68,7 @@
     "ember-resolver": "^10.1.1",
     "ember-source": "~5.0.0",
     "ember-svg-jar": "^2.4.2",
-    "ember-template-lint": "^5.10.1",
+    "ember-template-lint": "^5.10.3",
     "eslint": "^8.43.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-ember": "^11.8.0",

@@ -141,8 +141,8 @@ importers:
         specifier: ^2.4.2
         version: 2.4.2
       ember-template-lint:
-        specifier: ^5.10.1
-        version: 5.10.1
+        specifier: ^5.10.3
+        version: 5.10.3
       eslint:
         specifier: ^8.43.0
         version: 8.43.0
@@ -374,8 +374,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
       ember-template-lint:
-        specifier: ^5.10.1
-        version: 5.10.1
+        specifier: ^5.10.3
+        version: 5.10.3
       ember-try:
         specifier: ^2.0.0
         version: 2.0.0
@@ -5924,11 +5924,6 @@ packages:
     resolution: {integrity: sha512-p3KULyQg4S7NIHixdwbGX+nFHkoBiA4YQmyWtjb8XngSKV124nJmRysgAeujbUVb15vh+RvFUfCPqU7rXk+hZg==}
     engines: {node: '>=6.0'}
 
-  /ci-info@3.7.1:
-    resolution: {integrity: sha512-4jYS4MOAaCIStSRwiuxc4B8MYhIe676yO1sYGzARnjXkWpmzZMMYxY6zu8WYWDhSuth5zhrQ1rhNSibyyvv4/w==}
-    engines: {node: '>=8'}
-    dev: true
-
   /ci-info@3.8.0:
     resolution: {integrity: sha512-eXTggHWSooYhq49F2opQhuHWgzucfF2YgODK4e1566GQs5BIfP30B0oenwBJHfWxAs2fyPB1s7Mg949zLf61Yw==}
     engines: {node: '>=8'}
@@ -8282,8 +8277,8 @@ packages:
       - supports-color
     dev: true
 
-  /ember-template-lint@5.10.1:
-    resolution: {integrity: sha512-WZZypF73Bmei7WQYGMcClARkno3Sdvv1piV3R7jrHEud9Yg589oiFUtwEsCJ28Zbjx7gkcXIt24cRZAqtNvdZQ==}
+  /ember-template-lint@5.10.3:
+    resolution: {integrity: sha512-IuvnJnCN36vnFoDUQ4TPiS9SsoMtvS3hL+zsdNpd+f3ZqKrlXSfcdyRqjKLrucbYE34Lk5BKpbYv68YZ86N69w==}
     engines: {node: ^14.18.0 || ^16.0.0 || >= 18.0.0}
     hasBin: true
     dependencies:
@@ -10912,7 +10907,7 @@ packages:
     resolution: {integrity: sha512-ZYvCgrefwqoQ6yTyYUbQu64HsITZ3NfKX1lzaEYdkTDcfKzzCI/wthRRYKkdjHKFVgNiXKAKm65Zo1pk2as/QQ==}
     hasBin: true
     dependencies:
-      ci-info: 3.7.1
+      ci-info: 3.8.0
     dev: true
 
   /is-core-module@2.11.0:
@@ -11627,7 +11622,7 @@ packages:
       make-fetch-happen: 9.1.0
       p-map: 3.0.0
       progress: 2.0.3
-      yargs: 17.6.2
+      yargs: 17.7.2
     transitivePeerDependencies:
       - bluebird
       - supports-color
@@ -14189,7 +14184,7 @@ packages:
     resolution: {integrity: sha512-0WeYOyutMKAMP39e0E45HI+xX5/tS0iOvZWpKUxIbzKAoLwTzkfFe7Rc7Fxp0aSJbuAavtkrpQB/6WQj3cySPg==}
     dependencies:
       '@babel/core': 7.20.12(supports-color@8.1.1)
-      '@glimmer/syntax': 0.84.2
+      '@glimmer/syntax': 0.84.3
       ember-cli-htmlbars: 6.2.0
       ember-template-imports: 3.4.2
       prettier: 2.8.8
