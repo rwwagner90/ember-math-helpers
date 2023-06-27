@@ -217,8 +217,8 @@ importers:
         specifier: 7.20.13
         version: 7.20.13(@babel/core@7.20.12)
       '@babel/plugin-syntax-decorators':
-        specifier: 7.19.0
-        version: 7.19.0(@babel/core@7.20.12)
+        specifier: 7.22.5
+        version: 7.22.5(@babel/core@7.20.12)
       '@embroider/addon-dev':
         specifier: ^3.1.1
         version: 3.1.1(rollup@3.12.0)
@@ -981,7 +981,7 @@ packages:
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/helper-replace-supers': 7.20.7
       '@babel/helper-split-export-declaration': 7.18.6
-      '@babel/plugin-syntax-decorators': 7.19.0(@babel/core@7.20.12)
+      '@babel/plugin-syntax-decorators': 7.22.5(@babel/core@7.20.12)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1155,15 +1155,6 @@ packages:
     dependencies:
       '@babel/core': 7.20.12(supports-color@8.1.1)
       '@babel/helper-plugin-utils': 7.22.5
-
-  /@babel/plugin-syntax-decorators@7.19.0(@babel/core@7.20.12):
-    resolution: {integrity: sha512-xaBZUEDntt4faL1yN8oIFlhfXeQAWJW7CLKYsHTUqriCUbj8xOra8bfxxKGi/UwExPFBuPdH4XfHc9rGQhrVkQ==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0-0
-    dependencies:
-      '@babel/core': 7.20.12(supports-color@8.1.1)
-      '@babel/helper-plugin-utils': 7.20.2
 
   /@babel/plugin-syntax-decorators@7.22.5(@babel/core@7.20.12):
     resolution: {integrity: sha512-avpUOBS7IU6al8MmF1XpAyj9QYeLPuSDJI5D4pVMSMdL7xQokKqJPYQC67RCT0aCTashUXPiGwMJ0DEXXCEmMA==}
@@ -14941,7 +14932,7 @@ packages:
     resolution: {integrity: sha512-G7Hk1Q+UJ5DvlNAoJZObxANkBZGiGdp589rVcTW/tYqJWJ5rwfraSnKSQaETN8Epaytw8J40nS/zC7bcHGv36w==}
     dependencies:
       '@babel/core': 7.20.12(supports-color@8.1.1)
-      '@babel/plugin-syntax-decorators': 7.19.0(@babel/core@7.20.12)
+      '@babel/plugin-syntax-decorators': 7.22.5(@babel/core@7.20.12)
       '@babel/plugin-transform-typescript': 7.20.13(@babel/core@7.20.12)
       prettier: 2.8.8
     transitivePeerDependencies:
