@@ -42,8 +42,8 @@ importers:
         specifier: ^3.1.1
         version: 3.1.1
       '@ember/test-helpers':
-        specifier: ^3.0.3
-        version: 3.0.3(ember-source@5.1.1)(webpack@5.88.1)
+        specifier: ^3.2.0
+        version: 3.2.0(ember-source@5.1.1)(webpack@5.88.1)
       '@embroider/compat':
         specifier: ^3.0.2
         version: 3.0.2(@embroider/core@3.0.2)
@@ -130,7 +130,7 @@ importers:
         version: 4.1.0(ember-source@5.1.1)
       ember-qunit:
         specifier: ^7.0.0
-        version: 7.0.0(@ember/test-helpers@3.0.3)(ember-source@5.1.1)(qunit@2.19.4)(webpack@5.88.1)
+        version: 7.0.0(@ember/test-helpers@3.2.0)(ember-source@5.1.1)(qunit@2.19.4)(webpack@5.88.1)
       ember-resolver:
         specifier: ^10.1.1
         version: 10.1.1(@ember/string@3.1.1)(ember-source@5.1.1)
@@ -290,8 +290,8 @@ importers:
         specifier: ^3.1.1
         version: 3.1.1
       '@ember/test-helpers':
-        specifier: ^3.0.3
-        version: 3.0.3(ember-source@5.1.1)(webpack@5.88.1)
+        specifier: ^3.2.0
+        version: 3.2.0(ember-source@5.1.1)(webpack@5.88.1)
       '@embroider/compat':
         specifier: ^3.0.2
         version: 3.0.2(@embroider/core@3.0.2)
@@ -363,7 +363,7 @@ importers:
         version: 7.0.0
       ember-qunit:
         specifier: ^7.0.0
-        version: 7.0.0(@ember/test-helpers@3.0.3)(ember-source@5.1.1)(qunit@2.19.4)(webpack@5.88.1)
+        version: 7.0.0(@ember/test-helpers@3.2.0)(ember-source@5.1.1)(qunit@2.19.4)(webpack@5.88.1)
       ember-resolver:
         specifier: ^10.1.1
         version: 10.1.1(@ember/string@3.1.1)(ember-source@5.1.1)
@@ -2039,14 +2039,15 @@ packages:
       - supports-color
     dev: true
 
-  /@ember/test-helpers@3.0.3(ember-source@5.1.1)(webpack@5.88.1):
-    resolution: {integrity: sha512-W8fEWritv36W216wmuusOlsUJs+iDFkOvHratI8tw466NV4deq9TVej1p5DtUFeDUUP/E14IxqrNNC3qaYszfQ==}
+  /@ember/test-helpers@3.2.0(ember-source@5.1.1)(webpack@5.88.1):
+    resolution: {integrity: sha512-3yWpPsK5O77tUdCwW3HayrAcdlRitIRYMvLIG69Pkal1JMIGdNYVTvJ2R1lenhQh2syd/WFmGM07vQuDAtotQw==}
     engines: {node: 16.* || >= 18}
     peerDependencies:
       ember-source: ^4.0.0 || ^5.0.0
     dependencies:
       '@ember/test-waiters': 3.0.2
-      '@embroider/macros': 1.11.0
+      '@embroider/macros': 1.12.1
+      '@simple-dom/interface': 1.4.0
       broccoli-debug: 0.6.5
       broccoli-funnel: 3.0.8
       ember-auto-import: 2.6.3(webpack@5.88.1)
@@ -2334,27 +2335,6 @@ packages:
     dependencies:
       '@embroider/shared-internals': 0.47.2
       assert-never: 1.2.1
-      ember-cli-babel: 7.26.11
-      find-up: 5.0.0
-      lodash: 4.17.21
-      resolve: 1.22.2
-      semver: 7.5.3
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /@embroider/macros@1.11.0:
-    resolution: {integrity: sha512-P/WSB+PqKSja5qXjYvhLyUM0ivcDoI9kkqs+R0GNujfVhS0EIIAMHfD9uHDBbhzFit39pT0QJqgcXGE2rprCPA==}
-    engines: {node: 12.* || 14.* || >= 16}
-    peerDependencies:
-      '@glint/template': ^1.0.0
-    peerDependenciesMeta:
-      '@glint/template':
-        optional: true
-    dependencies:
-      '@embroider/shared-internals': 2.1.0
-      assert-never: 1.2.1
-      babel-import-util: 1.3.0
       ember-cli-babel: 7.26.11
       find-up: 5.0.0
       lodash: 4.17.21
@@ -8083,7 +8063,7 @@ packages:
       - supports-color
     dev: true
 
-  /ember-qunit@7.0.0(@ember/test-helpers@3.0.3)(ember-source@5.1.1)(qunit@2.19.4)(webpack@5.88.1):
+  /ember-qunit@7.0.0(@ember/test-helpers@3.2.0)(ember-source@5.1.1)(qunit@2.19.4)(webpack@5.88.1):
     resolution: {integrity: sha512-KhrndHYEXsHnXvmsGyJLJQ6VCudXaRs5dzPZBsdttZJIhsB6PmYAvq2Q+mh3GRDT/59T/sRDrB3FD3/lATS8aA==}
     engines: {node: 16.* || >= 18}
     peerDependencies:
@@ -8091,7 +8071,7 @@ packages:
       ember-source: '>=4.0.0'
       qunit: ^2.13.0
     dependencies:
-      '@ember/test-helpers': 3.0.3(ember-source@5.1.1)(webpack@5.88.1)
+      '@ember/test-helpers': 3.2.0(ember-source@5.1.1)(webpack@5.88.1)
       broccoli-funnel: 3.0.8
       broccoli-merge-trees: 3.0.2
       common-tags: 1.8.2
