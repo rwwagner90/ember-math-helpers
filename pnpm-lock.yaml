@@ -30,8 +30,8 @@ importers:
         specifier: ^7.22.7
         version: 7.22.7(@babel/core@7.22.7)(eslint@8.44.0)
       '@babel/plugin-proposal-decorators':
-        specifier: ^7.22.6
-        version: 7.22.6(@babel/core@7.22.7)
+        specifier: ^7.22.7
+        version: 7.22.7(@babel/core@7.22.7)
       '@docfy/ember':
         specifier: ^0.6.0
         version: 0.6.0
@@ -214,8 +214,8 @@ importers:
         specifier: 7.18.6
         version: 7.18.6(@babel/core@7.22.7)
       '@babel/plugin-proposal-decorators':
-        specifier: 7.22.6
-        version: 7.22.6(@babel/core@7.22.7)
+        specifier: 7.22.7
+        version: 7.22.7(@babel/core@7.22.7)
       '@babel/plugin-syntax-decorators':
         specifier: 7.22.5
         version: 7.22.5(@babel/core@7.22.7)
@@ -281,8 +281,8 @@ importers:
         specifier: ^7.12.13
         version: 7.12.13
       '@babel/plugin-proposal-decorators':
-        specifier: ^7.22.6
-        version: 7.22.6(@babel/core@7.22.7)
+        specifier: ^7.22.7
+        version: 7.22.7(@babel/core@7.22.7)
       '@ember/optional-features':
         specifier: ^2.0.0
         version: 2.0.0
@@ -816,8 +816,8 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@babel/plugin-proposal-decorators@7.22.6(@babel/core@7.22.7):
-    resolution: {integrity: sha512-cgskJ9W7kxTk/wBM16JNHhlTkeyDK6slMJg1peaI4LM3y2HtTv+6I85sW9UXSUZilndIBvDBETA1BRoOYdxWKw==}
+  /@babel/plugin-proposal-decorators@7.22.7(@babel/core@7.22.7):
+    resolution: {integrity: sha512-omXqPF7Onq4Bb7wHxXjM3jSMSJvUUbvDvmmds7KI5n9Cq6Ln5I05I1W2nRlRof1rGdiUxJrxwe285WF96XlBXQ==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -7285,7 +7285,7 @@ packages:
     dependencies:
       '@babel/core': 7.22.7(supports-color@8.1.1)
       '@babel/plugin-proposal-class-properties': 7.18.6(@babel/core@7.22.7)
-      '@babel/plugin-proposal-decorators': 7.22.6(@babel/core@7.22.7)
+      '@babel/plugin-proposal-decorators': 7.22.7(@babel/core@7.22.7)
       '@babel/preset-env': 7.20.2(@babel/core@7.22.7)
       '@embroider/macros': 1.12.1
       '@embroider/shared-internals': 2.2.1
@@ -7325,7 +7325,7 @@ packages:
     dependencies:
       '@babel/core': 7.22.7(supports-color@8.1.1)
       '@babel/plugin-proposal-class-properties': 7.18.6(@babel/core@7.22.7)
-      '@babel/plugin-proposal-decorators': 7.22.6(@babel/core@7.22.7)
+      '@babel/plugin-proposal-decorators': 7.22.7(@babel/core@7.22.7)
       '@babel/preset-env': 7.20.2(@babel/core@7.22.7)
       '@embroider/macros': 1.12.1
       '@embroider/shared-internals': 2.2.1
@@ -7437,7 +7437,7 @@ packages:
       '@babel/core': 7.22.7(supports-color@8.1.1)
       '@babel/helper-compilation-targets': 7.22.6(@babel/core@7.22.7)
       '@babel/plugin-proposal-class-properties': 7.18.6(@babel/core@7.22.7)
-      '@babel/plugin-proposal-decorators': 7.22.6(@babel/core@7.22.7)
+      '@babel/plugin-proposal-decorators': 7.22.7(@babel/core@7.22.7)
       '@babel/plugin-proposal-private-methods': 7.18.6(@babel/core@7.22.7)
       '@babel/plugin-proposal-private-property-in-object': 7.20.5(@babel/core@7.22.7)
       '@babel/plugin-transform-modules-amd': 7.20.11(@babel/core@7.22.7)
@@ -8753,7 +8753,7 @@ packages:
         optional: true
     dependencies:
       '@babel/core': 7.22.7(supports-color@8.1.1)
-      '@babel/plugin-proposal-decorators': 7.22.6(@babel/core@7.22.7)
+      '@babel/plugin-proposal-decorators': 7.22.7(@babel/core@7.22.7)
       '@ember-data/rfc395-data': 0.0.4
       ember-rfc176-data: 0.3.18
       eslint: 8.44.0
