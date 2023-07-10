@@ -223,8 +223,8 @@ importers:
         specifier: ^3.1.1
         version: 3.1.1(rollup@3.26.2)
       '@nullvoxpopuli/eslint-configs':
-        specifier: 3.1.4
-        version: 3.1.4(@babel/core@7.22.8)(eslint-config-prettier@8.6.0)(eslint-plugin-ember@11.10.0)(eslint@8.44.0)(prettier@2.8.8)
+        specifier: 3.2.0
+        version: 3.2.0(@babel/core@7.22.8)(eslint-config-prettier@8.6.0)(eslint-plugin-ember@11.10.0)(eslint@8.44.0)(prettier@2.8.8)
       '@rollup/plugin-babel':
         specifier: 6.0.3
         version: 6.0.3(@babel/core@7.22.8)(rollup@3.26.2)
@@ -2998,16 +2998,16 @@ packages:
       rimraf: 3.0.2
     dev: true
 
-  /@nullvoxpopuli/eslint-configs@3.1.4(@babel/core@7.22.8)(eslint-config-prettier@8.6.0)(eslint-plugin-ember@11.10.0)(eslint@8.44.0)(prettier@2.8.8):
-    resolution: {integrity: sha512-AXcuDy0EyxIJWOhgq6au6Qu8iksrLqDjPvz40d0DPPu8Kf9ubqlCu9tLaVNKU8ETfFC1YbxFR7Djtp+rBlcy7A==}
+  /@nullvoxpopuli/eslint-configs@3.2.0(@babel/core@7.22.8)(eslint-config-prettier@8.6.0)(eslint-plugin-ember@11.10.0)(eslint@8.44.0)(prettier@2.8.8):
+    resolution: {integrity: sha512-Gg0Yr6N3hmrJ1ECgsN2eypOJSRhxTKlfySLHxiBGeKJMjvNrBCAxOTvXVj4k33sLTZw/1oykH3eo9WYhCEf8BQ==}
     engines: {node: '>= v16.0.0'}
     peerDependencies:
-      '@babel/core': ^7.22.5
-      '@babel/eslint-parser': ^7.22.5
-      '@typescript-eslint/eslint-plugin': ^5.60.1
-      '@typescript-eslint/parser': ^5.60.1
+      '@babel/core': ^7.22.8
+      '@babel/eslint-parser': ^7.22.7
+      '@typescript-eslint/eslint-plugin': ^5.61.0
+      '@typescript-eslint/parser': ^5.61.0
       eslint: ^7.0.0 || ^8.0.0
-      eslint-plugin-ember: ^11.9.0
+      eslint-plugin-ember: ^11.10.0
       eslint-plugin-qunit: ^8.0.0
       prettier: ^2.8.8
     peerDependenciesMeta:
