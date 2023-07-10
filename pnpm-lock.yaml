@@ -410,11 +410,11 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0
       release-it:
-        specifier: ^16.0.0
-        version: 16.0.0
+        specifier: ^16.1.0
+        version: 16.1.0
       release-it-lerna-changelog:
         specifier: ^5.0.0
-        version: 5.0.0(release-it@16.0.0)
+        version: 5.0.0(release-it@16.1.0)
       stylelint:
         specifier: ^15.10.1
         version: 15.10.1
@@ -14702,7 +14702,7 @@ packages:
       hast-util-to-html: 7.1.3
     dev: true
 
-  /release-it-lerna-changelog@5.0.0(release-it@16.0.0):
+  /release-it-lerna-changelog@5.0.0(release-it@16.1.0):
     resolution: {integrity: sha512-s/rHzwAwp878bivWKsJKNya9SRVKYZjgpyyGzg5ddBKZY5u5lhTWhxHtld7mHTRg4azIN7YypPH3rGaOfVmNVw==}
     engines: {node: ^14.13.1 || >= 16}
     deprecated: This package has been renamed to @release-it-plugins/lerna-changelog
@@ -14713,7 +14713,7 @@ packages:
       lerna-changelog: 2.2.0
       lodash.template: 4.5.0
       mdast-util-from-markdown: 1.3.0
-      release-it: 16.0.0
+      release-it: 16.1.0
       tmp: 0.2.1
       validate-peer-dependencies: 2.2.0
       which: 2.0.2
@@ -14722,8 +14722,8 @@ packages:
       - supports-color
     dev: true
 
-  /release-it@16.0.0:
-    resolution: {integrity: sha512-TRZ0gxHyA10666UypV8bMBT06+lj/RXZBqDnBPh4hmnTtZwPVxb7pK3QycV9XfxHKhaCh7XkJSmltG/OZ2+ksQ==}
+  /release-it@16.1.0:
+    resolution: {integrity: sha512-d2XpGtPAIUoN/v0nJkfdx9GyFkgTXRj+7HATaZRmS+a0IhnE/qRDQ4kMVuDh8UCX1CKV6SRiFdV/vEpKpzZzxA==}
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
