@@ -45,8 +45,8 @@ importers:
         specifier: ^3.2.0
         version: 3.2.0(ember-source@5.1.2)(webpack@5.88.1)
       '@embroider/compat':
-        specifier: ^3.0.2
-        version: 3.0.2(@embroider/core@3.0.2)
+        specifier: ^3.1.4
+        version: 3.1.4(@embroider/core@3.0.2)
       '@embroider/core':
         specifier: ^3.0.2
         version: 3.0.2
@@ -293,14 +293,14 @@ importers:
         specifier: ^3.2.0
         version: 3.2.0(ember-source@5.1.2)(webpack@5.88.1)
       '@embroider/compat':
-        specifier: ^3.0.2
-        version: 3.0.2(@embroider/core@3.0.2)
+        specifier: ^3.1.4
+        version: 3.1.4(@embroider/core@3.0.2)
       '@embroider/core':
         specifier: ^3.0.2
         version: 3.0.2
       '@embroider/test-setup':
         specifier: ^3.0.1
-        version: 3.0.1(@embroider/compat@3.0.2)(@embroider/core@3.0.2)(@embroider/webpack@3.0.0)
+        version: 3.0.1(@embroider/compat@3.1.4)(@embroider/core@3.0.2)(@embroider/webpack@3.0.0)
       '@embroider/webpack':
         specifier: ^3.0.0
         version: 3.0.0(@embroider/core@3.0.2)(webpack@5.88.1)
@@ -2192,20 +2192,22 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@embroider/compat@3.0.2(@embroider/core@3.0.2):
-    resolution: {integrity: sha512-X94QrkZ7+m85z4exCvmYojBceclf5hQ/Lj88F2ILk1xg4OQY/1Y3y+4ilUvOTLFaGQ9Pjx7JPrzpAt0165fAlA==}
+  /@embroider/compat@3.1.4(@embroider/core@3.0.2):
+    resolution: {integrity: sha512-HsWkkQvFe7U16L/CLDdtma9WUc3dT0tHWGJ3nsX9dYjI4QvA2/EvqOA8227cFTcD/s5Q3AQlENyni4COgm9sQQ==}
     engines: {node: 12.* || 14.* || >= 16}
     hasBin: true
     peerDependencies:
-      '@embroider/core': ^3.0.2
+      '@embroider/core': ^3.1.2
     dependencies:
       '@babel/code-frame': 7.22.5
       '@babel/core': 7.22.8(supports-color@8.1.1)
       '@babel/plugin-syntax-dynamic-import': 7.8.3(@babel/core@7.22.8)
+      '@babel/plugin-transform-runtime': 7.19.6(@babel/core@7.22.8)
       '@babel/preset-env': 7.20.2(@babel/core@7.22.8)
-      '@babel/traverse': 7.22.5
+      '@babel/runtime': 7.22.5
+      '@babel/traverse': 7.22.8(supports-color@8.1.1)
       '@embroider/core': 3.0.2
-      '@embroider/macros': 1.11.1
+      '@embroider/macros': 1.12.2
       '@types/babel__code-frame': 7.0.3
       '@types/yargs': 17.0.20
       assert-never: 1.2.1
@@ -2224,6 +2226,8 @@ packages:
       broccoli-source: 3.0.1
       chalk: 4.1.2
       debug: 4.3.4(supports-color@8.1.1)
+      escape-string-regexp: 4.0.0
+      fast-sourcemap-concat: 1.4.0
       fs-extra: 9.1.0
       fs-tree-diff: 2.0.1
       jsdom: 16.7.0(supports-color@8.1.1)
@@ -2231,7 +2235,7 @@ packages:
       pkg-up: 3.1.0
       resolve: 1.22.2
       resolve-package-path: 4.0.3
-      semver: 7.5.2
+      semver: 7.5.3
       symlink-or-copy: 1.3.1
       tree-sync: 2.1.0
       typescript-memoize: 1.1.1
@@ -2468,7 +2472,7 @@ packages:
       semver: 7.5.3
       typescript-memoize: 1.1.1
 
-  /@embroider/test-setup@3.0.1(@embroider/compat@3.0.2)(@embroider/core@3.0.2)(@embroider/webpack@3.0.0):
+  /@embroider/test-setup@3.0.1(@embroider/compat@3.1.4)(@embroider/core@3.0.2)(@embroider/webpack@3.0.0):
     resolution: {integrity: sha512-t7R2f10iZDSNw3ovWAPM63GRQTu63uihpVh6CvHev5XkLt8B7tdxcxGyO6RbdF5Hu+pbsUu8sD0kAlR1gopmxg==}
     engines: {node: 12.* || 14.* || >= 16}
     peerDependencies:
@@ -2483,7 +2487,7 @@ packages:
       '@embroider/webpack':
         optional: true
     dependencies:
-      '@embroider/compat': 3.0.2(@embroider/core@3.0.2)
+      '@embroider/compat': 3.1.4(@embroider/core@3.0.2)
       '@embroider/core': 3.0.2
       '@embroider/webpack': 3.0.0(@embroider/core@3.0.2)(webpack@5.88.1)
       lodash: 4.17.21
