@@ -201,8 +201,8 @@ importers:
   ember-math-helpers:
     dependencies:
       '@embroider/addon-shim':
-        specifier: ^1.8.5
-        version: 1.8.5
+        specifier: ^1.8.6
+        version: 1.8.6
       ember-source:
         specifier: ^4.0.0 || ^5.0.0
         version: 5.0.0(@babel/core@7.22.8)(@glimmer/component@1.1.2)(webpack@5.88.1)
@@ -2104,8 +2104,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@embroider/addon-shim@1.8.4:
-    resolution: {integrity: sha512-sFhfWC0vI18KxVenmswQ/ShIvBg4juL8ubI+Q3NTSdkCTeaPQ/DIOUF6oR5DCQ8eO/TkIaw+kdG3FkTY6yNJqA==}
+  /@embroider/addon-shim@1.8.6:
+    resolution: {integrity: sha512-siC9kP78uucEbpDcVyxjkwa76pcs5rVzDVpWO4PDc9EAXRX+pzmUuSTLAK3GztUwx7/PWhz1BenAivqdSvSgfg==}
     engines: {node: 12.* || 14.* || >= 16}
     dependencies:
       '@embroider/shared-internals': 2.2.3
@@ -2113,18 +2113,6 @@ packages:
       semver: 7.5.3
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /@embroider/addon-shim@1.8.5:
-    resolution: {integrity: sha512-pDgpdTsC9i/+5hHziygK5VIZc64OG8bupiqL0OxJp+bnINURalHMbu5B3Gikq/a0QIvMPzDFWzKxIZCBpeiHkg==}
-    engines: {node: 12.* || 14.* || >= 16}
-    dependencies:
-      '@embroider/shared-internals': 2.1.0
-      broccoli-funnel: 3.0.8
-      semver: 7.5.2
-    transitivePeerDependencies:
-      - supports-color
-    dev: false
 
   /@embroider/babel-loader-8@3.0.0(@embroider/core@3.0.2)(supports-color@8.1.1)(webpack@5.88.1):
     resolution: {integrity: sha512-NIaHmX/FmxKdyB82J0jHTZWk9OyBEfFm0981pTWgnKCnREhaLSvlEtIlf5iEEU4RPCBIunZZqiy2W/QI3fLaxg==}
@@ -2497,6 +2485,7 @@ packages:
       resolve-package-path: 4.0.3
       semver: 7.5.3
       typescript-memoize: 1.1.1
+    dev: true
 
   /@embroider/shared-internals@2.2.1:
     resolution: {integrity: sha512-btA8ZY4JkPXWJnpcIuNNld7kSz8OYTA3ocppt5qQsOw9gA4cpAU7QJdP3xtpcNrghSAeWTo2vOSpACA638in8A==}
@@ -8220,7 +8209,7 @@ packages:
       ember-source:
         optional: true
     dependencies:
-      '@embroider/addon-shim': 1.8.4
+      '@embroider/addon-shim': 1.8.6
       ember-cli-normalize-entity-name: 1.0.0
       ember-cli-string-utils: 1.1.0
       ember-source: 5.1.2(@babel/core@7.22.8)(@glimmer/component@1.1.2)(rsvp@4.8.5)(webpack@5.88.1)
