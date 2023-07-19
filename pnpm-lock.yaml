@@ -180,14 +180,14 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0
       stylelint:
-        specifier: ^15.10.1
-        version: 15.10.1
+        specifier: ^15.10.2
+        version: 15.10.2
       stylelint-config-standard:
         specifier: ^34.0.0
-        version: 34.0.0(stylelint@15.10.1)
+        version: 34.0.0(stylelint@15.10.2)
       stylelint-prettier:
         specifier: ^3.0.0
-        version: 3.0.0(prettier@2.8.8)(stylelint@15.10.1)
+        version: 3.0.0(prettier@2.8.8)(stylelint@15.10.2)
       tailwindcss:
         specifier: ^3.3.3
         version: 3.3.3
@@ -416,14 +416,14 @@ importers:
         specifier: ^5.0.0
         version: 5.0.0(release-it@16.1.2)
       stylelint:
-        specifier: ^15.10.1
-        version: 15.10.1
+        specifier: ^15.10.2
+        version: 15.10.2
       stylelint-config-standard:
         specifier: ^34.0.0
-        version: 34.0.0(stylelint@15.10.1)
+        version: 34.0.0(stylelint@15.10.2)
       stylelint-prettier:
         specifier: ^3.0.0
-        version: 3.0.0(prettier@2.8.8)(stylelint@15.10.1)
+        version: 3.0.0(prettier@2.8.8)(stylelint@15.10.2)
       tracked-built-ins:
         specifier: ^3.1.1
         version: 3.1.1
@@ -6707,8 +6707,8 @@ packages:
       postcss: 8.4.26
     dev: true
 
-  /css-functions-list@3.1.0:
-    resolution: {integrity: sha512-/9lCvYZaUbBGvYUgYGFJ4dcYiyqdhSjG7IPVluoV8A1ILjkF7ilmhp1OGUz8n+nmBcu0RNrQAzgD8B6FJbrt2w==}
+  /css-functions-list@3.2.0:
+    resolution: {integrity: sha512-d/jBMPyYybkkLVypgtGv12R+pIFw4/f/IHtCTxWpZc8ofTYOPigIgmA6vu5rMHartZC+WuXhBUHfnyNUIQSYrg==}
     engines: {node: '>=12.22'}
     dev: true
 
@@ -7430,7 +7430,7 @@ packages:
       parse5: 6.0.1
       resolve: 1.22.2
       resolve-package-path: 4.0.3
-      semver: 7.5.3
+      semver: 7.5.4
       style-loader: 2.0.0(webpack@5.88.2)
       typescript-memoize: 1.1.1
       walk-sync: 3.0.0
@@ -16097,26 +16097,26 @@ packages:
       postcss-selector-parser: 6.0.13
     dev: true
 
-  /stylelint-config-recommended@13.0.0(stylelint@15.10.1):
+  /stylelint-config-recommended@13.0.0(stylelint@15.10.2):
     resolution: {integrity: sha512-EH+yRj6h3GAe/fRiyaoO2F9l9Tgg50AOFhaszyfov9v6ayXJ1IkSHwTxd7lB48FmOeSGDPLjatjO11fJpmarkQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
     peerDependencies:
       stylelint: ^15.10.0
     dependencies:
-      stylelint: 15.10.1
+      stylelint: 15.10.2
     dev: true
 
-  /stylelint-config-standard@34.0.0(stylelint@15.10.1):
+  /stylelint-config-standard@34.0.0(stylelint@15.10.2):
     resolution: {integrity: sha512-u0VSZnVyW9VSryBG2LSO+OQTjN7zF9XJaAJRX/4EwkmU0R2jYwmBSN10acqZisDitS0CLiEiGjX7+Hrq8TAhfQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
     peerDependencies:
       stylelint: ^15.10.0
     dependencies:
-      stylelint: 15.10.1
-      stylelint-config-recommended: 13.0.0(stylelint@15.10.1)
+      stylelint: 15.10.2
+      stylelint-config-recommended: 13.0.0(stylelint@15.10.2)
     dev: true
 
-  /stylelint-prettier@3.0.0(prettier@2.8.8)(stylelint@15.10.1):
+  /stylelint-prettier@3.0.0(prettier@2.8.8)(stylelint@15.10.2):
     resolution: {integrity: sha512-kIks1xw6np0zElokMT2kP6ar3S4MBoj6vUtPJuND1pFELMpZxVS/0uHPR4HDAVn0WAD3I5oF0IA3qBFxBpMkLg==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -16125,11 +16125,11 @@ packages:
     dependencies:
       prettier: 2.8.8
       prettier-linter-helpers: 1.0.0
-      stylelint: 15.10.1
+      stylelint: 15.10.2
     dev: true
 
-  /stylelint@15.10.1:
-    resolution: {integrity: sha512-CYkzYrCFfA/gnOR+u9kJ1PpzwG10WLVnoxHDuBA/JiwGqdM9+yx9+ou6SE/y9YHtfv1mcLo06fdadHTOx4gBZQ==}
+  /stylelint@15.10.2:
+    resolution: {integrity: sha512-UxqSb3hB74g4DTO45QhUHkJMjKKU//lNUAOWyvPBVPZbCknJ5HjOWWZo+UDuhHa9FLeVdHBZXxu43eXkjyIPWg==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -16140,7 +16140,7 @@ packages:
       balanced-match: 2.0.0
       colord: 2.9.3
       cosmiconfig: 8.2.0
-      css-functions-list: 3.1.0
+      css-functions-list: 3.2.0
       css-tree: 2.3.1
       debug: 4.3.4(supports-color@8.1.1)
       fast-glob: 3.3.0
