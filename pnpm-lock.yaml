@@ -33,8 +33,8 @@ importers:
         specifier: ^7.22.7
         version: 7.22.7(@babel/core@7.22.9)
       '@docfy/ember':
-        specifier: ^0.6.0
-        version: 0.6.0
+        specifier: ^0.7.0
+        version: 0.7.0
       '@ember/optional-features':
         specifier: ^2.0.0
         version: 2.0.0
@@ -1698,8 +1698,8 @@ packages:
       postcss-selector-parser: 6.0.13
     dev: true
 
-  /@docfy/core@0.6.0:
-    resolution: {integrity: sha512-2L5UiE720h6tmkTxvB43Q+nZybKV/8UC6jYVBqiyP9YriVjWxxVpTkR80Egg4rrMnGfYKedOI4ZgxekgdoHDMQ==}
+  /@docfy/core@0.7.0:
+    resolution: {integrity: sha512-7FRhToPy+jsVlq/8ESmfjcF6Y+AoAjht6fTBLUSxNGzXt3FsPLK6XkfZitfubyZLs/BNhO9l2NYNnKsmLTMciw==}
     engines: {node: '>= 12.*'}
     dependencies:
       debug: 4.3.4(supports-color@8.1.1)
@@ -1721,16 +1721,16 @@ packages:
       trough: 1.0.5
       unified: 9.2.2
       unist-util-visit: 2.0.3
-      yaml: 1.10.2
+      yaml: 2.3.1
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@docfy/ember@0.6.0:
-    resolution: {integrity: sha512-TcZoNwZpQGs7EuvSvuxLp6gt11Fq/9qIHUESYR5j9qZOwLFvuvRXaui27n+Rq03LZQW/eGtBUQM06nSn9FsuXg==}
+  /@docfy/ember@0.7.0:
+    resolution: {integrity: sha512-tnDsaKmGxjhRuWtpgH0AY9DTdL4M4fxPPVCGGnb4oQIpDYodfzhER7YjRiFZ2KLUMJ8rsNiuBMUxPeFwV9W7HA==}
     engines: {node: '>= 12'}
     dependencies:
-      '@docfy/core': 0.6.0
+      '@docfy/core': 0.7.0
       broccoli-bridge: 1.0.0
       broccoli-file-creator: 2.1.1
       broccoli-funnel: 3.0.8
@@ -17684,11 +17684,6 @@ packages:
     dependencies:
       fs-extra: 4.0.3
       lodash.merge: 4.6.2
-    dev: true
-
-  /yaml@1.10.2:
-    resolution: {integrity: sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==}
-    engines: {node: '>= 6'}
     dev: true
 
   /yaml@2.3.1:
