@@ -138,8 +138,8 @@ importers:
         specifier: ~5.1.2
         version: 5.1.2(@babel/core@7.22.9)(@glimmer/component@1.1.2)(rsvp@4.8.5)(webpack@5.88.2)
       ember-svg-jar:
-        specifier: ^2.4.3
-        version: 2.4.3
+        specifier: ^2.4.4
+        version: 2.4.4
       ember-template-lint:
         specifier: ^5.11.1
         version: 5.11.1
@@ -2409,27 +2409,6 @@ packages:
       - supports-color
     dev: true
 
-  /@embroider/macros@1.12.2:
-    resolution: {integrity: sha512-3AY1iWq9ctQESgTeKk6Hdw/E5ypAx793bK5WZHHYcmjJAIVfR6lHa6SBoNjDNuYRduabd2lN0VJq7StwL62ETg==}
-    engines: {node: 12.* || 14.* || >= 16}
-    peerDependencies:
-      '@glint/template': ^1.0.0
-    peerDependenciesMeta:
-      '@glint/template':
-        optional: true
-    dependencies:
-      '@embroider/shared-internals': 2.2.2
-      assert-never: 1.2.1
-      babel-import-util: 1.3.0
-      ember-cli-babel: 7.26.11
-      find-up: 5.0.0
-      lodash: 4.17.21
-      resolve: 1.22.2
-      semver: 7.5.4
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
   /@embroider/macros@1.12.3:
     resolution: {integrity: sha512-ZdgDo7ckNbZ0DxMgEmcX70PUNPqodKSkgifDoX3Ysf5P5LkpST/PV1E49GZTxv9p17+XwQ8j0JSf5yd7KY1f/w==}
     engines: {node: 12.* || 14.* || >= 16}
@@ -2479,20 +2458,6 @@ packages:
 
   /@embroider/shared-internals@2.2.1:
     resolution: {integrity: sha512-btA8ZY4JkPXWJnpcIuNNld7kSz8OYTA3ocppt5qQsOw9gA4cpAU7QJdP3xtpcNrghSAeWTo2vOSpACA638in8A==}
-    engines: {node: 12.* || 14.* || >= 16}
-    dependencies:
-      babel-import-util: 1.3.0
-      ember-rfc176-data: 0.3.18
-      fs-extra: 9.1.0
-      js-string-escape: 1.0.1
-      lodash: 4.17.21
-      resolve-package-path: 4.0.3
-      semver: 7.5.4
-      typescript-memoize: 1.1.1
-    dev: true
-
-  /@embroider/shared-internals@2.2.2:
-    resolution: {integrity: sha512-fOED89UjsNT8e/maA1P3co2D7q/UOmH3DMxqAlJyueyo57LKuVDXFDG6JUYiEyHb2H5eCrzIdGoHI5cz9rH3Ow==}
     engines: {node: 12.* || 14.* || >= 16}
     dependencies:
       babel-import-util: 1.3.0
@@ -8373,11 +8338,11 @@ packages:
       - webpack
     dev: true
 
-  /ember-svg-jar@2.4.3:
-    resolution: {integrity: sha512-dY3tA+7iKHa1C8x5MnAM+2kVLbb8j1ECdFAdR4Sys74nje79UFWtJDGERizW2ZSALnsqb3uRgEFINP0V3vCeeg==}
+  /ember-svg-jar@2.4.4:
+    resolution: {integrity: sha512-hzSMuyc6A4FbPBaT9JFYicInq+hVJCgS+1EeoK1zQSMEITiEEzjOGCrAd31GZh8L3g8GOLxpdNBpv982D4loyA==}
     engines: {node: 12.* || 14.* || >= 16}
     dependencies:
-      '@embroider/macros': 1.12.2
+      '@embroider/macros': 1.12.3
       broccoli-caching-writer: 3.0.3
       broccoli-concat: 4.2.5
       broccoli-funnel: 3.0.8
