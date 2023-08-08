@@ -29,7 +29,7 @@
     "ember-math-helpers": "workspace:*"
   },
   "devDependencies": {
-    "@babel/core": "7.22.9",
+    "@babel/core": "7.22.10",
     "@babel/eslint-parser": "^7.22.10",
     "@babel/helper-call-delegate": "^7.12.13",
     "@babel/plugin-proposal-decorators": "^7.22.10",
