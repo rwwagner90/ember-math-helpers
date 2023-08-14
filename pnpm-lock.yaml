@@ -141,8 +141,8 @@ importers:
         specifier: ^2.4.4
         version: 2.4.4
       ember-template-lint:
-        specifier: ^5.11.1
-        version: 5.11.1
+        specifier: ^5.11.2
+        version: 5.11.2
       eslint:
         specifier: ^8.47.0
         version: 8.47.0
@@ -374,8 +374,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
       ember-template-lint:
-        specifier: ^5.11.1
-        version: 5.11.1
+        specifier: ^5.11.2
+        version: 5.11.2
       ember-try:
         specifier: ^2.0.0
         version: 2.0.0
@@ -3026,11 +3026,11 @@ packages:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
 
-  /@lint-todo/utils@13.1.0:
-    resolution: {integrity: sha512-uzcZPIPH7hcs+hKMiHfp58MosJpI9sTTgl1pGYau4zq34q1ppswJ6nLeohv/cDhqEBrHjtvldt8zDnVJXRvBlA==}
+  /@lint-todo/utils@13.1.1:
+    resolution: {integrity: sha512-F5z53uvRIF4dYfFfJP3a2Cqg+4P1dgJchJsFnsZE0eZp0LK8X7g2J0CsJHRgns+skpXOlM7n5vFGwkWCWj8qJg==}
     engines: {node: 12.* || >= 14}
     dependencies:
-      '@types/eslint': 7.29.0
+      '@types/eslint': 8.4.10
       find-up: 5.0.0
       fs-extra: 9.1.0
       proper-lockfile: 4.1.2
@@ -3449,13 +3449,6 @@ packages:
     dependencies:
       '@types/eslint': 8.4.10
       '@types/estree': 1.0.0
-
-  /@types/eslint@7.29.0:
-    resolution: {integrity: sha512-VNcvioYDH8/FxaeTKkM4/TiTwt6pBV9E3OfGmvaw8tPl0rrHCJ4Ll15HRT+pMiFAf/MLQvAzC+6RzUMEL9Ceng==}
-    dependencies:
-      '@types/estree': 1.0.0
-      '@types/json-schema': 7.0.11
-    dev: true
 
   /@types/eslint@8.4.10:
     resolution: {integrity: sha512-Sl/HOqN8NKPmhWo2VBEPm0nvHnu2LL3v9vKo8MEq0EtbJ4eVzGPl41VNPvn5E1i5poMk4/XD8UriLHpJvEP/Nw==}
@@ -8439,12 +8432,12 @@ packages:
       - supports-color
     dev: true
 
-  /ember-template-lint@5.11.1:
-    resolution: {integrity: sha512-PucOG+Wx96h8NNjgD4kTjBzg6qTGOCqvo3agubuHJ3/T9ucO0P88FzEPxWRPWgn4b/PqIyDXj8HhkM7QUccBIQ==}
+  /ember-template-lint@5.11.2:
+    resolution: {integrity: sha512-G8KXmFCYLKM9ifMb+rluL8CNIawUl45i4z4VrK+Nn5ciWSo+Vx2jUp+sS6wKCdBqGYoiqjUgn/hmGnCVOId+yQ==}
     engines: {node: ^14.18.0 || ^16.0.0 || >= 18.0.0}
     hasBin: true
     dependencies:
-      '@lint-todo/utils': 13.1.0
+      '@lint-todo/utils': 13.1.1
       aria-query: 5.3.0
       chalk: 5.3.0
       ci-info: 3.8.0
