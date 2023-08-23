@@ -150,8 +150,8 @@ importers:
         specifier: ^9.0.0
         version: 9.0.0(eslint@8.47.0)
       eslint-plugin-ember:
-        specifier: ^11.10.0
-        version: 11.10.0(eslint@8.47.0)
+        specifier: ^11.11.1
+        version: 11.11.1(eslint@8.47.0)
       eslint-plugin-n:
         specifier: ^16.0.2
         version: 16.0.2(eslint@8.47.0)
@@ -224,7 +224,7 @@ importers:
         version: 4.1.0(rollup@3.28.1)
       '@nullvoxpopuli/eslint-configs':
         specifier: 3.2.2
-        version: 3.2.2(@babel/core@7.22.10)(eslint-config-prettier@9.0.0)(eslint-plugin-ember@11.10.0)(eslint@8.47.0)(prettier@2.8.8)
+        version: 3.2.2(@babel/core@7.22.10)(eslint-config-prettier@9.0.0)(eslint-plugin-ember@11.11.1)(eslint@8.47.0)(prettier@2.8.8)
       '@rollup/plugin-babel':
         specifier: 6.0.3
         version: 6.0.3(@babel/core@7.22.10)(rollup@3.28.1)
@@ -241,8 +241,8 @@ importers:
         specifier: 5.0.2
         version: 5.0.2(eslint@8.47.0)
       eslint-plugin-ember:
-        specifier: 11.10.0
-        version: 11.10.0(eslint@8.47.0)
+        specifier: 11.11.1
+        version: 11.11.1(eslint@8.47.0)
       eslint-plugin-import:
         specifier: 2.28.1
         version: 2.28.1(eslint-import-resolver-typescript@3.6.0)(eslint@8.47.0)
@@ -386,8 +386,8 @@ importers:
         specifier: ^9.0.0
         version: 9.0.0(eslint@8.47.0)
       eslint-plugin-ember:
-        specifier: ^11.10.0
-        version: 11.10.0(eslint@8.47.0)
+        specifier: ^11.11.1
+        version: 11.11.1(eslint@8.47.0)
       eslint-plugin-n:
         specifier: ^16.0.2
         version: 16.0.2(eslint@8.47.0)
@@ -3091,7 +3091,7 @@ packages:
       rimraf: 3.0.2
     dev: true
 
-  /@nullvoxpopuli/eslint-configs@3.2.2(@babel/core@7.22.10)(eslint-config-prettier@9.0.0)(eslint-plugin-ember@11.10.0)(eslint@8.47.0)(prettier@2.8.8):
+  /@nullvoxpopuli/eslint-configs@3.2.2(@babel/core@7.22.10)(eslint-config-prettier@9.0.0)(eslint-plugin-ember@11.11.1)(eslint@8.47.0)(prettier@2.8.8):
     resolution: {integrity: sha512-Qm7TR7K+kb5emAoddPsoznmAgUptL7YWUOdtaBq2T4pgkEyr7JTS1v4TPg07LusfYi2He2nKJBdTcD++hrsNdw==}
     engines: {node: '>= v16.0.0'}
     peerDependencies:
@@ -3124,7 +3124,7 @@ packages:
       eslint: 8.47.0
       eslint-import-resolver-typescript: 3.6.0(eslint-plugin-import@2.28.1)(eslint@8.47.0)
       eslint-plugin-decorator-position: 5.0.2(eslint@8.47.0)
-      eslint-plugin-ember: 11.10.0(eslint@8.47.0)
+      eslint-plugin-ember: 11.11.1(eslint@8.47.0)
       eslint-plugin-import: 2.28.1(eslint-import-resolver-typescript@3.6.0)(eslint@8.47.0)
       eslint-plugin-json: 3.1.0
       eslint-plugin-n: 16.0.2(eslint@8.47.0)
@@ -8880,8 +8880,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-ember@11.10.0(eslint@8.47.0):
-    resolution: {integrity: sha512-/5VanfpfzIdmWgXWyQ6ylAJWITu8mXivRce06h0uoifVpUoGaBdAkwuto/PLGfDxWdi43xWUFLb5Tpkhx2MoFg==}
+  /eslint-plugin-ember@11.11.1(eslint@8.47.0):
+    resolution: {integrity: sha512-dvsDa4LkDkGqCE2bzBIguRMi1g40JVwRWMSHmn8S7toRDxSOU3M7yromgi5eSAJX2O2vEvJZ9QnR15YDbvNfVQ==}
     engines: {node: 14.* || 16.* || >= 18}
     peerDependencies:
       eslint: '>= 7'
