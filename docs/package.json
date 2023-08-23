@@ -43,7 +43,7 @@
     "@glimmer/tracking": "^1.1.2",
     "autoprefixer": "^10.4.15",
     "broccoli-asset-rev": "^3.0.0",
-    "concurrently": "^8.2.0",
+    "concurrently": "^8.2.1",
     "cssnano": "^6.0.1",
     "ember-auto-import": "^2.6.3",
     "ember-cli": "~5.0.0",
