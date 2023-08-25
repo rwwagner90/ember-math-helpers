@@ -157,7 +157,7 @@ importers:
         version: 16.0.2(eslint@8.47.0)
       eslint-plugin-prettier:
         specifier: ^4.2.1
-        version: 4.2.1(eslint-config-prettier@9.0.0)(eslint@8.47.0)(prettier@2.8.8)
+        version: 4.2.1(eslint-config-prettier@9.0.0)(eslint@8.47.0)(prettier@3.0.2)
       eslint-plugin-qunit:
         specifier: ^8.0.0
         version: 8.0.0(eslint@8.47.0)
@@ -171,8 +171,8 @@ importers:
         specifier: ^7.3.3
         version: 7.3.3(postcss@8.4.28)(webpack@5.88.2)
       prettier:
-        specifier: ^2.8.8
-        version: 2.8.8
+        specifier: ^3.0.2
+        version: 3.0.2
       qunit:
         specifier: ^2.19.4
         version: 2.19.4
@@ -187,7 +187,7 @@ importers:
         version: 34.0.0(stylelint@15.10.3)
       stylelint-prettier:
         specifier: ^3.0.0
-        version: 3.0.0(prettier@2.8.8)(stylelint@15.10.3)
+        version: 3.0.0(prettier@3.0.2)(stylelint@15.10.3)
       tailwindcss:
         specifier: ^3.3.3
         version: 3.3.3
@@ -224,7 +224,7 @@ importers:
         version: 4.1.0(rollup@3.28.1)
       '@nullvoxpopuli/eslint-configs':
         specifier: 3.2.2
-        version: 3.2.2(@babel/core@7.22.11)(eslint-config-prettier@9.0.0)(eslint-plugin-ember@11.11.1)(eslint@8.47.0)(prettier@2.8.8)
+        version: 3.2.2(@babel/core@7.22.11)(eslint-config-prettier@9.0.0)(eslint-plugin-ember@11.11.1)(eslint@8.47.0)(prettier@3.0.2)
       '@rollup/plugin-babel':
         specifier: 6.0.3
         version: 6.0.3(@babel/core@7.22.11)(rollup@3.28.1)
@@ -254,13 +254,13 @@ importers:
         version: 11.1.0(eslint@8.47.0)
       eslint-plugin-prettier:
         specifier: 4.2.1
-        version: 4.2.1(eslint-config-prettier@9.0.0)(eslint@8.47.0)(prettier@2.8.8)
+        version: 4.2.1(eslint-config-prettier@9.0.0)(eslint@8.47.0)(prettier@3.0.2)
       eslint-plugin-simple-import-sort:
         specifier: 10.0.0
         version: 10.0.0(eslint@8.47.0)
       prettier:
-        specifier: ^2.8.8
-        version: 2.8.8
+        specifier: ^3.0.2
+        version: 3.0.2
       rollup:
         specifier: ^3.28.1
         version: 3.28.1
@@ -393,7 +393,7 @@ importers:
         version: 16.0.2(eslint@8.47.0)
       eslint-plugin-prettier:
         specifier: ^4.2.1
-        version: 4.2.1(eslint-config-prettier@9.0.0)(eslint@8.47.0)(prettier@2.8.8)
+        version: 4.2.1(eslint-config-prettier@9.0.0)(eslint@8.47.0)(prettier@3.0.2)
       eslint-plugin-qunit:
         specifier: ^8.0.0
         version: 8.0.0(eslint@8.47.0)
@@ -401,8 +401,8 @@ importers:
         specifier: ^4.7.0
         version: 4.7.0
       prettier:
-        specifier: ^2.8.8
-        version: 2.8.8
+        specifier: ^3.0.2
+        version: 3.0.2
       qunit:
         specifier: ^2.19.4
         version: 2.19.4
@@ -423,7 +423,7 @@ importers:
         version: 34.0.0(stylelint@15.10.3)
       stylelint-prettier:
         specifier: ^3.0.0
-        version: 3.0.0(prettier@2.8.8)(stylelint@15.10.3)
+        version: 3.0.0(prettier@3.0.2)(stylelint@15.10.3)
       tracked-built-ins:
         specifier: ^3.1.1
         version: 3.1.1
@@ -3091,7 +3091,7 @@ packages:
       rimraf: 3.0.2
     dev: true
 
-  /@nullvoxpopuli/eslint-configs@3.2.2(@babel/core@7.22.11)(eslint-config-prettier@9.0.0)(eslint-plugin-ember@11.11.1)(eslint@8.47.0)(prettier@2.8.8):
+  /@nullvoxpopuli/eslint-configs@3.2.2(@babel/core@7.22.11)(eslint-config-prettier@9.0.0)(eslint-plugin-ember@11.11.1)(eslint@8.47.0)(prettier@3.0.2):
     resolution: {integrity: sha512-Qm7TR7K+kb5emAoddPsoznmAgUptL7YWUOdtaBq2T4pgkEyr7JTS1v4TPg07LusfYi2He2nKJBdTcD++hrsNdw==}
     engines: {node: '>= v16.0.0'}
     peerDependencies:
@@ -3128,10 +3128,10 @@ packages:
       eslint-plugin-import: 2.28.1(eslint-import-resolver-typescript@3.6.0)(eslint@8.47.0)
       eslint-plugin-json: 3.1.0
       eslint-plugin-n: 16.0.2(eslint@8.47.0)
-      eslint-plugin-prettier: 4.2.1(eslint-config-prettier@9.0.0)(eslint@8.47.0)(prettier@2.8.8)
+      eslint-plugin-prettier: 4.2.1(eslint-config-prettier@9.0.0)(eslint@8.47.0)(prettier@3.0.2)
       eslint-plugin-simple-import-sort: 10.0.0(eslint@8.47.0)
-      prettier: 2.8.8
-      prettier-plugin-ember-template-tag: 1.0.2(prettier@2.8.8)
+      prettier: 3.0.2
+      prettier-plugin-ember-template-tag: 1.0.2(prettier@3.0.2)
     transitivePeerDependencies:
       - eslint-config-prettier
       - eslint-import-resolver-node
@@ -9000,7 +9000,7 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-prettier@4.2.1(eslint-config-prettier@9.0.0)(eslint@8.47.0)(prettier@2.8.8):
+  /eslint-plugin-prettier@4.2.1(eslint-config-prettier@9.0.0)(eslint@8.47.0)(prettier@3.0.2):
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -9013,7 +9013,7 @@ packages:
     dependencies:
       eslint: 8.47.0
       eslint-config-prettier: 9.0.0(eslint@8.47.0)
-      prettier: 2.8.8
+      prettier: 3.0.2
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -14320,7 +14320,7 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier-plugin-ember-template-tag@1.0.2(prettier@2.8.8):
+  /prettier-plugin-ember-template-tag@1.0.2(prettier@3.0.2):
     resolution: {integrity: sha512-skL3NH1ay/eTlrTSTtFxoHLBmZJIoTDrb2zOONClt01aKqs/8brh/9ZtnjjLHi9FUq5x/kJ8LCm+6BYmNp696Q==}
     engines: {node: 16.* || 18.* || >= 20}
     peerDependencies:
@@ -14330,7 +14330,7 @@ packages:
       '@glimmer/syntax': 0.84.3
       ember-cli-htmlbars: 6.3.0
       ember-template-imports: 3.4.2
-      prettier: 2.8.8
+      prettier: 3.0.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -14339,6 +14339,12 @@ packages:
     resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
     engines: {node: '>=10.13.0'}
     hasBin: true
+
+  /prettier@3.0.2:
+    resolution: {integrity: sha512-o2YR9qtniXvwEZlOKbveKfDQVyqxbEIWn48Z8m3ZJjBjcCmUy3xZGIv+7AkaeuaTr6yPXJjwv07ZWlsWbEy1rQ==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
 
   /pretty-ms@3.2.0:
     resolution: {integrity: sha512-ZypexbfVUGTFxb0v+m1bUyy92DHe5SyYlnyY0msyms5zd3RwyvNgyxZZsXXgoyzlxjx5MiqtXUdhUfvQbe0A2Q==}
@@ -16134,14 +16140,14 @@ packages:
       stylelint-config-recommended: 13.0.0(stylelint@15.10.3)
     dev: true
 
-  /stylelint-prettier@3.0.0(prettier@2.8.8)(stylelint@15.10.3):
+  /stylelint-prettier@3.0.0(prettier@3.0.2)(stylelint@15.10.3):
     resolution: {integrity: sha512-kIks1xw6np0zElokMT2kP6ar3S4MBoj6vUtPJuND1pFELMpZxVS/0uHPR4HDAVn0WAD3I5oF0IA3qBFxBpMkLg==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       prettier: '>=2.0.0'
       stylelint: '>=14.0.0'
     dependencies:
-      prettier: 2.8.8
+      prettier: 3.0.2
       prettier-linter-helpers: 1.0.0
       stylelint: 15.10.3
     dev: true
