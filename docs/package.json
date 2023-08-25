@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.22.11",
-    "@babel/eslint-parser": "^7.22.10",
+    "@babel/eslint-parser": "^7.22.11",
     "@babel/plugin-proposal-decorators": "^7.22.10",
     "@docfy/ember": "^0.7.0",
     "@ember/optional-features": "^2.0.0",
