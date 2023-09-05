@@ -80,7 +80,7 @@
     "stylelint": "^15.10.3",
     "stylelint-config-standard": "^34.0.0",
     "stylelint-prettier": "^3.0.0",
-    "tracked-built-ins": "^3.1.1",
+    "tracked-built-ins": "^3.2.0",
     "webpack": "^5.88.2"
   },
   "ember": {
