@@ -249,8 +249,8 @@ importers:
         specifier: 11.1.0
         version: 11.1.0(eslint@8.47.0)
       eslint-plugin-prettier:
-        specifier: 4.2.1
-        version: 4.2.1(eslint-config-prettier@9.0.0)(eslint@8.47.0)(prettier@3.0.2)
+        specifier: ^5.0.0
+        version: 5.0.0(eslint-config-prettier@9.0.0)(eslint@8.47.0)(prettier@3.0.2)
       eslint-plugin-simple-import-sort:
         specifier: 10.0.0
         version: 10.0.0(eslint@8.47.0)
