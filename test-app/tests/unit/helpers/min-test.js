@@ -6,7 +6,7 @@ module('Unit | Helper | min', function () {
     assert.strictEqual(
       min([3, 2, 3, 5, 6, 42, 3, 6, 7]),
       2,
-      'accepts multiple arguments'
+      'accepts multiple arguments',
     );
 
     assert.strictEqual(min([42]), 42, 'accepts one argument');

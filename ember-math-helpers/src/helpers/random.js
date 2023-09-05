@@ -50,7 +50,7 @@ export function random(params, { decimals } = DEFAULT_OPTS) {
     const [upperBound] = params;
 
     return +(Math.random() * upperBound).toFixed(
-      max(0, min(MAX_DECIMALS, decimals))
+      max(0, min(MAX_DECIMALS, decimals)),
     );
   }
 
@@ -64,7 +64,7 @@ export function random(params, { decimals } = DEFAULT_OPTS) {
     }
 
     return +(lowerBound + Math.random() * (upperBound - lowerBound)).toFixed(
-      max(0, min(MAX_DECIMALS, decimals))
+      max(0, min(MAX_DECIMALS, decimals)),
     );
   }
 
