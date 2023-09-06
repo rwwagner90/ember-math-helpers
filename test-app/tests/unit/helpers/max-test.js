@@ -6,7 +6,7 @@ module('Unit | Helper | max', function () {
     assert.strictEqual(
       max([1, 2, 3, 5, 6, 42, 3, 6, 7]),
       42,
-      'accepts multiple arguments'
+      'accepts multiple arguments',
     );
 
     assert.strictEqual(max([42]), 42, 'accepts one argument');
@@ -14,7 +14,7 @@ module('Unit | Helper | max', function () {
     assert.strictEqual(
       max([]),
       Number.NEGATIVE_INFINITY,
-      'accepts zero arguments'
+      'accepts zero arguments',
     );
   });
 });
