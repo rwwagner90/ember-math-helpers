@@ -84,7 +84,7 @@
     "pnpm-sync-dependencies-meta-injected": "^0.0.9",
     "postcss": "^8.4.29",
     "postcss-loader": "^7.3.3",
-    "prettier": "^3.0.2",
+    "prettier": "^3.0.3",
     "qunit": "^2.19.4",
     "qunit-dom": "^2.0.0",
     "stylelint": "^15.10.3",
