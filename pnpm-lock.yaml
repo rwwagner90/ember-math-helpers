@@ -84,8 +84,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(@babel/core@7.22.11)
       ember-cli-clean-css:
-        specifier: ^2.0.0
-        version: 2.0.0
+        specifier: ^3.0.0
+        version: 3.0.0
       ember-cli-dependency-checker:
         specifier: ^3.3.2
         version: 3.3.2(ember-cli@5.2.1)
@@ -335,8 +335,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(@babel/core@7.22.11)
       ember-cli-clean-css:
-        specifier: ^2.0.0
-        version: 2.0.0
+        specifier: ^3.0.0
+        version: 3.0.0
       ember-cli-code-coverage:
         specifier: ^2.0.0
         version: 2.0.0
@@ -6157,13 +6157,11 @@ packages:
     resolution: {integrity: sha512-9q6ZvUAhbKOSRFY7A/irCQ/rF0KIpa3uXpx6izm8+fp7b2H4hLeUJ+F1YYk9+gDQ/X8Q0MEyYs+tG3cht//HTg==}
     dev: true
 
-  /clean-css@3.4.28:
-    resolution: {integrity: sha512-aTWyttSdI2mYi07kWqHi24NUU9YlELFKGOAgFzZjDN1064DMAOy2FBuoyGmkKRlXkbpXd0EVHmiVkbKhKoirTw==}
-    engines: {node: '>=0.10.0'}
-    hasBin: true
+  /clean-css@5.3.2:
+    resolution: {integrity: sha512-JVJbM+f3d3Q704rF4bqQ5UUyTtuJ0JRKNbTKVEeujCCBoMdkEi+V+e8oktO9qGQNSvHrFTM6JZRXrUvGR1czww==}
+    engines: {node: '>= 10.0'}
     dependencies:
-      commander: 2.8.1
-      source-map: 0.4.4
+      source-map: 0.6.1
     dev: true
 
   /clean-stack@2.2.0:
@@ -6371,13 +6369,6 @@ packages:
 
   /commander@2.20.3:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
-
-  /commander@2.8.1:
-    resolution: {integrity: sha512-+pJLBFVk+9ZZdlAOB5WuIElVPPth47hILFkmGym57aq8kwxsowvByvB0DHs1vQAhyMZzdcpTtF0VDKGkSDR4ZQ==}
-    engines: {node: '>= 0.6.x'}
-    dependencies:
-      graceful-readlink: 1.0.1
-    dev: true
 
   /commander@2.9.0:
     resolution: {integrity: sha512-bmkUukX8wAOjHdN26xj5c4ctEV22TQ7dQYhSmuckKhToXrkUn0iIaolHdIxYYqD55nhpSPA9zPQ1yP57GdXP2A==}
@@ -7626,12 +7617,12 @@ packages:
       - supports-color
     dev: true
 
-  /ember-cli-clean-css@2.0.0:
-    resolution: {integrity: sha512-je5QnB/Ms5641Oh8tv2CWKXGWeeiXxOGpqIuLq/XybERV6CdRGrQ7jNiAWBc4/P6vdoIqw5kjrC9nxVGwWWs9Q==}
+  /ember-cli-clean-css@3.0.0:
+    resolution: {integrity: sha512-BbveJCyRvzzkaTH1llLW+MpHe/yzA5zpHOpMIg2vp/3JD9mban9zUm7lphaB0TSpPuMuby9rAhTI8pgXq0ifIA==}
     engines: {node: 16.* || >= 18}
     dependencies:
       broccoli-persistent-filter: 3.1.3
-      clean-css: 3.4.28
+      clean-css: 5.3.2
       json-stable-stringify: 1.0.2
     transitivePeerDependencies:
       - supports-color
