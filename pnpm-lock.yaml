@@ -27,8 +27,8 @@ importers:
         specifier: 7.22.15
         version: 7.22.15
       '@babel/eslint-parser':
-        specifier: ^7.22.11
-        version: 7.22.11(@babel/core@7.22.15)(eslint@8.48.0)
+        specifier: ^7.22.15
+        version: 7.22.15(@babel/core@7.22.15)(eslint@8.48.0)
       '@babel/plugin-proposal-decorators':
         specifier: ^7.22.15
         version: 7.22.15(@babel/core@7.22.15)
@@ -278,8 +278,8 @@ importers:
         specifier: 7.22.15
         version: 7.22.15
       '@babel/eslint-parser':
-        specifier: ^7.22.11
-        version: 7.22.11(@babel/core@7.22.15)(eslint@8.48.0)
+        specifier: ^7.22.15
+        version: 7.22.15(@babel/core@7.22.15)(eslint@8.48.0)
       '@babel/helper-call-delegate':
         specifier: ^7.12.13
         version: 7.12.13
@@ -522,8 +522,8 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@babel/eslint-parser@7.22.11(@babel/core@7.22.15)(eslint@8.48.0):
-    resolution: {integrity: sha512-YjOYZ3j7TjV8OhLW6NCtyg8G04uStATEUe5eiLuCZaXz2VSDQ3dsAtm2D+TuQyAqNMUK2WacGo0/uma9Pein1w==}
+  /@babel/eslint-parser@7.22.15(@babel/core@7.22.15)(eslint@8.48.0):
+    resolution: {integrity: sha512-yc8OOBIQk1EcRrpizuARSQS0TWAcOMpEJ1aafhNznaeYkeL+OhqnDObGFylB8ka8VFF/sZc+S4RzHyO+3LjQxg==}
     engines: {node: ^10.13.0 || ^12.13.0 || >=14.0.0}
     peerDependencies:
       '@babel/core': ^7.11.0
