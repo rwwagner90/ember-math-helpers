@@ -81,7 +81,7 @@
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-qunit": "^8.0.0",
     "loader.js": "^4.7.0",
-    "pnpm-sync-dependencies-meta-injected": "^0.0.9",
+    "pnpm-sync-dependencies-meta-injected": "^0.0.10",
     "postcss": "^8.4.30",
     "postcss-loader": "^7.3.3",
     "prettier": "^3.0.3",
