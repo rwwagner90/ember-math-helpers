@@ -127,7 +127,7 @@ importers:
         version: 4.1.0(ember-source@5.3.0)
       ember-qunit:
         specifier: ^8.0.1
-        version: 8.0.1(@ember/test-helpers@3.2.0)(ember-source@5.3.0)(qunit@2.19.4)
+        version: 8.0.1(@ember/test-helpers@3.2.0)(ember-source@5.3.0)(qunit@2.20.0)
       ember-resolver:
         specifier: ^11.0.1
         version: 11.0.1(ember-source@5.3.0)
@@ -174,8 +174,8 @@ importers:
         specifier: ^3.0.3
         version: 3.0.3
       qunit:
-        specifier: ^2.19.4
-        version: 2.19.4
+        specifier: ^2.20.0
+        version: 2.20.0
       qunit-dom:
         specifier: ^2.0.0
         version: 2.0.0
@@ -366,7 +366,7 @@ importers:
         version: 8.0.0
       ember-qunit:
         specifier: ^8.0.1
-        version: 8.0.1(@ember/test-helpers@3.2.0)(ember-source@5.3.0)(qunit@2.19.4)
+        version: 8.0.1(@ember/test-helpers@3.2.0)(ember-source@5.3.0)(qunit@2.20.0)
       ember-resolver:
         specifier: ^11.0.1
         version: 11.0.1(ember-source@5.3.0)
@@ -410,8 +410,8 @@ importers:
         specifier: ^3.0.3
         version: 3.0.3
       qunit:
-        specifier: ^2.19.4
-        version: 2.19.4
+        specifier: ^2.20.0
+        version: 2.20.0
       qunit-dom:
         specifier: ^2.0.0
         version: 2.0.0
@@ -8300,7 +8300,7 @@ packages:
       - supports-color
     dev: true
 
-  /ember-qunit@8.0.1(@ember/test-helpers@3.2.0)(ember-source@5.3.0)(qunit@2.19.4):
+  /ember-qunit@8.0.1(@ember/test-helpers@3.2.0)(ember-source@5.3.0)(qunit@2.20.0):
     resolution: {integrity: sha512-13PtywHNPTQKkDW4o8QRkJvcdsZr8hRyvh6xh/YLAX8+HaRLd3nPL8mBF4O/Kur/DAj3QWLvjzktZ2uRNGSh3A==}
     peerDependencies:
       '@ember/test-helpers': '>=3.0.3'
@@ -8312,7 +8312,7 @@ packages:
       '@embroider/macros': 1.13.1
       ember-cli-test-loader: 3.1.0
       ember-source: 5.3.0(@babel/core@7.22.20)(@glimmer/component@1.1.2)(rsvp@4.8.5)(webpack@5.88.2)
-      qunit: 2.19.4
+      qunit: 2.20.0
     transitivePeerDependencies:
       - '@glint/template'
       - supports-color
@@ -14770,8 +14770,8 @@ packages:
       - supports-color
     dev: true
 
-  /qunit@2.19.4:
-    resolution: {integrity: sha512-aqUzzUeCqlleWYKlpgfdHHw9C6KxkB9H3wNfiBg5yHqQMzy0xw/pbCRHYFkjl8MsP/t8qkTQE+JTYL71azgiew==}
+  /qunit@2.20.0:
+    resolution: {integrity: sha512-N8Fp1J55waE+QG1KwX2LOyqulZUToRrrPBqDOfYfuAMkEglFL15uwvmH1P4Tq/omQ/mGbBI8PEB3PhIfvUb+jg==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
