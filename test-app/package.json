@@ -82,7 +82,7 @@
     "prettier": "^3.0.3",
     "qunit": "^2.20.0",
     "qunit-dom": "^2.0.0",
-    "release-it": "^16.1.5",
+    "release-it": "^16.2.0",
     "release-it-lerna-changelog": "^5.0.0",
     "stylelint": "^15.10.3",
     "stylelint-config-standard": "^34.0.0",
