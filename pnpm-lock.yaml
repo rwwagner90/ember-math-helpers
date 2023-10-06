@@ -229,8 +229,8 @@ importers:
         specifier: 3.2.2
         version: 3.2.2(@babel/core@7.23.0)(eslint-config-prettier@9.0.0)(eslint-plugin-ember@11.11.1)(eslint@8.50.0)(prettier@3.0.3)
       '@rollup/plugin-babel':
-        specifier: 6.0.3
-        version: 6.0.3(@babel/core@7.23.0)(rollup@4.0.0)
+        specifier: 6.0.4
+        version: 6.0.4(@babel/core@7.23.0)(rollup@4.0.0)
       concurrently:
         specifier: 8.2.1
         version: 8.2.1
@@ -673,6 +673,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/types': 7.23.0
+    dev: false
 
   /@babel/helper-module-transforms@7.23.0(@babel/core@7.23.0):
     resolution: {integrity: sha512-WhDWw1tdrlT0gMgUJSlX0IQvoO1eN279zrAUbVB+KpV2c3Tylz8+GnKOLllCS6Z/iZQEyVYxhZVUdPTqs2YYPw==}
@@ -3394,13 +3395,13 @@ packages:
       write-yaml-file: 5.0.0
     dev: true
 
-  /@rollup/plugin-babel@6.0.3(@babel/core@7.23.0)(rollup@4.0.0):
-    resolution: {integrity: sha512-fKImZKppa1A/gX73eg4JGo+8kQr/q1HBQaCGKECZ0v4YBBv3lFqi14+7xyApECzvkLTHCifx+7ntcrvtBIRcpg==}
+  /@rollup/plugin-babel@6.0.4(@babel/core@7.23.0)(rollup@4.0.0):
+    resolution: {integrity: sha512-YF7Y52kFdFT/xVSuVdjkV5ZdX/3YtmX0QulG+x0taQOtJdHYzVU61aSSkAgVJ7NOv6qPkIYiJSgSWWN/DM5sGw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       '@babel/core': ^7.0.0
       '@types/babel__core': ^7.1.9
-      rollup: ^1.20.0||^2.0.0||^3.0.0
+      rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
     peerDependenciesMeta:
       '@types/babel__core':
         optional: true
@@ -3408,7 +3409,7 @@ packages:
         optional: true
     dependencies:
       '@babel/core': 7.23.0
-      '@babel/helper-module-imports': 7.22.5
+      '@babel/helper-module-imports': 7.22.15
       '@rollup/pluginutils': 5.0.2(rollup@4.0.0)
       rollup: 4.0.0
     dev: true

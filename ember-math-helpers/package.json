@@ -45,7 +45,7 @@
     "@babel/plugin-syntax-decorators": "7.22.10",
     "@embroider/addon-dev": "^4.1.1",
     "@nullvoxpopuli/eslint-configs": "3.2.2",
-    "@rollup/plugin-babel": "6.0.3",
+    "@rollup/plugin-babel": "6.0.4",
     "concurrently": "8.2.1",
     "eslint": "^8.50.0",
     "eslint-config-prettier": "9.0.0",
