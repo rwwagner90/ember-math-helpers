@@ -45,8 +45,8 @@ importers:
         specifier: ^3.2.0
         version: 3.2.0(ember-source@5.3.0)(webpack@5.88.2)
       '@embroider/compat':
-        specifier: ^3.2.2
-        version: 3.2.2(@embroider/core@3.3.0)
+        specifier: ^3.2.3
+        version: 3.2.3(@embroider/core@3.3.0)
       '@embroider/core':
         specifier: ^3.3.0
         version: 3.3.0
@@ -296,14 +296,14 @@ importers:
         specifier: ^3.2.0
         version: 3.2.0(ember-source@5.3.0)(webpack@5.88.2)
       '@embroider/compat':
-        specifier: ^3.2.2
-        version: 3.2.2(@embroider/core@3.3.0)
+        specifier: ^3.2.3
+        version: 3.2.3(@embroider/core@3.3.0)
       '@embroider/core':
         specifier: ^3.3.0
         version: 3.3.0
       '@embroider/test-setup':
         specifier: ^3.0.2
-        version: 3.0.2(@embroider/compat@3.2.2)(@embroider/core@3.3.0)(@embroider/webpack@3.2.0)
+        version: 3.0.2(@embroider/compat@3.2.3)(@embroider/core@3.3.0)(@embroider/webpack@3.2.0)
       '@embroider/webpack':
         specifier: ^3.2.0
         version: 3.2.0(@embroider/core@3.3.0)(webpack@5.88.2)
@@ -1967,8 +1967,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@embroider/compat@3.2.2(@embroider/core@3.3.0):
-    resolution: {integrity: sha512-212w3FtbOYiIxle2J7Fk0Qtpdr60FobIe2ava6WNSLY7iOgKGPGq3v/H+8A4ATAPjl1MGuEn74gzPmJiO+VWpA==}
+  /@embroider/compat@3.2.3(@embroider/core@3.3.0):
+    resolution: {integrity: sha512-sszGNEqi3EiAY6uJesfiCgXwuZwGzdHXmjpiQIoSqJn/kVIRlHi220fGIIX6rJBWW2SAUO6pvTBE8VO89InDWw==}
     engines: {node: 12.* || 14.* || >= 16}
     hasBin: true
     peerDependencies:
@@ -2231,7 +2231,7 @@ packages:
       - supports-color
     dev: true
 
-  /@embroider/test-setup@3.0.2(@embroider/compat@3.2.2)(@embroider/core@3.3.0)(@embroider/webpack@3.2.0):
+  /@embroider/test-setup@3.0.2(@embroider/compat@3.2.3)(@embroider/core@3.3.0)(@embroider/webpack@3.2.0):
     resolution: {integrity: sha512-cq/xp06CAB8rAGnObeJux7qALnAX2MatMVLjWyGDr3ogS5lHTNXZVCv4ltTM3pJ8EsZWpPM32dtUZqSJFkGibQ==}
     engines: {node: 12.* || 14.* || >= 16}
     peerDependencies:
@@ -2246,7 +2246,7 @@ packages:
       '@embroider/webpack':
         optional: true
     dependencies:
-      '@embroider/compat': 3.2.2(@embroider/core@3.3.0)
+      '@embroider/compat': 3.2.3(@embroider/core@3.3.0)
       '@embroider/core': 3.3.0
       '@embroider/webpack': 3.2.0(@embroider/core@3.3.0)(webpack@5.88.2)
       lodash: 4.17.21
