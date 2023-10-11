@@ -150,8 +150,8 @@ importers:
         specifier: ^11.11.1
         version: 11.11.1(eslint@8.51.0)
       eslint-plugin-n:
-        specifier: ^16.1.0
-        version: 16.1.0(eslint@8.51.0)
+        specifier: ^16.2.0
+        version: 16.2.0(eslint@8.51.0)
       eslint-plugin-prettier:
         specifier: ^5.0.0
         version: 5.0.0(eslint-config-prettier@9.0.0)(eslint@8.51.0)(prettier@3.0.3)
@@ -392,8 +392,8 @@ importers:
         specifier: ^11.11.1
         version: 11.11.1(eslint@8.51.0)
       eslint-plugin-n:
-        specifier: ^16.1.0
-        version: 16.1.0(eslint@8.51.0)
+        specifier: ^16.2.0
+        version: 16.2.0(eslint@8.51.0)
       eslint-plugin-prettier:
         specifier: ^5.0.0
         version: 5.0.0(eslint-config-prettier@9.0.0)(eslint@8.51.0)(prettier@3.0.3)
@@ -2823,7 +2823,7 @@ packages:
       eslint-plugin-ember: 11.11.1(eslint@8.51.0)
       eslint-plugin-import: 2.28.1(eslint-import-resolver-typescript@3.6.0)(eslint@8.51.0)
       eslint-plugin-json: 3.1.0
-      eslint-plugin-n: 16.1.0(eslint@8.51.0)
+      eslint-plugin-n: 16.2.0(eslint@8.51.0)
       eslint-plugin-prettier: 4.2.1(eslint-config-prettier@9.0.0)(eslint@8.51.0)(prettier@3.0.3)
       eslint-plugin-simple-import-sort: 10.0.0(eslint@8.51.0)
       prettier: 3.0.3
@@ -9157,8 +9157,8 @@ packages:
       vscode-json-languageservice: 4.2.1
     dev: true
 
-  /eslint-plugin-n@16.1.0(eslint@8.51.0):
-    resolution: {integrity: sha512-3wv/TooBst0N4ND+pnvffHuz9gNPmk/NkLwAxOt2JykTl/hcuECe6yhTtLJcZjIxtZwN+GX92ACp/QTLpHA3Hg==}
+  /eslint-plugin-n@16.2.0(eslint@8.51.0):
+    resolution: {integrity: sha512-AQER2jEyQOt1LG6JkGJCCIFotzmlcCZFur2wdKrp1JX2cNotC7Ae0BcD/4lLv3lUAArM9uNS8z/fsvXTd0L71g==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       eslint: '>=7.0.0'
