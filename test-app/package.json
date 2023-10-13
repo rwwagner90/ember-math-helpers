@@ -81,7 +81,7 @@
     "pnpm-sync-dependencies-meta-injected": "^0.0.10",
     "prettier": "^3.0.3",
     "qunit": "^2.20.0",
-    "qunit-dom": "^2.0.0",
+    "qunit-dom": "^3.0.0",
     "release-it": "^16.2.1",
     "release-it-lerna-changelog": "^5.0.0",
     "stylelint": "^15.10.3",
