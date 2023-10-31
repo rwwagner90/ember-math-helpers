@@ -1,4 +1,4 @@
-import Helper from '@ember/component/helper';
+import { HelperLike } from '@glint/template';
 
 type Positional = [number1: number, number2: number];
 type Return = number;
@@ -8,4 +8,4 @@ export interface LcmSignature {
   Return: Return;
 }
 
-export default class LcmHelper extends Helper<LcmSignature> {}
+export type LcmHelper = HelperLike<LcmSignature>;

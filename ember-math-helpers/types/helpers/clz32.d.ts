@@ -1,4 +1,4 @@
-import Helper from '@ember/component/helper';
+import { HelperLike } from '@glint/template';
 
 type Positional = [number];
 type Return = number;
@@ -8,4 +8,4 @@ export interface Clz32Signature {
   Return: Return;
 }
 
-export default class Clz32Helper extends Helper<Clz32Signature> {}
+export type Clz32Helper = HelperLike<Clz32Signature>;

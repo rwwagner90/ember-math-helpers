@@ -1,4 +1,4 @@
-import Helper from '@ember/component/helper';
+import { HelperLike } from '@glint/template';
 
 type Positional = [number];
 type Return = number;
@@ -8,4 +8,4 @@ export interface CeilSignature {
   Return: Return;
 }
 
-export default class CeilHelper extends Helper<CeilSignature> {}
+export type CeilHelper = HelperLike<CeilSignature>;

@@ -1,4 +1,4 @@
-import Helper from '@ember/component/helper';
+import { HelperLike } from '@glint/template';
 
 type Positional = [number];
 type Return = number;
@@ -8,4 +8,4 @@ export interface TanSignature {
   Return: Return;
 }
 
-export default class TanHelper extends Helper<TanSignature> {}
+export type TanHelper = HelperLike<TanSignature>;

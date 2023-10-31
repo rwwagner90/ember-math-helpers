@@ -1,4 +1,4 @@
-import Helper from '@ember/component/helper';
+import { HelperLike } from '@glint/template';
 
 type Positional = [number];
 type Return = number;
@@ -8,5 +8,4 @@ export interface AcoshSignature {
   Return: Return;
 }
 
-export default class AcoshHelper extends Helper<AcoshSignature> {}
-
+export type AcoshHelper = HelperLike<AcoshSignature>;

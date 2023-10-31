@@ -1,11 +1,11 @@
-import Helper from '@ember/component/helper';
+import { HelperLike } from '@glint/template';
 
 type Positional = [number];
 type Return = number;
 
-export interface Log10PSignature {
+export interface Log10Signature {
   Positional: Positional;
   Return: Return;
 }
 
-export default class Log10PHelper extends Helper<Log10PSignature> {}
+export type Log10Helper = HelperLike<Log10Signature>;

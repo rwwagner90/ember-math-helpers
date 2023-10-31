@@ -1,4 +1,4 @@
-import Helper from '@ember/component/helper';
+import { HelperLike } from '@glint/template';
 
 type Positional = [number];
 type Return = number;
@@ -8,4 +8,4 @@ export interface CosSignature {
   Return: Return;
 }
 
-export default class CosHelper extends Helper<CosSignature> {}
+export type CosHelper = HelperLike<CosSignature>;

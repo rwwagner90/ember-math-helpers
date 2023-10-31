@@ -1,4 +1,4 @@
-import Helper from '@ember/component/helper';
+import { HelperLike } from '@glint/template';
 
 type Positional = [number];
 type Return = number;
@@ -8,4 +8,4 @@ export interface Expm1Signature {
   Return: Return;
 }
 
-export default class Expm1Helper extends Helper<Expm1Signature> {}
+export type Expm1Helper = HelperLike<Expm1Signature>;

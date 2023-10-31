@@ -1,12 +1,13 @@
-import Helper from '@ember/component/helper';
+import { HelperLike } from '@glint/template';
 
 type Positional = Array<number>;
 type Return = number;
 
 export interface SubSignature {
-  Positional: Positional;
-  Return: Return;
+  Args: {
+    Positional: number[];
+  }
+  Return: number;
 }
 
-export default class SubHelper extends Helper<SubSignature> {}
-
+export type SubHelper = HelperLike<SubSignature>;

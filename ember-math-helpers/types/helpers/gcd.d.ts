@@ -1,4 +1,4 @@
-import Helper from '@ember/component/helper';
+import { HelperLike } from '@glint/template';
 
 type Positional = [number1: number, number2: number];
 type Return = number;
@@ -8,4 +8,4 @@ export interface GcdSignature {
   Return: Return;
 }
 
-export default class GcdHelper extends Helper<GcdSignature> {}
+export type GcdHelper = HelperLike<GcdSignature>;

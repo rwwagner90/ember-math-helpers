@@ -55,9 +55,9 @@
     "@babel/plugin-proposal-decorators": "7.23.2",
     "@babel/plugin-syntax-decorators": "7.22.10",
     "@embroider/addon-dev": "^4.1.1",
+    "@glint/template": "^1.2.1",
     "@nullvoxpopuli/eslint-configs": "3.2.2",
     "@rollup/plugin-babel": "6.0.4",
-    "@types/ember__component": "4.0.19",
     "concurrently": "8.2.2",
     "eslint": "^8.52.0",
     "eslint-config-prettier": "9.0.0",
@@ -72,6 +72,7 @@
     "rollup": "^4.2.0"
   },
   "peerDependencies": {
+    "@glint/template": "^1.2.1",
     "ember-source": "^4.0.0 || ^5.0.0"
   },
   "publishConfig": {

@@ -1,4 +1,4 @@
-import Helper from '@ember/component/helper';
+import { HelperLike } from '@glint/template';
 
 type Positional = [number];
 interface Named {
@@ -13,4 +13,4 @@ export interface RoundSignature {
   Return: Return;
 }
 
-export default class RoundHelper extends Helper<RoundSignature> {}
+export type RoundHelper = HelperLike<RoundSignature>;
