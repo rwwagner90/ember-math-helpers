@@ -1,0 +1,11 @@
+import Helper from '@ember/component/helper';
+
+type Positional = [number1: number, number2: number];
+type Return = number;
+
+export interface GcdSignature {
+  Positional: Positional;
+  Return: Return;
+}
+
+export default class GcdHelper extends Helper<GcdSignature> {}

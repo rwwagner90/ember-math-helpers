@@ -13,10 +13,21 @@
     "url": "https://github.com/RobbieTheWagner"
   },
   "exports": {
-    "./*": "./dist/*"
+    "./*": {
+      "types": "./types/*.d.ts",
+      "default": "./dist/*.js"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "types/*"
+      ]
+    }
   },
   "files": [
     "dist",
+    "types",
     "addon-main.cjs",
     "CHANGELOG.md",
     "README.md"
@@ -46,6 +57,7 @@
     "@embroider/addon-dev": "^4.1.1",
     "@nullvoxpopuli/eslint-configs": "3.2.2",
     "@rollup/plugin-babel": "6.0.4",
+    "@types/ember__component": "4.0.19",
     "concurrently": "8.2.2",
     "eslint": "^8.52.0",
     "eslint-config-prettier": "9.0.0",
