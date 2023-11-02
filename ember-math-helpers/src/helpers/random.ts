@@ -33,7 +33,7 @@ const MAX_DECIMALS = 20;
  * @return The random generated number
  */
 export function random(
-  [upperBound, lowerBound]: RandomSignature['Args']['Positional'],
+  [upperBound, lowerBound]: RandomSignature['Args']['Positional'] = [],
   { decimals }: RandomSignature['Args']['Named'] = { decimals: 0 },
 ) {
   // no positional args, but only an options hash from named args
