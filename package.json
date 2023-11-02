@@ -16,10 +16,10 @@
     "start:test-app": "pnpm -F test-app start",
     "lint": "pnpm --filter '*' lint",
     "lint:fix": "pnpm --filter '*' lint:fix",
-    "test": "pnpm -F test-app test:ember",
-    "test:watch": "npm-run-all --aggregate-output --continue-on-error --parallel test:watch:*",
+    "test": "pnpm prepare && pnpm -F test-app test:ember",
     "test:test-app": "pnpm -F test-app test",
-    "test:watch:test-app": "pnpm -F test-app test:watch",
+    "test:watch": "npm-run-all --aggregate-output --continue-on-error --parallel test:watch:*",
+    "test:watch:test-app": "pnpm -F test-app test --server",
     "test:watch:addon": "pnpm -F ember-math-helpers start"
   },
   "devDependencies": {
