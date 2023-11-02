@@ -1,6 +1,6 @@
 {
   "name": "docs",
-  "version": "0.0.0",
+  "version": "4.0.0",
   "private": true,
   "description": "The documentation site for ember-math-helpers",
   "homepage": "https://robbiethewagner.github.io/ember-math-helpers",
@@ -27,7 +27,7 @@
     "_syncPnpm": "DEBUG=sync-pnpm pnpm sync-dependencies-meta-injected"
   },
   "dependencies": {
-    "ember-math-helpers": "workspace:*"
+    "ember-math-helpers": "4.0.0"
   },
   "dependenciesMeta": {
     "ember-math-helpers": {

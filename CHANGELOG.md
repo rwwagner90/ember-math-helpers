@@ -2,6 +2,27 @@
 
 
 
+
+## v4.0.0 (2023-11-02)
+
+#### :boom: Breaking Change
+* [#965](https://github.com/RobbieTheWagner/ember-math-helpers/pull/965) Support Ember 5, drop Ember 3.x support ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+
+#### :rocket: Enhancement
+* [#1163](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1163) Add full TS/glint support ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+* [#1162](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1162) Type declarations and template registry for Glint ([@BoussonKarel](https://github.com/BoussonKarel))
+
+#### :memo: Documentation
+* [#951](https://github.com/RobbieTheWagner/ember-math-helpers/pull/951) Fix broken URLs ([@ursm](https://github.com/ursm))
+
+#### :house: Internal
+* [#1100](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1100) Fix build ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+
+#### Committers: 3
+- Keita Urashima ([@ursm](https://github.com/ursm))
+- Robbie Wagner ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+- [@BoussonKarel](https://github.com/BoussonKarel)
+
 ## v3.0.0 (2022-10-25)
 
 #### :boom: Breaking Change
