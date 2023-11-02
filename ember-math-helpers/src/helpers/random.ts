@@ -34,7 +34,7 @@ const MAX_DECIMALS = 20;
  */
 export function random(
   [upperBound, lowerBound]: RandomSignature['Args']['Positional'],
-  { decimals }: RandomSignature['Args']['Named'],
+  { decimals }: RandomSignature['Args']['Named'] = { decimals: 0 },
 ) {
   // no positional args, but only an options hash from named args
   if (typeof upperBound === 'undefined' && typeof lowerBound === 'undefined') {
