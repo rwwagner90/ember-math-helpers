@@ -1,0 +1,1 @@
+{"version":3,"file":"imul.d.ts","sourceRoot":"","sources":["../../src/helpers/imul.ts"],"names":[],"mappings":"AAEA,MAAM,WAAW,aAAa;IAC5B,IAAI,EAAE;QACJ,UAAU,EAAE,CAAC,MAAM,EAAE,MAAM,CAAC,CAAC;KAC9B,CAAC;IACF,MAAM,EAAE,MAAM,CAAC;CAChB;AAED;;;;;;;;;;GAUG;AACH,wBAAgB,IAAI,CAAC,CAAC,OAAO,EAAE,OAAO,CAAC,EAAE,CAAC,MAAM,EAAE,MAAM,CAAC,UAExD;;;;;;;;AAED,wBAA2C"}

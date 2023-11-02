@@ -1,0 +1,1 @@
+{"version":3,"file":"lcm.d.ts","sourceRoot":"","sources":["../../src/helpers/lcm.ts"],"names":[],"mappings":"AAIA,MAAM,WAAW,YAAY;IAC3B,IAAI,EAAE;QACJ,UAAU,EAAE,CAAC,MAAM,EAAE,MAAM,CAAC,CAAC;KAC9B,CAAC;IACF,MAAM,EAAE,MAAM,CAAC;CAChB;AAED;;;;;;;;;;GAUG;AACH,wBAAgB,GAAG,CAAC,CAAC,OAAW,EAAE,OAAW,CAAC,gDAAA,UAI7C;;;;;;;;AAED,wBAAyC"}

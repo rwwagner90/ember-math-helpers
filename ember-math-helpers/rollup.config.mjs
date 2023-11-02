@@ -14,7 +14,7 @@ export default {
   plugins: [
     // These are the modules that users should be able to import from your
     // addon. Anything not listed here may get optimized away.
-    addon.publicEntrypoints(['helpers/**/*.js']),
+    addon.publicEntrypoints(['helpers/**/*.js', 'template-registry.js']),
 
     // These are the modules that should get reexported into the traditional
     // "app" tree. Things in here should also be in publicEntrypoints above, but
@@ -24,20 +24,25 @@ export default {
     // This babel config should *not* apply presets or compile away ES modules.
     // It exists only to provide development niceties for you, like automatic
     // template colocation.
-    //
-    // By default, this will load the actual babel config from the file
-    // babel.config.json.
-    babel({
-      babelHelpers: 'bundled',
-    }),
 
     // Follow the V2 Addon rules about dependencies. Your code can import from
     // `dependencies` and `peerDependencies` as well as standard Ember-provided
     // package names.
     addon.dependencies(),
 
+    //
+    // By default, this will load the actual babel config from the file
+    // babel.config.json.
+    babel({
+      extensions: ['.js', '.gjs', '.ts', '.gts'],
+      babelHelpers: 'bundled',
+    }),
+
     // Ensure that standalone .hbs files are properly integrated as Javascript.
     addon.hbs(),
+
+    // Ensure that .gjs files are properly integrated as Javascript
+    addon.gjs(),
 
     // addons are allowed to contain imports of .css files, which we want rollup
     // to leave alone and keep in the published output.

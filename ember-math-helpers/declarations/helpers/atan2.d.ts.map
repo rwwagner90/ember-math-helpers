@@ -1,0 +1,1 @@
+{"version":3,"file":"atan2.d.ts","sourceRoot":"","sources":["../../src/helpers/atan2.ts"],"names":[],"mappings":"AAEA,MAAM,WAAW,cAAc;IAC7B,IAAI,EAAE;QACJ,UAAU,EAAE,CAAC,MAAM,EAAE,MAAM,CAAC,CAAC;KAC9B,CAAC;IACF,MAAM,EAAE,MAAM,CAAC;CAChB;AAED;;;;;;;;;;GAUG;AACH,wBAAgB,KAAK,CAAC,CAAC,OAAO,EAAE,OAAO,CAAC,EAAE,CAAC,MAAM,EAAE,MAAM,CAAC,UAEzD;;;;;;;;AAED,wBAA6C"}

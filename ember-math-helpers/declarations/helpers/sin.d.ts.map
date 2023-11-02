@@ -1,0 +1,1 @@
+{"version":3,"file":"sin.d.ts","sourceRoot":"","sources":["../../src/helpers/sin.ts"],"names":[],"mappings":"AAEA,MAAM,WAAW,YAAY;IAC3B,IAAI,EAAE;QACJ,UAAU,EAAE,CAAC,MAAM,CAAC,CAAC;KACtB,CAAC;IACF,MAAM,EAAE,MAAM,CAAC;CAChB;AAED;;;;;;;;;GASG;AACH,wBAAgB,GAAG,CAAC,CAAC,MAAM,CAAC,EAAE,CAAC,MAAM,CAAC,UAErC;;;;;;;;AAED,wBAAyC"}
