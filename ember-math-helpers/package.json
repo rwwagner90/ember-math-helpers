@@ -44,7 +44,6 @@
     "@glint/environment-ember-loose": "^1.2.0",
     "@glint/environment-ember-template-imports": "^1.2.0",
     "@glint/template": "^1.2.0",
-    "@nullvoxpopuli/eslint-configs": "3.2.2",
     "@rollup/plugin-babel": "6.0.4",
     "@tsconfig/ember": "^2.0.0",
     "@types/ember": "^4.0.4",

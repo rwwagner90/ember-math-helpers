@@ -42,7 +42,9 @@ function decimalAdjust(value: number, exp: number): number {
 
   // Shift
   let splitValue = value.toString().split('e');
-  value = Math.round(+`${splitValue[0]}e${splitValue[1] ? +splitValue[1] - exp : -exp}`);
+  value = Math.round(
+    +`${splitValue[0]}e${splitValue[1] ? +splitValue[1] - exp : -exp}`,
+  );
   // Shift back
   splitValue = value.toString().split('e');
 

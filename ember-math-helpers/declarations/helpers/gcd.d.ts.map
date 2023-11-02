@@ -1,1 +1,0 @@
-{"version":3,"file":"gcd.d.ts","sourceRoot":"","sources":["../../src/helpers/gcd.ts"],"names":[],"mappings":"AAEA,MAAM,WAAW,YAAY;IAC3B,IAAI,EAAE;QACJ,UAAU,EAAE,CAAC,MAAM,EAAE,MAAM,CAAC,CAAC;KAC9B,CAAC;IACF,MAAM,EAAE,MAAM,CAAC;CAChB;AAED;;;;;;;;;;GAUG;AACH,wBAAgB,GAAG,CAAC,CAAC,OAAW,EAAE,OAAW,CAAC,gDAAA,UAa7C;;;;;;;;AAED,wBAAyC"}

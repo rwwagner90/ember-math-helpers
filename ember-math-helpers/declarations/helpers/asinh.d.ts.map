@@ -1,1 +1,0 @@
-{"version":3,"file":"asinh.d.ts","sourceRoot":"","sources":["../../src/helpers/asinh.ts"],"names":[],"mappings":"AAEA,MAAM,WAAW,cAAc;IAC7B,IAAI,EAAE;QACJ,UAAU,EAAE,CAAC,MAAM,CAAC,CAAC;KACtB,CAAC;IACF,MAAM,EAAE,MAAM,CAAC;CAChB;AAED;;;;;;;;;GASG;AACH,wBAAgB,KAAK,CAAC,CAAC,MAAM,CAAC,EAAE,CAAC,MAAM,CAAC,UAEvC;;;;;;;;AAED,wBAA6C"}
