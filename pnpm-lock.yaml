@@ -277,8 +277,8 @@ importers:
         specifier: ^4.0.4
         version: 4.0.4(@babel/core@7.23.2)
       '@types/ember__engine':
-        specifier: ^4.0.5
-        version: 4.0.5(@babel/core@7.23.2)
+        specifier: ^4.0.8
+        version: 4.0.8(@babel/core@7.23.2)
       '@types/ember__error':
         specifier: ^4.0.3
         version: 4.0.3
@@ -3917,7 +3917,7 @@ packages:
       '@types/ember__component': 4.0.14(@babel/core@7.23.2)
       '@types/ember__controller': 4.0.5(@babel/core@7.23.2)
       '@types/ember__debug': 4.0.4(@babel/core@7.23.2)
-      '@types/ember__engine': 4.0.5(@babel/core@7.23.2)
+      '@types/ember__engine': 4.0.8(@babel/core@7.23.2)
       '@types/ember__error': 4.0.3
       '@types/ember__object': 4.0.6(@babel/core@7.23.2)
       '@types/ember__polyfills': 4.0.4
@@ -3940,7 +3940,7 @@ packages:
     dependencies:
       '@glimmer/component': 1.1.2(@babel/core@7.23.2)
       '@types/ember': 4.0.4(@babel/core@7.23.2)
-      '@types/ember__engine': 4.0.5(@babel/core@7.23.2)
+      '@types/ember__engine': 4.0.8(@babel/core@7.23.2)
       '@types/ember__object': 4.0.6(@babel/core@7.23.2)
       '@types/ember__owner': 4.0.7
       '@types/ember__routing': 4.0.13(@babel/core@7.23.2)
@@ -3988,8 +3988,8 @@ packages:
       - supports-color
     dev: true
 
-  /@types/ember__engine@4.0.5(@babel/core@7.23.2):
-    resolution: {integrity: sha512-yx4d2xhCzu5ZwDib++0plLIMv8G6/l9TUAWWmQMsz0L/ETK9jIH0H7uEzyWZSTR2ETcP230oAkPzTk2J3IQAmg==}
+  /@types/ember__engine@4.0.8(@babel/core@7.23.2):
+    resolution: {integrity: sha512-2+yzVXvFh3RoPKzEY76X9nv3yi8Kp6aaMPrQEoE+BrXRW1H8OfcKbORVV1RsFDWeT8ZTtTFPUcKA8HkbmIeacw==}
     dependencies:
       '@types/ember__object': 4.0.6(@babel/core@7.23.2)
       '@types/ember__owner': 4.0.7
