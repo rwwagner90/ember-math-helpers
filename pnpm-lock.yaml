@@ -292,8 +292,8 @@ importers:
         specifier: ^4.0.6
         version: 4.0.6(@babel/core@7.23.2)
       '@types/ember__owner':
-        specifier: ^4.0.4
-        version: 4.0.4
+        specifier: ^4.0.7
+        version: 4.0.7
       '@types/ember__polyfills':
         specifier: ^4.0.4
         version: 4.0.4
@@ -3942,7 +3942,7 @@ packages:
       '@types/ember': 4.0.4(@babel/core@7.23.2)
       '@types/ember__engine': 4.0.5(@babel/core@7.23.2)
       '@types/ember__object': 4.0.6(@babel/core@7.23.2)
-      '@types/ember__owner': 4.0.4
+      '@types/ember__owner': 4.0.7
       '@types/ember__routing': 4.0.13(@babel/core@7.23.2)
     transitivePeerDependencies:
       - '@babel/core'
@@ -3982,7 +3982,7 @@ packages:
     resolution: {integrity: sha512-VlK75Br460+7c7Lvcjr4NyYD6KWLi2FMHWID52svEdbv1dj2+BrXE43PW1xjbycErWoalj/vGsBKGjxt+W1+ZA==}
     dependencies:
       '@types/ember__object': 4.0.6(@babel/core@7.23.2)
-      '@types/ember__owner': 4.0.4
+      '@types/ember__owner': 4.0.7
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
@@ -3992,7 +3992,7 @@ packages:
     resolution: {integrity: sha512-yx4d2xhCzu5ZwDib++0plLIMv8G6/l9TUAWWmQMsz0L/ETK9jIH0H7uEzyWZSTR2ETcP230oAkPzTk2J3IQAmg==}
     dependencies:
       '@types/ember__object': 4.0.6(@babel/core@7.23.2)
-      '@types/ember__owner': 4.0.4
+      '@types/ember__owner': 4.0.7
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
@@ -4015,7 +4015,7 @@ packages:
     resolution: {integrity: sha512-vo2s5NvWal6rPFX8h7hHkUQDBaGIKTepPknLla7NAfcdHeygAOxAmL2qfnvW6BxjnrxFT7Aycf3bpqh3Bb0M4g==}
     dependencies:
       '@types/ember': 4.0.4(@babel/core@7.23.2)
-      '@types/ember__owner': 4.0.4
+      '@types/ember__owner': 4.0.7
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
@@ -4031,8 +4031,8 @@ packages:
       - supports-color
     dev: true
 
-  /@types/ember__owner@4.0.4:
-    resolution: {integrity: sha512-FD0XuAlIfeVEwpKcAeGczQxa6D0huKxvPHuPE+FIm+zWZmqnI6yhxDhZgeGjnhmCCLAHRp8+1HRoKOFwnmaW3Q==}
+  /@types/ember__owner@4.0.7:
+    resolution: {integrity: sha512-mYG0OL1let/StvnfXCyPdfaigsSOVyOIzrXsk7iRzlRjEjsBawEGrkckLiej50cI25k9yp/kLl3ZIT1FqMLBpg==}
     dev: true
 
   /@types/ember__polyfills@4.0.4:
