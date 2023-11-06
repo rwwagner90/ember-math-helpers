@@ -247,8 +247,8 @@ importers:
         specifier: ^1.2.0
         version: 1.2.1(@glimmer/component@1.1.2)(@glint/template@1.2.1)(@types/ember__array@4.0.4)(@types/ember__component@4.0.19)(@types/ember__controller@4.0.9)(@types/ember__object@4.0.9)(@types/ember__routing@4.0.17)
       '@glint/environment-ember-template-imports':
-        specifier: ^1.2.0
-        version: 1.2.0(@glint/environment-ember-loose@1.2.1)(@glint/template@1.2.1)(@types/ember__component@4.0.19)(@types/ember__helper@4.0.4)(@types/ember__modifier@4.0.7)(@types/ember__routing@4.0.17)(ember-template-imports@3.4.2)
+        specifier: ^1.2.1
+        version: 1.2.1(@glint/environment-ember-loose@1.2.1)(@glint/template@1.2.1)(@types/ember__component@4.0.19)(@types/ember__helper@4.0.4)(@types/ember__modifier@4.0.7)(@types/ember__routing@4.0.17)(ember-template-imports@3.4.2)
       '@glint/template':
         specifier: ^1.2.0
         version: 1.2.1
@@ -2901,11 +2901,11 @@ packages:
       '@types/ember__routing': 4.0.17(@babel/core@7.23.2)
     dev: true
 
-  /@glint/environment-ember-template-imports@1.2.0(@glint/environment-ember-loose@1.2.1)(@glint/template@1.2.1)(@types/ember__component@4.0.19)(@types/ember__helper@4.0.4)(@types/ember__modifier@4.0.7)(@types/ember__routing@4.0.17)(ember-template-imports@3.4.2):
-    resolution: {integrity: sha512-IP+tA23Nym+ij0behNbCBVmITNJe65pBDAuKf4b3eaK+dEgOFwWFB5M+dJLUxCHUxNJGMac6lRnWSxY3S4zgMw==}
+  /@glint/environment-ember-template-imports@1.2.1(@glint/environment-ember-loose@1.2.1)(@glint/template@1.2.1)(@types/ember__component@4.0.19)(@types/ember__helper@4.0.4)(@types/ember__modifier@4.0.7)(@types/ember__routing@4.0.17)(ember-template-imports@3.4.2):
+    resolution: {integrity: sha512-yTuF8oQyvVKmU3fCuYtg8Gf02VghQYI36x5/eob6yaMx2M+p3MFO+E6X7ANz/1bYRXphEPTWQMgdDjM4C6Ql4A==}
     peerDependencies:
-      '@glint/environment-ember-loose': ^1.2.0
-      '@glint/template': ^1.2.0
+      '@glint/environment-ember-loose': ^1.2.1
+      '@glint/template': ^1.2.1
       '@types/ember__component': ^4.0.10
       '@types/ember__helper': ^4.0.1
       '@types/ember__modifier': ^4.0.3
