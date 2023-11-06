@@ -313,8 +313,8 @@ importers:
         specifier: ^4.0.4
         version: 4.0.4
       '@types/ember__test':
-        specifier: ^4.0.2
-        version: 4.0.2(@babel/core@7.23.2)
+        specifier: ^4.0.4
+        version: 4.0.4(@babel/core@7.23.2)
       '@types/ember__utils':
         specifier: ^4.0.5
         version: 4.0.5(@babel/core@7.23.2)
@@ -3933,7 +3933,7 @@ packages:
       '@types/ember__service': 4.0.6(@babel/core@7.23.2)
       '@types/ember__string': 3.16.3
       '@types/ember__template': 4.0.4
-      '@types/ember__test': 4.0.2(@babel/core@7.23.2)
+      '@types/ember__test': 4.0.4(@babel/core@7.23.2)
       '@types/ember__utils': 4.0.5(@babel/core@7.23.2)
       '@types/rsvp': 4.0.6
     transitivePeerDependencies:
@@ -4085,8 +4085,8 @@ packages:
     resolution: {integrity: sha512-RJHlTKWjIMZVwqyvhdgkwbGvTq6OlmzVMO+E9ONRLb+qTlX9KE9zqzZPRJgw8znttV+xWjUmEb7Giz21O1uVOg==}
     dev: true
 
-  /@types/ember__test@4.0.2(@babel/core@7.23.2):
-    resolution: {integrity: sha512-hoep5m7XmafmjIOHj+PN3T6RyCuVk6Wmjo7IVSM1aCxyIiSbJN8h1vs/Ma8I6kFoMmZYmdLsMxNoxMf7jEon4w==}
+  /@types/ember__test@4.0.4(@babel/core@7.23.2):
+    resolution: {integrity: sha512-ur4/HjOSt7zMBFHZR9zsjtXKbdbEfvQXiQr2DknUCVxYS3PHwLU3mazjyd9QcupINxW/gtaNGAjdEhuV1V71iQ==}
     dependencies:
       '@types/ember__application': 4.0.9(@babel/core@7.23.2)
     transitivePeerDependencies:
