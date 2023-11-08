@@ -245,10 +245,10 @@ importers:
         version: 1.2.1(typescript@5.2.2)
       '@glint/environment-ember-loose':
         specifier: ^1.2.0
-        version: 1.2.1(@glimmer/component@1.1.2)(@glint/template@1.2.1)(@types/ember__array@4.0.8)(@types/ember__component@4.0.20)(@types/ember__controller@4.0.10)(@types/ember__object@4.0.10)(@types/ember__routing@4.0.17)
+        version: 1.2.1(@glimmer/component@1.1.2)(@glint/template@1.2.1)(@types/ember__array@4.0.8)(@types/ember__component@4.0.20)(@types/ember__controller@4.0.10)(@types/ember__object@4.0.10)(@types/ember__routing@4.0.18)
       '@glint/environment-ember-template-imports':
         specifier: ^1.2.1
-        version: 1.2.1(@glint/environment-ember-loose@1.2.1)(@glint/template@1.2.1)(@types/ember__component@4.0.20)(@types/ember__helper@4.0.5)(@types/ember__modifier@4.0.8)(@types/ember__routing@4.0.17)(ember-template-imports@3.4.2)
+        version: 1.2.1(@glint/environment-ember-loose@1.2.1)(@glint/template@1.2.1)(@types/ember__component@4.0.20)(@types/ember__helper@4.0.5)(@types/ember__modifier@4.0.8)(@types/ember__routing@4.0.18)(ember-template-imports@3.4.2)
       '@glint/template':
         specifier: ^1.2.0
         version: 1.2.1
@@ -298,8 +298,8 @@ importers:
         specifier: ^4.0.5
         version: 4.0.5
       '@types/ember__routing':
-        specifier: ^4.0.17
-        version: 4.0.17(@babel/core@7.23.2)
+        specifier: ^4.0.18
+        version: 4.0.18(@babel/core@7.23.2)
       '@types/ember__runloop':
         specifier: ^4.0.8
         version: 4.0.8(@babel/core@7.23.2)
@@ -2864,7 +2864,7 @@ packages:
       - supports-color
     dev: true
 
-  /@glint/environment-ember-loose@1.2.1(@glimmer/component@1.1.2)(@glint/template@1.2.1)(@types/ember__array@4.0.8)(@types/ember__component@4.0.20)(@types/ember__controller@4.0.10)(@types/ember__object@4.0.10)(@types/ember__routing@4.0.17):
+  /@glint/environment-ember-loose@1.2.1(@glimmer/component@1.1.2)(@glint/template@1.2.1)(@types/ember__array@4.0.8)(@types/ember__component@4.0.20)(@types/ember__controller@4.0.10)(@types/ember__object@4.0.10)(@types/ember__routing@4.0.18):
     resolution: {integrity: sha512-ZA0Ht7vwd1FosVLtMFrB2Er62P1v6yX/UuS6z9UVR6DMPfrL5qx6vef+EGJPLBrBKZMlm7zMB6Fyca201y4hDA==}
     peerDependencies:
       '@glimmer/component': ^1.1.2
@@ -2898,10 +2898,10 @@ packages:
       '@types/ember__component': 4.0.20(@babel/core@7.23.2)
       '@types/ember__controller': 4.0.10(@babel/core@7.23.2)
       '@types/ember__object': 4.0.10(@babel/core@7.23.2)
-      '@types/ember__routing': 4.0.17(@babel/core@7.23.2)
+      '@types/ember__routing': 4.0.18(@babel/core@7.23.2)
     dev: true
 
-  /@glint/environment-ember-template-imports@1.2.1(@glint/environment-ember-loose@1.2.1)(@glint/template@1.2.1)(@types/ember__component@4.0.20)(@types/ember__helper@4.0.5)(@types/ember__modifier@4.0.8)(@types/ember__routing@4.0.17)(ember-template-imports@3.4.2):
+  /@glint/environment-ember-template-imports@1.2.1(@glint/environment-ember-loose@1.2.1)(@glint/template@1.2.1)(@types/ember__component@4.0.20)(@types/ember__helper@4.0.5)(@types/ember__modifier@4.0.8)(@types/ember__routing@4.0.18)(ember-template-imports@3.4.2):
     resolution: {integrity: sha512-yTuF8oQyvVKmU3fCuYtg8Gf02VghQYI36x5/eob6yaMx2M+p3MFO+E6X7ANz/1bYRXphEPTWQMgdDjM4C6Ql4A==}
     peerDependencies:
       '@glint/environment-ember-loose': ^1.2.1
@@ -2921,12 +2921,12 @@ packages:
       '@types/ember__routing':
         optional: true
     dependencies:
-      '@glint/environment-ember-loose': 1.2.1(@glimmer/component@1.1.2)(@glint/template@1.2.1)(@types/ember__array@4.0.8)(@types/ember__component@4.0.20)(@types/ember__controller@4.0.10)(@types/ember__object@4.0.10)(@types/ember__routing@4.0.17)
+      '@glint/environment-ember-loose': 1.2.1(@glimmer/component@1.1.2)(@glint/template@1.2.1)(@types/ember__array@4.0.8)(@types/ember__component@4.0.20)(@types/ember__controller@4.0.10)(@types/ember__object@4.0.10)(@types/ember__routing@4.0.18)
       '@glint/template': 1.2.1
       '@types/ember__component': 4.0.20(@babel/core@7.23.2)
       '@types/ember__helper': 4.0.5(@babel/core@7.23.2)
       '@types/ember__modifier': 4.0.8(@babel/core@7.23.2)
-      '@types/ember__routing': 4.0.17(@babel/core@7.23.2)
+      '@types/ember__routing': 4.0.18(@babel/core@7.23.2)
       ember-template-imports: 3.4.2
     dev: true
 
@@ -3928,7 +3928,7 @@ packages:
       '@types/ember__error': 4.0.5
       '@types/ember__object': 4.0.10(@babel/core@7.23.2)
       '@types/ember__polyfills': 4.0.5
-      '@types/ember__routing': 4.0.17(@babel/core@7.23.2)
+      '@types/ember__routing': 4.0.18(@babel/core@7.23.2)
       '@types/ember__runloop': 4.0.8(@babel/core@7.23.2)
       '@types/ember__service': 4.0.7(@babel/core@7.23.2)
       '@types/ember__string': 3.16.3
@@ -3949,7 +3949,7 @@ packages:
       '@types/ember__engine': 4.0.9(@babel/core@7.23.2)
       '@types/ember__object': 4.0.10(@babel/core@7.23.2)
       '@types/ember__owner': 4.0.8
-      '@types/ember__routing': 4.0.17(@babel/core@7.23.2)
+      '@types/ember__routing': 4.0.18(@babel/core@7.23.2)
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
@@ -4045,8 +4045,8 @@ packages:
     resolution: {integrity: sha512-KOdgOFGCIMtBb6bMEsze7LDA2+h588qJCmFTsFBdicZFMX7lWg3hju5568bD7SXBpXvBF2a9a1Xv4fpNdRntWA==}
     dev: true
 
-  /@types/ember__routing@4.0.17(@babel/core@7.23.2):
-    resolution: {integrity: sha512-hnTWhmRwfd9P0X0gcBVBU7guqtT7B04MDkSBdcmsR4GxMP6IrEwyXI8XX8ZhqHITojkUtNtSDW7PGp0Ch4oOPg==}
+  /@types/ember__routing@4.0.18(@babel/core@7.23.2):
+    resolution: {integrity: sha512-Deu2dBBLgeo68C4PbHVEJUjSzXY4SC793mnFh3DwpdsZ7/jNKcbuV1L/et5v+EHU6L5SuyR7WnS/MnkIVsP7Kw==}
     dependencies:
       '@types/ember': 4.0.9(@babel/core@7.23.2)
       '@types/ember__controller': 4.0.10(@babel/core@7.23.2)
