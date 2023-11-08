@@ -316,8 +316,8 @@ importers:
         specifier: ^4.0.4
         version: 4.0.4(@babel/core@7.23.2)
       '@types/ember__utils':
-        specifier: ^4.0.5
-        version: 4.0.5(@babel/core@7.23.2)
+        specifier: ^4.0.6
+        version: 4.0.6(@babel/core@7.23.2)
       '@typescript-eslint/eslint-plugin':
         specifier: ^6.10.0
         version: 6.10.0(@typescript-eslint/parser@6.10.0)(eslint@8.53.0)(typescript@5.2.2)
@@ -3934,7 +3934,7 @@ packages:
       '@types/ember__string': 3.16.3
       '@types/ember__template': 4.0.4
       '@types/ember__test': 4.0.4(@babel/core@7.23.2)
-      '@types/ember__utils': 4.0.5(@babel/core@7.23.2)
+      '@types/ember__utils': 4.0.6(@babel/core@7.23.2)
       '@types/rsvp': 4.0.6
     transitivePeerDependencies:
       - '@babel/core'
@@ -4094,8 +4094,8 @@ packages:
       - supports-color
     dev: true
 
-  /@types/ember__utils@4.0.5(@babel/core@7.23.2):
-    resolution: {integrity: sha512-JKaXOofBACIuOjmIS/zPzV6oMvcb9YgKQOVSkChvzAm28xxuV/jn7Q5CeoV3xBJB4z8buNIxl2n7Ko1H91z+5Q==}
+  /@types/ember__utils@4.0.6(@babel/core@7.23.2):
+    resolution: {integrity: sha512-Wtte/RJ93q1cz7CgCdGqMwqPsvf9W5P9mVUBAs8kGF6j2dHV0ajRLtRwrDcMjjsFFq6X7dKOOBFErU+IFQQ6Xw==}
     dependencies:
       '@types/ember': 4.0.8(@babel/core@7.23.2)
     transitivePeerDependencies:
