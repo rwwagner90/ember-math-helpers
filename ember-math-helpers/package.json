@@ -61,7 +61,7 @@
     "@types/ember__engine": "^4.0.8",
     "@types/ember__application": "^4.0.9",
     "@types/ember__test": "^4.0.4",
-    "@types/ember__array": "^4.0.7",
+    "@types/ember__array": "^4.0.8",
     "@types/ember__error": "^4.0.4",
     "@types/ember__component": "^4.0.20",
     "@types/ember__modifier": "^4.0.8",
