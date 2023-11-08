@@ -280,8 +280,8 @@ importers:
         specifier: ^4.0.8
         version: 4.0.8(@babel/core@7.23.2)
       '@types/ember__error':
-        specifier: ^4.0.4
-        version: 4.0.4
+        specifier: ^4.0.5
+        version: 4.0.5
       '@types/ember__helper':
         specifier: ^4.0.5
         version: 4.0.5(@babel/core@7.23.2)
@@ -3925,7 +3925,7 @@ packages:
       '@types/ember__controller': 4.0.9(@babel/core@7.23.2)
       '@types/ember__debug': 4.0.7(@babel/core@7.23.2)
       '@types/ember__engine': 4.0.8(@babel/core@7.23.2)
-      '@types/ember__error': 4.0.4
+      '@types/ember__error': 4.0.5
       '@types/ember__object': 4.0.10(@babel/core@7.23.2)
       '@types/ember__polyfills': 4.0.4
       '@types/ember__routing': 4.0.17(@babel/core@7.23.2)
@@ -4004,8 +4004,8 @@ packages:
       - supports-color
     dev: true
 
-  /@types/ember__error@4.0.4:
-    resolution: {integrity: sha512-fCDdF5oSzSMIdBjYnJsU1qG/3LdBVZrnQ1oPgRC23/NeOr+bAQHZxTjtSO3/ruyEPtRc02q3a9K/ITz1uphz7g==}
+  /@types/ember__error@4.0.5:
+    resolution: {integrity: sha512-TxV6ODYFy6rZM5NweXdraNE/46nJ2Tc7tZWdA2rso3K6oF1Wf9fNlMT0nZ/QVUpMJMkD7ilNt94INnoQKyN/8w==}
     dev: true
 
   /@types/ember__helper@4.0.5(@babel/core@7.23.2):
