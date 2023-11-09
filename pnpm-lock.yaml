@@ -229,8 +229,8 @@ importers:
         specifier: ^7.20.13
         version: 7.23.2(@babel/core@7.23.2)
       '@babel/plugin-transform-class-static-block':
-        specifier: ^7.20.0
-        version: 7.22.11(@babel/core@7.23.2)
+        specifier: ^7.23.3
+        version: 7.23.3(@babel/core@7.23.2)
       '@babel/plugin-transform-typescript':
         specifier: ^7.22.15
         version: 7.22.15(@babel/core@7.23.2)
@@ -1255,6 +1255,18 @@ packages:
 
   /@babel/plugin-transform-class-static-block@7.22.11(@babel/core@7.23.2):
     resolution: {integrity: sha512-GMM8gGmqI7guS/llMFk1bJDkKfn3v3C4KHK9Yg1ey5qcHcOlKb0QvcMrgzvxo+T03/4szNh5lghY+fEC98Kq9g==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.12.0
+    dependencies:
+      '@babel/core': 7.23.2
+      '@babel/helper-create-class-features-plugin': 7.22.15(@babel/core@7.23.2)
+      '@babel/helper-plugin-utils': 7.22.5
+      '@babel/plugin-syntax-class-static-block': 7.14.5(@babel/core@7.23.2)
+    dev: true
+
+  /@babel/plugin-transform-class-static-block@7.23.3(@babel/core@7.23.2):
+    resolution: {integrity: sha512-PENDVxdr7ZxKPyi5Ffc0LjXdnJyrJxyqF5T5YjlVg4a0VFfQHW0r8iAtRiDXkfHlu1wwcvdtnndGYIeJLSuRMQ==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.12.0
