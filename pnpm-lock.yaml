@@ -232,8 +232,8 @@ importers:
         specifier: ^7.20.0
         version: 7.22.11(@babel/core@7.23.2)
       '@babel/plugin-transform-typescript':
-        specifier: ^7.22.15
-        version: 7.22.15(@babel/core@7.23.2)
+        specifier: ^7.23.3
+        version: 7.23.3(@babel/core@7.23.2)
       '@babel/runtime':
         specifier: ^7.23.2
         version: 7.23.2
@@ -1204,8 +1204,8 @@ packages:
       '@babel/core': 7.23.2
       '@babel/helper-plugin-utils': 7.22.5
 
-  /@babel/plugin-syntax-typescript@7.22.5(@babel/core@7.23.2):
-    resolution: {integrity: sha512-1mS2o03i7t1c6VzH6fdQ3OA8tcEIxwG18zIPRp+UY1Ihv6W+XZzBCVxExF9upussPXJ0xE9XRHwMoNs1ep/nRQ==}
+  /@babel/plugin-syntax-typescript@7.23.3(@babel/core@7.23.2):
+    resolution: {integrity: sha512-9EiNjVJOMwCO+43TqoTrgQ8jMwcAd0sWyXi9RPfIsLTj4R2MADDDQXELhffaUx/uJv2AYcxBgPwH6j4TIA4ytQ==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -1549,7 +1549,20 @@ packages:
       '@babel/helper-annotate-as-pure': 7.22.5
       '@babel/helper-create-class-features-plugin': 7.22.15(@babel/core@7.23.2)
       '@babel/helper-plugin-utils': 7.22.5
-      '@babel/plugin-syntax-typescript': 7.22.5(@babel/core@7.23.2)
+      '@babel/plugin-syntax-typescript': 7.23.3(@babel/core@7.23.2)
+    dev: true
+
+  /@babel/plugin-transform-typescript@7.23.3(@babel/core@7.23.2):
+    resolution: {integrity: sha512-ogV0yWnq38CFwH20l2Afz0dfKuZBx9o/Y2Rmh5vuSS0YD1hswgEgTfyTzuSrT2q9btmHRSqYoSfwFUVaC1M1Jw==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+    dependencies:
+      '@babel/core': 7.23.2
+      '@babel/helper-annotate-as-pure': 7.22.5
+      '@babel/helper-create-class-features-plugin': 7.22.15(@babel/core@7.23.2)
+      '@babel/helper-plugin-utils': 7.22.5
+      '@babel/plugin-syntax-typescript': 7.23.3(@babel/core@7.23.2)
 
   /@babel/plugin-transform-typescript@7.4.5(@babel/core@7.23.2):
     resolution: {integrity: sha512-RPB/YeGr4ZrFKNwfuQRlMf2lxoCUaU01MTw39/OFE/RiL8HDjtn68BwEPft1P7JN4akyEmjGWAMNldOV7o9V2g==}
@@ -1558,7 +1571,7 @@ packages:
     dependencies:
       '@babel/core': 7.23.2
       '@babel/helper-plugin-utils': 7.22.5
-      '@babel/plugin-syntax-typescript': 7.22.5(@babel/core@7.23.2)
+      '@babel/plugin-syntax-typescript': 7.23.3(@babel/core@7.23.2)
     dev: true
 
   /@babel/plugin-transform-typescript@7.5.5(@babel/core@7.23.2):
@@ -1569,7 +1582,7 @@ packages:
       '@babel/core': 7.23.2
       '@babel/helper-create-class-features-plugin': 7.22.15(@babel/core@7.23.2)
       '@babel/helper-plugin-utils': 7.22.5
-      '@babel/plugin-syntax-typescript': 7.22.5(@babel/core@7.23.2)
+      '@babel/plugin-syntax-typescript': 7.23.3(@babel/core@7.23.2)
 
   /@babel/plugin-transform-unicode-escapes@7.18.10(@babel/core@7.23.2):
     resolution: {integrity: sha512-kKAdAI+YzPgGY/ftStBFXTI1LZFju38rYThnfMykS+IXy8BVx+res7s2fxf1l8I35DV2T97ezo6+SGrXz6B3iQ==}
@@ -8398,7 +8411,7 @@ packages:
       '@babel/plugin-proposal-private-property-in-object': 7.20.5(@babel/core@7.23.2)
       '@babel/plugin-transform-modules-amd': 7.20.11(@babel/core@7.23.2)
       '@babel/plugin-transform-runtime': 7.19.6(@babel/core@7.23.2)
-      '@babel/plugin-transform-typescript': 7.22.15(@babel/core@7.23.2)
+      '@babel/plugin-transform-typescript': 7.23.3(@babel/core@7.23.2)
       '@babel/polyfill': 7.12.1
       '@babel/preset-env': 7.20.2(@babel/core@7.23.2)
       '@babel/runtime': 7.12.18
@@ -15875,7 +15888,7 @@ packages:
     dependencies:
       '@babel/core': 7.23.2
       '@babel/plugin-syntax-decorators': 7.22.10(@babel/core@7.23.2)
-      '@babel/plugin-transform-typescript': 7.22.15(@babel/core@7.23.2)
+      '@babel/plugin-transform-typescript': 7.23.3(@babel/core@7.23.2)
       prettier: 2.8.8
     transitivePeerDependencies:
       - supports-color
