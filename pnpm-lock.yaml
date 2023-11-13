@@ -213,8 +213,8 @@ importers:
   ember-math-helpers:
     dependencies:
       '@embroider/addon-shim':
-        specifier: ^1.8.6
-        version: 1.8.6
+        specifier: ^1.8.7
+        version: 1.8.7
       ember-source:
         specifier: ^4.0.0 || ^5.0.0
         version: 5.2.0(@babel/core@7.23.3)(@glimmer/component@1.1.2)(@glint/template@1.2.1)(rsvp@4.8.5)(webpack@5.89.0)
@@ -2010,7 +2010,18 @@ packages:
     resolution: {integrity: sha512-siC9kP78uucEbpDcVyxjkwa76pcs5rVzDVpWO4PDc9EAXRX+pzmUuSTLAK3GztUwx7/PWhz1BenAivqdSvSgfg==}
     engines: {node: 12.* || 14.* || >= 16}
     dependencies:
-      '@embroider/shared-internals': 2.4.0
+      '@embroider/shared-internals': 2.5.1
+      broccoli-funnel: 3.0.8
+      semver: 7.5.4
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@embroider/addon-shim@1.8.7:
+    resolution: {integrity: sha512-JGOQNRj3UR0NdWEg8MsM2eqPLncEwSB1IX+rwntIj22TEKj8biqx7GDgSbeH+ZedijmCh354Hf2c5rthrdzUAw==}
+    engines: {node: 12.* || 14.* || >= 16}
+    dependencies:
+      '@embroider/shared-internals': 2.5.1
       broccoli-funnel: 3.0.8
       semver: 7.5.4
     transitivePeerDependencies:
@@ -2370,6 +2381,7 @@ packages:
       typescript-memoize: 1.1.1
     transitivePeerDependencies:
       - supports-color
+    dev: true
 
   /@embroider/shared-internals@2.5.0:
     resolution: {integrity: sha512-7qzrb7GVIyNqeY0umxoeIvjDC+ay1b+wb2yCVuYTUYrFfLAkLEy9FNI3iWCi3RdQ9OFjgcAxAnwsAiPIMZZ3pQ==}
@@ -9157,7 +9169,7 @@ packages:
     peerDependencies:
       ember-source: '>= 3.28.0'
     dependencies:
-      '@embroider/addon-shim': 1.8.6
+      '@embroider/addon-shim': 1.8.7
       ember-source: 5.4.0(@babel/core@7.23.3)(@glimmer/component@1.1.2)(rsvp@4.8.5)(webpack@5.89.0)
     transitivePeerDependencies:
       - supports-color
@@ -18918,7 +18930,7 @@ packages:
     peerDependencies:
       ember-source: ^4.0.0 || ^5.0.0
     dependencies:
-      '@embroider/addon-shim': 1.8.6
+      '@embroider/addon-shim': 1.8.7
       ember-source: 5.4.0(@babel/core@7.23.3)(@glimmer/component@1.1.2)(rsvp@4.8.5)(webpack@5.89.0)
     transitivePeerDependencies:
       - supports-color
