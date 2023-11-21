@@ -47,7 +47,7 @@
     "@glint/template": "^1.2.0",
     "@rollup/plugin-babel": "6.0.4",
     "@tsconfig/ember": "^3.0.2",
-    "@types/ember": "^4.0.9",
+    "@types/ember": "^4.0.10",
     "@types/ember__object": "^4.0.10",
     "@types/ember__owner": "^4.0.8",
     "@types/ember__service": "^4.0.7",
