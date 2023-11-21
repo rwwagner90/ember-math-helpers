@@ -229,8 +229,8 @@ importers:
         specifier: ^7.23.3
         version: 7.23.3(@babel/core@7.23.3)
       '@babel/plugin-transform-class-static-block':
-        specifier: ^7.23.3
-        version: 7.23.3(@babel/core@7.23.3)
+        specifier: ^7.23.4
+        version: 7.23.4(@babel/core@7.23.3)
       '@babel/plugin-transform-typescript':
         specifier: ^7.23.4
         version: 7.23.4(@babel/core@7.23.3)
@@ -1253,8 +1253,8 @@ packages:
       '@babel/core': 7.23.3
       '@babel/helper-plugin-utils': 7.22.5
 
-  /@babel/plugin-transform-class-static-block@7.22.11(@babel/core@7.23.3):
-    resolution: {integrity: sha512-GMM8gGmqI7guS/llMFk1bJDkKfn3v3C4KHK9Yg1ey5qcHcOlKb0QvcMrgzvxo+T03/4szNh5lghY+fEC98Kq9g==}
+  /@babel/plugin-transform-class-static-block@7.23.3(@babel/core@7.23.3):
+    resolution: {integrity: sha512-PENDVxdr7ZxKPyi5Ffc0LjXdnJyrJxyqF5T5YjlVg4a0VFfQHW0r8iAtRiDXkfHlu1wwcvdtnndGYIeJLSuRMQ==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.12.0
@@ -1265,8 +1265,8 @@ packages:
       '@babel/plugin-syntax-class-static-block': 7.14.5(@babel/core@7.23.3)
     dev: true
 
-  /@babel/plugin-transform-class-static-block@7.23.3(@babel/core@7.23.3):
-    resolution: {integrity: sha512-PENDVxdr7ZxKPyi5Ffc0LjXdnJyrJxyqF5T5YjlVg4a0VFfQHW0r8iAtRiDXkfHlu1wwcvdtnndGYIeJLSuRMQ==}
+  /@babel/plugin-transform-class-static-block@7.23.4(@babel/core@7.23.3):
+    resolution: {integrity: sha512-nsWu/1M+ggti1SOALj3hfx5FXzAY06fwPJsUZD4/A5e1bWi46VUIWtD+kOX6/IdhXGsXBWllLFDSnqSCdUNydQ==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.12.0
@@ -8254,7 +8254,7 @@ packages:
       '@babel/plugin-proposal-decorators': 7.23.3(@babel/core@7.23.3)
       '@babel/plugin-proposal-private-methods': 7.18.6(@babel/core@7.23.3)
       '@babel/plugin-proposal-private-property-in-object': 7.20.5(@babel/core@7.23.3)
-      '@babel/plugin-transform-class-static-block': 7.22.11(@babel/core@7.23.3)
+      '@babel/plugin-transform-class-static-block': 7.23.3(@babel/core@7.23.3)
       '@babel/plugin-transform-modules-amd': 7.20.11(@babel/core@7.23.3)
       '@babel/plugin-transform-runtime': 7.19.6(@babel/core@7.23.3)
       '@babel/plugin-transform-typescript': 7.23.3(@babel/core@7.23.3)
