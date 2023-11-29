@@ -232,8 +232,8 @@ importers:
         specifier: ^7.23.4
         version: 7.23.4(@babel/core@7.23.3)
       '@babel/plugin-transform-typescript':
-        specifier: ^7.23.4
-        version: 7.23.4(@babel/core@7.23.3)
+        specifier: ^7.23.5
+        version: 7.23.5(@babel/core@7.23.3)
       '@babel/runtime':
         specifier: ^7.23.5
         version: 7.23.5
@@ -1567,8 +1567,8 @@ packages:
       '@babel/core': 7.23.3
       '@babel/helper-plugin-utils': 7.22.5
 
-  /@babel/plugin-transform-typescript@7.23.3(@babel/core@7.23.3):
-    resolution: {integrity: sha512-ogV0yWnq38CFwH20l2Afz0dfKuZBx9o/Y2Rmh5vuSS0YD1hswgEgTfyTzuSrT2q9btmHRSqYoSfwFUVaC1M1Jw==}
+  /@babel/plugin-transform-typescript@7.23.4(@babel/core@7.23.3):
+    resolution: {integrity: sha512-39hCCOl+YUAyMOu6B9SmUTiHUU0t/CxJNUmY3qRdJujbqi+lrQcL11ysYUsAvFWPBdhihrv1z0oRG84Yr3dODQ==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -1580,8 +1580,8 @@ packages:
       '@babel/plugin-syntax-typescript': 7.23.3(@babel/core@7.23.3)
     dev: true
 
-  /@babel/plugin-transform-typescript@7.23.4(@babel/core@7.23.3):
-    resolution: {integrity: sha512-39hCCOl+YUAyMOu6B9SmUTiHUU0t/CxJNUmY3qRdJujbqi+lrQcL11ysYUsAvFWPBdhihrv1z0oRG84Yr3dODQ==}
+  /@babel/plugin-transform-typescript@7.23.5(@babel/core@7.23.3):
+    resolution: {integrity: sha512-2fMkXEJkrmwgu2Bsv1Saxgj30IXZdJ+84lQcKKI7sm719oXs0BBw2ZENKdJdR1PjWndgLCEBNXJOri0fk7RYQA==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -8236,7 +8236,7 @@ packages:
       '@babel/plugin-proposal-private-property-in-object': 7.20.5(@babel/core@7.23.3)
       '@babel/plugin-transform-modules-amd': 7.20.11(@babel/core@7.23.3)
       '@babel/plugin-transform-runtime': 7.19.6(@babel/core@7.23.3)
-      '@babel/plugin-transform-typescript': 7.23.4(@babel/core@7.23.3)
+      '@babel/plugin-transform-typescript': 7.23.5(@babel/core@7.23.3)
       '@babel/polyfill': 7.12.1
       '@babel/preset-env': 7.20.2(@babel/core@7.23.3)
       '@babel/runtime': 7.12.18
@@ -8276,7 +8276,7 @@ packages:
       '@babel/plugin-transform-class-static-block': 7.23.3(@babel/core@7.23.3)
       '@babel/plugin-transform-modules-amd': 7.20.11(@babel/core@7.23.3)
       '@babel/plugin-transform-runtime': 7.19.6(@babel/core@7.23.3)
-      '@babel/plugin-transform-typescript': 7.23.3(@babel/core@7.23.3)
+      '@babel/plugin-transform-typescript': 7.23.4(@babel/core@7.23.3)
       '@babel/preset-env': 7.20.2(@babel/core@7.23.3)
       '@babel/runtime': 7.12.18
       amd-name-resolver: 1.3.1
@@ -15721,7 +15721,7 @@ packages:
     dependencies:
       '@babel/core': 7.23.3
       '@babel/plugin-syntax-decorators': 7.23.3(@babel/core@7.23.3)
-      '@babel/plugin-transform-typescript': 7.23.4(@babel/core@7.23.3)
+      '@babel/plugin-transform-typescript': 7.23.5(@babel/core@7.23.3)
       prettier: 2.8.8
     transitivePeerDependencies:
       - supports-color
