@@ -189,14 +189,14 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
       stylelint:
-        specifier: ^16.0.1
-        version: 16.0.1
+        specifier: ^16.0.2
+        version: 16.0.2
       stylelint-config-standard:
         specifier: ^35.0.0
-        version: 35.0.0(stylelint@16.0.1)
+        version: 35.0.0(stylelint@16.0.2)
       stylelint-prettier:
         specifier: ^5.0.0
-        version: 5.0.0(prettier@3.1.0)(stylelint@16.0.1)
+        version: 5.0.0(prettier@3.1.0)(stylelint@16.0.2)
       tailwindcss:
         specifier: ^3.3.6
         version: 3.3.6
@@ -509,14 +509,14 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
       stylelint:
-        specifier: ^16.0.1
-        version: 16.0.1
+        specifier: ^16.0.2
+        version: 16.0.2
       stylelint-config-standard:
         specifier: ^35.0.0
-        version: 35.0.0(stylelint@16.0.1)
+        version: 35.0.0(stylelint@16.0.2)
       stylelint-prettier:
         specifier: ^5.0.0
-        version: 5.0.0(prettier@3.1.0)(stylelint@16.0.1)
+        version: 5.0.0(prettier@3.1.0)(stylelint@16.0.2)
       tracked-built-ins:
         specifier: ^3.3.0
         version: 3.3.0
@@ -16982,26 +16982,26 @@ packages:
       postcss-selector-parser: 6.0.13
     dev: true
 
-  /stylelint-config-recommended@14.0.0(stylelint@16.0.1):
+  /stylelint-config-recommended@14.0.0(stylelint@16.0.2):
     resolution: {integrity: sha512-jSkx290CglS8StmrLp2TxAppIajzIBZKYm3IxT89Kg6fGlxbPiTiyH9PS5YUuVAFwaJLl1ikiXX0QWjI0jmgZQ==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       stylelint: ^16.0.0
     dependencies:
-      stylelint: 16.0.1
+      stylelint: 16.0.2
     dev: true
 
-  /stylelint-config-standard@35.0.0(stylelint@16.0.1):
+  /stylelint-config-standard@35.0.0(stylelint@16.0.2):
     resolution: {integrity: sha512-JyQrNZk2BZwVKFauGGxW2U6RuhIfQ4XoHHo+rBzMHcAkLnwI/knpszwXjzxiMgSfcxbZBckM7Vq4LHoANTR85g==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       stylelint: ^16.0.0
     dependencies:
-      stylelint: 16.0.1
-      stylelint-config-recommended: 14.0.0(stylelint@16.0.1)
+      stylelint: 16.0.2
+      stylelint-config-recommended: 14.0.0(stylelint@16.0.2)
     dev: true
 
-  /stylelint-prettier@5.0.0(prettier@3.1.0)(stylelint@16.0.1):
+  /stylelint-prettier@5.0.0(prettier@3.1.0)(stylelint@16.0.2):
     resolution: {integrity: sha512-RHfSlRJIsaVg5Br94gZVdWlz/rBTyQzZflNE6dXvSxt/GthWMY3gEHsWZEBaVGg7GM+XrtVSp4RznFlB7i0oyw==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
@@ -17010,11 +17010,11 @@ packages:
     dependencies:
       prettier: 3.1.0
       prettier-linter-helpers: 1.0.0
-      stylelint: 16.0.1
+      stylelint: 16.0.2
     dev: true
 
-  /stylelint@16.0.1:
-    resolution: {integrity: sha512-nPO7f7JBxX0gPwdQs1fBQL+b0PabHykxSQ9HtpobbtV7pe2lb/nmlqxKepPUwHJTi9P9iu+Hkwt1mdmOnkkTVw==}
+  /stylelint@16.0.2:
+    resolution: {integrity: sha512-SxA/rg3VWxdoHZlW0nmVueWO1E7TAKW4W6mmA3iTxxEF9bIeQdFZu2oiBlQYyNe1pGnOamOqo2XYnI7cs5Bgow==}
     engines: {node: '>=18.12.0'}
     hasBin: true
     dependencies:
