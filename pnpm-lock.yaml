@@ -81,8 +81,8 @@ importers:
         specifier: ^6.0.1
         version: 6.0.1(postcss@8.4.32)
       ember-auto-import:
-        specifier: ^2.7.0
-        version: 2.7.0(@glint/template@1.2.1)(webpack@5.89.0)
+        specifier: ^2.7.1
+        version: 2.7.1(@glint/template@1.2.1)(webpack@5.89.0)
       ember-cli:
         specifier: ~5.2.1
         version: 5.2.1
@@ -416,8 +416,8 @@ importers:
         specifier: ^8.2.2
         version: 8.2.2
       ember-auto-import:
-        specifier: ^2.7.0
-        version: 2.7.0(@glint/template@1.2.1)(webpack@5.89.0)
+        specifier: ^2.7.1
+        version: 2.7.1(@glint/template@1.2.1)(webpack@5.89.0)
       ember-cli:
         specifier: ~5.2.1
         version: 5.2.1
@@ -2004,7 +2004,7 @@ packages:
       '@simple-dom/interface': 1.4.0
       broccoli-debug: 0.6.5
       broccoli-funnel: 3.0.8
-      ember-auto-import: 2.7.0(@glint/template@1.2.1)(webpack@5.89.0)
+      ember-auto-import: 2.7.1(@glint/template@1.2.1)(webpack@5.89.0)
       ember-cli-babel: 7.26.11
       ember-cli-htmlbars: 6.3.0
       ember-source: 5.5.0(@babel/core@7.23.6)(@glimmer/component@1.1.2)(rsvp@4.8.5)(webpack@5.89.0)
@@ -8226,8 +8226,8 @@ packages:
   /electron-to-chromium@1.4.610:
     resolution: {integrity: sha512-mqi2oL1mfeHYtOdCxbPQYV/PL7YrQlxbvFEZ0Ee8GbDdShimqt2/S6z2RWqysuvlwdOrQdqvE0KZrBTipAeJzg==}
 
-  /ember-auto-import@2.7.0(@glint/template@1.2.1)(webpack@5.89.0):
-    resolution: {integrity: sha512-cBEBB6IRRmlCVfyaRmDCfLrywm2HibTosJzIKv4BWF1p2ZokUhXBJjMRwuaG3tbLMV8rmJdLWnSKm8CodsdmQA==}
+  /ember-auto-import@2.7.1(@glint/template@1.2.1)(webpack@5.89.0):
+    resolution: {integrity: sha512-8i5pw9DAtIJ+h+iGbYD25GPTyF3gLurokT7b1HBvKkHdOQuqGaXB9aiWA72BnqwA3Kwd3nfgdOml3HEaeQmCKQ==}
     engines: {node: 12.* || 14.* || >= 16}
     dependencies:
       '@babel/core': 7.23.6
@@ -9076,7 +9076,7 @@ packages:
       broccoli-funnel: 3.0.8
       broccoli-merge-trees: 4.2.0
       chalk: 4.1.2
-      ember-auto-import: 2.7.0(@glint/template@1.2.1)(webpack@5.89.0)
+      ember-auto-import: 2.7.1(@glint/template@1.2.1)(webpack@5.89.0)
       ember-cli-babel: 7.26.11
       ember-cli-get-component-path-option: 1.0.0
       ember-cli-is-package-missing: 1.0.0
@@ -9136,7 +9136,7 @@ packages:
       broccoli-funnel: 3.0.8
       broccoli-merge-trees: 4.2.0
       chalk: 4.1.2
-      ember-auto-import: 2.7.0(@glint/template@1.2.1)(webpack@5.89.0)
+      ember-auto-import: 2.7.1(@glint/template@1.2.1)(webpack@5.89.0)
       ember-cli-babel: 7.26.11
       ember-cli-get-component-path-option: 1.0.0
       ember-cli-is-package-missing: 1.0.0
