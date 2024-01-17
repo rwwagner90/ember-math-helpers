@@ -245,7 +245,7 @@ importers:
         version: 1.2.2(typescript@5.3.3)
       '@glint/environment-ember-loose':
         specifier: ^1.2.2
-        version: 1.2.2(@glimmer/component@1.1.2)(@glint/template@1.2.2)(@types/ember__array@4.0.10)(@types/ember__component@4.0.22)(@types/ember__controller@4.0.12)(@types/ember__object@4.0.11)(@types/ember__routing@4.0.20)
+        version: 1.2.2(@glimmer/component@1.1.2)(@glint/template@1.2.2)(@types/ember__array@4.0.10)(@types/ember__component@4.0.22)(@types/ember__controller@4.0.12)(@types/ember__object@4.0.12)(@types/ember__routing@4.0.20)
       '@glint/environment-ember-template-imports':
         specifier: ^1.2.2
         version: 1.2.2(@glint/environment-ember-loose@1.2.2)(@glint/template@1.2.2)(@types/ember__component@4.0.22)(@types/ember__helper@4.0.6)(@types/ember__modifier@4.0.9)(@types/ember__routing@4.0.20)
@@ -289,8 +289,8 @@ importers:
         specifier: ^4.0.9
         version: 4.0.9(@babel/core@7.23.7)
       '@types/ember__object':
-        specifier: ^4.0.11
-        version: 4.0.11(@babel/core@7.23.7)
+        specifier: ^4.0.12
+        version: 4.0.12(@babel/core@7.23.7)
       '@types/ember__owner':
         specifier: ^4.0.9
         version: 4.0.9
@@ -2841,7 +2841,7 @@ packages:
       - supports-color
     dev: true
 
-  /@glint/environment-ember-loose@1.2.2(@glimmer/component@1.1.2)(@glint/template@1.2.2)(@types/ember__array@4.0.10)(@types/ember__component@4.0.22)(@types/ember__controller@4.0.12)(@types/ember__object@4.0.11)(@types/ember__routing@4.0.20):
+  /@glint/environment-ember-loose@1.2.2(@glimmer/component@1.1.2)(@glint/template@1.2.2)(@types/ember__array@4.0.10)(@types/ember__component@4.0.22)(@types/ember__controller@4.0.12)(@types/ember__object@4.0.12)(@types/ember__routing@4.0.20):
     resolution: {integrity: sha512-qsKDBmn84eDv0wVVvYToxMat5kvG9zMygwmmOsdShZ5g/HgostOhnISAM+WG6bMNu30OjxLnCHX/e8pgWAfWAg==}
     peerDependencies:
       '@glimmer/component': ^1.1.2
@@ -2874,7 +2874,7 @@ packages:
       '@types/ember__array': 4.0.10(@babel/core@7.23.7)
       '@types/ember__component': 4.0.22(@babel/core@7.23.7)
       '@types/ember__controller': 4.0.12(@babel/core@7.23.7)
-      '@types/ember__object': 4.0.11(@babel/core@7.23.7)
+      '@types/ember__object': 4.0.12(@babel/core@7.23.7)
       '@types/ember__routing': 4.0.20(@babel/core@7.23.7)
     dev: true
 
@@ -2897,7 +2897,7 @@ packages:
       '@types/ember__routing':
         optional: true
     dependencies:
-      '@glint/environment-ember-loose': 1.2.2(@glimmer/component@1.1.2)(@glint/template@1.2.2)(@types/ember__array@4.0.10)(@types/ember__component@4.0.22)(@types/ember__controller@4.0.12)(@types/ember__object@4.0.11)(@types/ember__routing@4.0.20)
+      '@glint/environment-ember-loose': 1.2.2(@glimmer/component@1.1.2)(@glint/template@1.2.2)(@types/ember__array@4.0.10)(@types/ember__component@4.0.22)(@types/ember__controller@4.0.12)(@types/ember__object@4.0.12)(@types/ember__routing@4.0.20)
       '@glint/template': 1.2.2
       '@types/ember__component': 4.0.22(@babel/core@7.23.7)
       '@types/ember__helper': 4.0.6(@babel/core@7.23.7)
@@ -3920,7 +3920,7 @@ packages:
       '@types/ember__debug': 4.0.7(@babel/core@7.23.7)
       '@types/ember__engine': 4.0.11(@babel/core@7.23.7)
       '@types/ember__error': 4.0.6
-      '@types/ember__object': 4.0.11(@babel/core@7.23.7)
+      '@types/ember__object': 4.0.12(@babel/core@7.23.7)
       '@types/ember__polyfills': 4.0.6
       '@types/ember__routing': 4.0.20(@babel/core@7.23.7)
       '@types/ember__runloop': 4.0.9(@babel/core@7.23.7)
@@ -3941,7 +3941,7 @@ packages:
       '@glimmer/component': 1.1.2(@babel/core@7.23.7)
       '@types/ember': 4.0.11(@babel/core@7.23.7)
       '@types/ember__engine': 4.0.11(@babel/core@7.23.7)
-      '@types/ember__object': 4.0.11(@babel/core@7.23.7)
+      '@types/ember__object': 4.0.12(@babel/core@7.23.7)
       '@types/ember__owner': 4.0.9
       '@types/ember__routing': 4.0.20(@babel/core@7.23.7)
     transitivePeerDependencies:
@@ -3953,7 +3953,7 @@ packages:
     resolution: {integrity: sha512-UrhDbopLI3jB0MqV14y8yji2IuPNmeDrtT1PRYJL4CThLHrRkfeYyFvxqvrxWxn0wXKjbbjfH1gOe7BU57QrLQ==}
     dependencies:
       '@types/ember': 4.0.11(@babel/core@7.23.7)
-      '@types/ember__object': 4.0.11(@babel/core@7.23.7)
+      '@types/ember__object': 4.0.12(@babel/core@7.23.7)
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
@@ -3963,7 +3963,7 @@ packages:
     resolution: {integrity: sha512-m72EtmBN/RxOChXqRsyOg4RR5+AiB4LQ8s1CEKNYAfvANt18m4hjqxtA7QZYLTq2ZjEVJGpdMsrdDuONWjwRSQ==}
     dependencies:
       '@types/ember': 4.0.11(@babel/core@7.23.7)
-      '@types/ember__object': 4.0.11(@babel/core@7.23.7)
+      '@types/ember__object': 4.0.12(@babel/core@7.23.7)
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
@@ -3972,7 +3972,7 @@ packages:
   /@types/ember__controller@4.0.12(@babel/core@7.23.7):
     resolution: {integrity: sha512-80rdnSC0UJBqoUX5/vkQcM2xkRdTPTvY0dPXEfY5cC5OZITbcSeRo5qa7ZGhgNBfH6XYyh55Lo/b811LwU3N9w==}
     dependencies:
-      '@types/ember__object': 4.0.11(@babel/core@7.23.7)
+      '@types/ember__object': 4.0.12(@babel/core@7.23.7)
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
@@ -3981,7 +3981,7 @@ packages:
   /@types/ember__debug@4.0.7(@babel/core@7.23.7):
     resolution: {integrity: sha512-8oNOe4I+jTqayqC23tbCFP9rnfMjF55UlEjHOOUbBTdQ8TYrJpbp2tPykfLE7RFUQg01TxI2UIR+hej8g5IMjw==}
     dependencies:
-      '@types/ember__object': 4.0.11(@babel/core@7.23.7)
+      '@types/ember__object': 4.0.12(@babel/core@7.23.7)
       '@types/ember__owner': 4.0.9
     transitivePeerDependencies:
       - '@babel/core'
@@ -3991,7 +3991,7 @@ packages:
   /@types/ember__engine@4.0.11(@babel/core@7.23.7):
     resolution: {integrity: sha512-ryR4Q1Xm3kQ3Ap58w10CxV3+vb3hs1cJqi7UZ5IlSdLRql7AbpS6hIjxSQ3EQ4zadeeJ6/D8JJcSwqR7eX3PFA==}
     dependencies:
-      '@types/ember__object': 4.0.11(@babel/core@7.23.7)
+      '@types/ember__object': 4.0.12(@babel/core@7.23.7)
       '@types/ember__owner': 4.0.9
     transitivePeerDependencies:
       - '@babel/core'
@@ -4023,8 +4023,8 @@ packages:
       - supports-color
     dev: true
 
-  /@types/ember__object@4.0.11(@babel/core@7.23.7):
-    resolution: {integrity: sha512-YM/ecDQmAXFpB6Owu+13HH//m8uXLZGcIDmHQCjTj9a5aWbtCo/d/+mc9gbVNaa/35KadjJ4NLD/Hz9PiKQXDw==}
+  /@types/ember__object@4.0.12(@babel/core@7.23.7):
+    resolution: {integrity: sha512-ZEpikPjZ02m1QCBiTPTayMJwVwF4UBlHlGDoScRB3IP/SUS1O5mmn1/CnSQDxzzF3ctfmhNuTZzVBBc1Y8OC1A==}
     dependencies:
       '@types/ember': 4.0.11(@babel/core@7.23.7)
       '@types/rsvp': 4.0.6
@@ -4046,7 +4046,7 @@ packages:
     dependencies:
       '@types/ember': 4.0.11(@babel/core@7.23.7)
       '@types/ember__controller': 4.0.12(@babel/core@7.23.7)
-      '@types/ember__object': 4.0.11(@babel/core@7.23.7)
+      '@types/ember__object': 4.0.12(@babel/core@7.23.7)
       '@types/ember__service': 4.0.8(@babel/core@7.23.7)
     transitivePeerDependencies:
       - '@babel/core'
@@ -4065,7 +4065,7 @@ packages:
   /@types/ember__service@4.0.8(@babel/core@7.23.7):
     resolution: {integrity: sha512-LKPDKA8eG0pN0p7QMwW6DW87vO0WA5EjzLOjR2lZkWhxIqKUbHAQF32BdlyZkPL+DxAE4q0DqrbLAWAgT21hQQ==}
     dependencies:
-      '@types/ember__object': 4.0.11(@babel/core@7.23.7)
+      '@types/ember__object': 4.0.12(@babel/core@7.23.7)
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
@@ -16556,11 +16556,6 @@ packages:
   /signal-exit@3.0.7:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
 
-  /signal-exit@4.0.2:
-    resolution: {integrity: sha512-MY2/qGx4enyjprQnFaZsHib3Yadh3IXyV2C321GY0pjGfVBu4un0uDJkwgdxqO+Rdx8JMT8IfJIRwbYVz3Ob3Q==}
-    engines: {node: '>=14'}
-    dev: true
-
   /signal-exit@4.1.0:
     resolution: {integrity: sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==}
     engines: {node: '>=14'}
@@ -18725,7 +18720,7 @@ packages:
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
       imurmurhash: 0.1.4
-      signal-exit: 4.0.2
+      signal-exit: 4.1.0
     dev: true
 
   /write-yaml-file@5.0.0:
