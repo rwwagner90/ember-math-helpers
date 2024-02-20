@@ -42,8 +42,8 @@ importers:
         specifier: ^7.23.9
         version: 7.23.9(@babel/core@7.23.9)
       '@docfy/ember':
-        specifier: ^0.8.4
-        version: 0.8.4(@babel/core@7.23.9)
+        specifier: ^0.8.5
+        version: 0.8.5(@babel/core@7.23.9)
       '@ember/optional-features':
         specifier: ^2.0.0
         version: 2.0.0
@@ -1909,8 +1909,8 @@ packages:
       - supports-color
     dev: true
 
-  /@docfy/ember@0.8.4(@babel/core@7.23.9):
-    resolution: {integrity: sha512-RS4SdqNVMSnHaucHzYiYsjUDOCcrCxKS4yDCT7Eg/2K5JTWZEELGD5uk9oxSJgvnEz2jmzt7ARtKIGz9Cd2dkA==}
+  /@docfy/ember@0.8.5(@babel/core@7.23.9):
+    resolution: {integrity: sha512-nXjGqJdLoHHa25RsDXxUsEX5AiMniFOgy7Lggod4sDIxheixHavgJIOL7+aZwUFOhUvJl+P+ESAbSaD4RZ8zdw==}
     engines: {node: '>= 12'}
     dependencies:
       '@docfy/core': 0.8.0
