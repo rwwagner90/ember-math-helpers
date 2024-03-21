@@ -47,7 +47,7 @@
     "@embroider/webpack": "^3.2.2",
     "@glimmer/component": "^1.1.2",
     "@glimmer/tracking": "^1.1.2",
-    "autoprefixer": "^10.4.18",
+    "autoprefixer": "^10.4.19",
     "broccoli-asset-rev": "^3.0.0",
     "concurrently": "^8.2.2",
     "cssnano": "^6.1.1",
