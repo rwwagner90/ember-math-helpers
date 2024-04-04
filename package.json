@@ -47,6 +47,9 @@
     }
   },
   "pnpm": {
+    "overrides": {
+      "@glimmer/validator": "^0.84.3"
+    },
     "peerDependencyRules": {
       "ignoreMissing": [
         "ember-cli-htmlbars"
