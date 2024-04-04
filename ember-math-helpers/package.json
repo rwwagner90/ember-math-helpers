@@ -39,7 +39,7 @@
     "@babel/plugin-proposal-class-properties": "^7.16.7",
     "@babel/plugin-proposal-decorators": "^7.24.1",
     "@babel/plugin-transform-class-static-block": "^7.24.1",
-    "@babel/runtime": "^7.24.1",
+    "@babel/runtime": "^7.24.4",
     "@embroider/addon-dev": "^4.2.1",
     "@glint/core": "^1.4.0",
     "@glint/environment-ember-loose": "^1.4.0",
