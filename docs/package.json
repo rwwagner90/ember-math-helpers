@@ -86,7 +86,7 @@
     "postcss-loader": "^8.1.1",
     "prettier": "^3.2.5",
     "qunit": "^2.20.1",
-    "qunit-dom": "^3.0.0",
+    "qunit-dom": "^3.1.0",
     "stylelint": "^16.3.1",
     "stylelint-config-standard": "^36.0.0",
     "stylelint-prettier": "^5.0.0",
