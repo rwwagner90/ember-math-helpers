@@ -174,8 +174,8 @@ importers:
         specifier: ^4.7.0
         version: 4.7.0
       pnpm-sync-dependencies-meta-injected:
-        specifier: ^0.0.10
-        version: 0.0.10
+        specifier: ^0.0.13
+        version: 0.0.13
       postcss:
         specifier: ^8.4.38
         version: 8.4.38
@@ -443,8 +443,8 @@ importers:
         specifier: ^4.7.0
         version: 4.7.0
       pnpm-sync-dependencies-meta-injected:
-        specifier: ^0.0.10
-        version: 0.0.10
+        specifier: ^0.0.13
+        version: 0.0.13
       prettier:
         specifier: ^3.2.5
         version: 3.2.5
@@ -14926,8 +14926,8 @@ packages:
     dependencies:
       find-up: 3.0.0
 
-  /pnpm-sync-dependencies-meta-injected@0.0.10:
-    resolution: {integrity: sha512-kPcYZLaLgo5WhlgWciCJFqdxprIqaR52cY1C8KH3RGdia1YwT1wO/AOKyvOydNBJmpdcLxka2a0La9CaStxG/A==}
+  /pnpm-sync-dependencies-meta-injected@0.0.13:
+    resolution: {integrity: sha512-LH9Oiud3r7xkgIAbNfkze9AA6B3xiY8gPimV8LByc3EWMYlcXEk2IB3O3uz8B5qQ9z4uYeoC0PaS1XAdKR2ExA==}
     engines: {node: '>=16.0.0'}
     hasBin: true
     dependencies:
@@ -14937,7 +14937,7 @@ packages:
       '@pnpm/logger': 5.0.0
       '@pnpm/read-project-manifest': 5.0.5
       debug: 4.3.4(supports-color@9.4.0)
-      fs-extra: 11.1.1
+      fs-extra: 11.2.0
       proper-lockfile: 4.1.2
       resolve-package-path: 4.0.3
       supports-color: 9.4.0
@@ -16209,6 +16209,7 @@ packages:
   /right-pad@1.0.1:
     resolution: {integrity: sha512-bYBjgxmkvTAfgIYy328fmkwhp39v8lwVgWhhrzxPV3yHtcSqyYKe9/XOhvW48UFjATg3VuJbpsp5822ACNvkmw==}
     engines: {node: '>= 0.10'}
+    deprecated: Please use String.prototype.padEnd() over this package.
     dev: true
 
   /rimraf@2.6.3:
