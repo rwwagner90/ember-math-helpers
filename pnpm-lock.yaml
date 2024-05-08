@@ -57,8 +57,8 @@ importers:
         specifier: ^3.3.0
         version: 3.3.0(ember-source@5.8.0)(webpack@5.91.0)
       '@embroider/compat':
-        specifier: ^3.4.9
-        version: 3.4.9(@embroider/core@3.4.9)
+        specifier: ^3.5.0
+        version: 3.5.0(@embroider/core@3.4.9)
       '@embroider/core':
         specifier: ^3.4.9
         version: 3.4.9(@glint/template@1.4.0)
@@ -335,14 +335,14 @@ importers:
         specifier: ^3.3.0
         version: 3.3.0(ember-source@5.8.0)(webpack@5.91.0)
       '@embroider/compat':
-        specifier: ^3.4.9
-        version: 3.4.9(@embroider/core@3.4.9)
+        specifier: ^3.5.0
+        version: 3.5.0(@embroider/core@3.4.9)
       '@embroider/core':
         specifier: ^3.4.9
         version: 3.4.9(@glint/template@1.4.0)
       '@embroider/test-setup':
         specifier: ^4.0.0
-        version: 4.0.0(@embroider/compat@3.4.9)(@embroider/core@3.4.9)(@embroider/webpack@4.0.0)
+        version: 4.0.0(@embroider/compat@3.5.0)(@embroider/core@3.4.9)(@embroider/webpack@4.0.0)
       '@embroider/webpack':
         specifier: ^4.0.0
         version: 4.0.0(@embroider/core@3.4.9)(webpack@5.91.0)
@@ -378,7 +378,7 @@ importers:
         version: 3.0.0
       ember-cli-code-coverage:
         specifier: ^3.0.0
-        version: 3.0.0(@embroider/compat@3.4.9)(@embroider/core@3.4.9)
+        version: 3.0.0(@embroider/compat@3.5.0)(@embroider/core@3.4.9)
       ember-cli-dependency-checker:
         specifier: ^3.3.2
         version: 3.3.2(ember-cli@5.2.1)
@@ -2158,8 +2158,8 @@ packages:
       - webpack
     dev: true
 
-  /@embroider/compat@3.4.9(@embroider/core@3.4.9):
-    resolution: {integrity: sha512-1KuKlCx4wGxxo+GsTeS8AX6S4Ka2Ht6EKYlFsm0Ln38mQyPolIefVUeEURe9FKKaQsOdj8bdPdjJlGU1ZVF8Aw==}
+  /@embroider/compat@3.5.0(@embroider/core@3.4.9):
+    resolution: {integrity: sha512-KFv4CGXiNZA9D+T89bQgmHRyJBIMq6NLzNHTTpD8lKWL0egZpaw2irzIH/1SqdktRf86Ee8pkWfqEi0W+UWXxA==}
     engines: {node: 12.* || 14.* || >= 16}
     hasBin: true
     peerDependencies:
@@ -2372,7 +2372,7 @@ packages:
       - supports-color
     dev: true
 
-  /@embroider/test-setup@4.0.0(@embroider/compat@3.4.9)(@embroider/core@3.4.9)(@embroider/webpack@4.0.0):
+  /@embroider/test-setup@4.0.0(@embroider/compat@3.5.0)(@embroider/core@3.4.9)(@embroider/webpack@4.0.0):
     resolution: {integrity: sha512-1S3Ebk0CEh3XDqD93AWSwQZBCk+oGv03gtkaGgdgyXGIR7jrVyDgEnEuslN/hJ0cuU8TqhiXrzHMw7bJwIGhWw==}
     engines: {node: 12.* || 14.* || >= 16}
     peerDependencies:
@@ -2387,7 +2387,7 @@ packages:
       '@embroider/webpack':
         optional: true
     dependencies:
-      '@embroider/compat': 3.4.9(@embroider/core@3.4.9)
+      '@embroider/compat': 3.5.0(@embroider/core@3.4.9)
       '@embroider/core': 3.4.9(@glint/template@1.4.0)
       '@embroider/webpack': 4.0.0(@embroider/core@3.4.9)(webpack@5.91.0)
       lodash: 4.17.21
@@ -8434,7 +8434,7 @@ packages:
       - supports-color
     dev: true
 
-  /ember-cli-code-coverage@3.0.0(@embroider/compat@3.4.9)(@embroider/core@3.4.9):
+  /ember-cli-code-coverage@3.0.0(@embroider/compat@3.5.0)(@embroider/core@3.4.9):
     resolution: {integrity: sha512-IAVET5oKS0IkEAPUTKOzHlNk1Z+986//8LZmfqhkSGkGJ76tFLw8AAS+BloUctX7J/xCUNn/1voBVqb5oabMPw==}
     engines: {node: '>= 18'}
     peerDependencies:
@@ -8446,7 +8446,7 @@ packages:
       '@embroider/core':
         optional: true
     dependencies:
-      '@embroider/compat': 3.4.9(@embroider/core@3.4.9)
+      '@embroider/compat': 3.5.0(@embroider/core@3.4.9)
       '@embroider/core': 3.4.9(@glint/template@1.4.0)
       babel-plugin-istanbul: 6.1.1
       body-parser: 1.20.1
