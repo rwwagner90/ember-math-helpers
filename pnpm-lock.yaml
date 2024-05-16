@@ -259,8 +259,8 @@ importers:
         specifier: 6.0.4
         version: 6.0.4(@babel/core@7.24.5)(rollup@4.17.2)
       '@tsconfig/ember':
-        specifier: ^3.0.6
-        version: 3.0.6
+        specifier: ^3.0.7
+        version: 3.0.7
       '@types/rsvp':
         specifier: ^4.0.9
         version: 4.0.9
@@ -3907,8 +3907,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: true
 
-  /@tsconfig/ember@3.0.6:
-    resolution: {integrity: sha512-b1LmFAL5suTpQsaoG5NYpKAU8XfqQcob9gPu4xQlS/sNGD8Pp+vx+jI30Cy01+mxTBsQPig2kOwFpTD2b2qwtw==}
+  /@tsconfig/ember@3.0.7:
+    resolution: {integrity: sha512-T9H3VNlino2mo3wpAd9EqRwJyERvUKnJnIyiYuL7b3UvV+yQAt7f9np81liHpmBeBQ5z5NzegA5vJGpvCOtYsQ==}
     dev: true
 
   /@types/acorn@4.0.6:
