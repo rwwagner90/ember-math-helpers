@@ -39,8 +39,8 @@ importers:
         specifier: 7.24.5
         version: 7.24.5
       '@babel/eslint-parser':
-        specifier: ^7.24.5
-        version: 7.24.5(@babel/core@7.24.5)(eslint@8.57.0)
+        specifier: ^7.24.6
+        version: 7.24.6(@babel/core@7.24.5)(eslint@8.57.0)
       '@babel/plugin-proposal-decorators':
         specifier: ^7.24.1
         version: 7.24.1(@babel/core@7.24.5)
@@ -317,8 +317,8 @@ importers:
         specifier: 7.24.5
         version: 7.24.5
       '@babel/eslint-parser':
-        specifier: ^7.24.5
-        version: 7.24.5(@babel/core@7.24.5)(eslint@8.57.0)
+        specifier: ^7.24.6
+        version: 7.24.6(@babel/core@7.24.5)(eslint@8.57.0)
       '@babel/helper-call-delegate':
         specifier: ^7.12.13
         version: 7.12.13
@@ -568,8 +568,8 @@ packages:
       semver: 6.3.1
     dev: true
 
-  /@babel/eslint-parser@7.24.5(@babel/core@7.24.5)(eslint@8.57.0):
-    resolution: {integrity: sha512-gsUcqS/fPlgAw1kOtpss7uhY6E9SFFANQ6EFX5GTvzUwaV0+sGaZWk6xq22MOdeT9wfxyokW3ceCUvOiRtZciQ==}
+  /@babel/eslint-parser@7.24.6(@babel/core@7.24.5)(eslint@8.57.0):
+    resolution: {integrity: sha512-Q1BfQX42zXHx732PLW0w4+Y3wJjoZKEMaatFUEAmQ7Z+jCXxinzeqX9bvv2Q8xNPes/H6F0I23oGkcgjaItmLw==}
     engines: {node: ^10.13.0 || ^12.13.0 || >=14.0.0}
     peerDependencies:
       '@babel/core': ^7.11.0
