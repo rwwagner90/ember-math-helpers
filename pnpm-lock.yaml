@@ -63,8 +63,8 @@ importers:
         specifier: ^3.4.9
         version: 3.4.9
       '@embroider/webpack':
-        specifier: ^4.0.0
-        version: 4.0.0(@embroider/core@3.4.9)(webpack@5.91.0)
+        specifier: ^4.0.1
+        version: 4.0.1(@embroider/core@3.4.9)(webpack@5.91.0)
       '@glimmer/component':
         specifier: ^1.1.2
         version: 1.1.2(@babel/core@7.24.6)
@@ -342,10 +342,10 @@ importers:
         version: 3.4.9
       '@embroider/test-setup':
         specifier: ^4.0.0
-        version: 4.0.0(@embroider/compat@3.5.0)(@embroider/core@3.4.9)(@embroider/webpack@4.0.0)
+        version: 4.0.0(@embroider/compat@3.5.0)(@embroider/core@3.4.9)(@embroider/webpack@4.0.1)
       '@embroider/webpack':
-        specifier: ^4.0.0
-        version: 4.0.0(@embroider/core@3.4.9)(webpack@5.91.0)
+        specifier: ^4.0.1
+        version: 4.0.1(@embroider/core@3.4.9)(webpack@5.91.0)
       '@glimmer/component':
         specifier: ^1.1.2
         version: 1.1.2(@babel/core@7.24.6)
@@ -2150,7 +2150,7 @@ packages:
     resolution: {integrity: sha512-+SkD/JJqnmCBJpsjPu419iNA9kQdqojNBrldE7f5H80A4FWUGRO9s622+SwdzKiXCaMWcNeww7Ah7CL/YZPoHg==}
     engines: {node: 12.* || 14.* || >= 16}
     dependencies:
-      '@embroider/shared-internals': 2.6.0
+      '@embroider/shared-internals': 2.6.1
       broccoli-funnel: 3.0.8
       common-ancestor-path: 1.0.1
       semver: 7.6.2
@@ -2399,8 +2399,26 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@embroider/shared-internals@2.6.0(supports-color@8.1.1):
-    resolution: {integrity: sha512-A2BYQkhotdKOXuTaxvo9dqOIMbk+2LqFyqvfaaePkZcFJvtCkvTaD31/sSzqvRF6rdeBHjdMwU9Z2baPZ55fEQ==}
+  /@embroider/shared-internals@2.6.1:
+    resolution: {integrity: sha512-STU1oDP36JQY+zpivyAfXGXadN664d+DOiVNBUW+4AAuWLVxIRWDIuFj8UxzREXZU9trZY8vOhKwKQtfEgdwSg==}
+    engines: {node: 12.* || 14.* || >= 16}
+    dependencies:
+      babel-import-util: 2.0.0
+      debug: 4.3.4(supports-color@9.4.0)
+      ember-rfc176-data: 0.3.18
+      fs-extra: 9.1.0
+      js-string-escape: 1.0.1
+      lodash: 4.17.21
+      minimatch: 3.1.2
+      resolve-package-path: 4.0.3
+      semver: 7.6.2
+      typescript-memoize: 1.1.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@embroider/shared-internals@2.6.1(supports-color@8.1.1):
+    resolution: {integrity: sha512-STU1oDP36JQY+zpivyAfXGXadN664d+DOiVNBUW+4AAuWLVxIRWDIuFj8UxzREXZU9trZY8vOhKwKQtfEgdwSg==}
     engines: {node: 12.* || 14.* || >= 16}
     dependencies:
       babel-import-util: 2.0.0
@@ -2417,7 +2435,7 @@ packages:
       - supports-color
     dev: true
 
-  /@embroider/test-setup@4.0.0(@embroider/compat@3.5.0)(@embroider/core@3.4.9)(@embroider/webpack@4.0.0):
+  /@embroider/test-setup@4.0.0(@embroider/compat@3.5.0)(@embroider/core@3.4.9)(@embroider/webpack@4.0.1):
     resolution: {integrity: sha512-1S3Ebk0CEh3XDqD93AWSwQZBCk+oGv03gtkaGgdgyXGIR7jrVyDgEnEuslN/hJ0cuU8TqhiXrzHMw7bJwIGhWw==}
     engines: {node: 12.* || 14.* || >= 16}
     peerDependencies:
@@ -2434,16 +2452,16 @@ packages:
     dependencies:
       '@embroider/compat': 3.5.0(@embroider/core@3.4.9)
       '@embroider/core': 3.4.9
-      '@embroider/webpack': 4.0.0(@embroider/core@3.4.9)(webpack@5.91.0)
+      '@embroider/webpack': 4.0.1(@embroider/core@3.4.9)(webpack@5.91.0)
       lodash: 4.17.21
       resolve: 1.22.8
     dev: true
 
-  /@embroider/webpack@4.0.0(@embroider/core@3.4.9)(webpack@5.91.0):
-    resolution: {integrity: sha512-kFAKcgCWTLNNUtXOTvAw7nL6+MFxNDd20wV0I3hqByV6EegTOtMyMYTcRLYp9X3stu48ix3XU5avZ6VZ2Ot3Hw==}
+  /@embroider/webpack@4.0.1(@embroider/core@3.4.9)(webpack@5.91.0):
+    resolution: {integrity: sha512-Yrk6DqNnZRtWW+i9eQiqVLJIAPUxBLbX4HdVZ/wD5VigvB/lo+pdAQKoDV1/FQ8V7PqnbcPg/hJkw8ZpfxWJ+Q==}
     engines: {node: 12.* || 14.* || >= 16}
     peerDependencies:
-      '@embroider/core': ^3.4.8
+      '@embroider/core': ^3.4.10
       webpack: ^5.0.0
     dependencies:
       '@babel/core': 7.24.6(supports-color@8.1.1)
@@ -2451,7 +2469,7 @@ packages:
       '@embroider/babel-loader-9': 3.1.1(@embroider/core@3.4.9)(supports-color@8.1.1)(webpack@5.91.0)
       '@embroider/core': 3.4.9
       '@embroider/hbs-loader': 3.0.3(@embroider/core@3.4.9)(webpack@5.91.0)
-      '@embroider/shared-internals': 2.6.0(supports-color@8.1.1)
+      '@embroider/shared-internals': 2.6.1(supports-color@8.1.1)
       '@types/supports-color': 8.1.1
       assert-never: 1.2.1
       babel-loader: 8.3.0(@babel/core@7.24.6)(webpack@5.91.0)
@@ -2463,7 +2481,7 @@ packages:
       jsdom: 16.7.0(supports-color@8.1.1)
       lodash: 4.17.21
       mini-css-extract-plugin: 2.7.2(webpack@5.91.0)
-      semver: 7.6.0
+      semver: 7.6.2
       source-map-url: 0.4.1
       style-loader: 2.0.0(webpack@5.91.0)
       supports-color: 8.1.1
