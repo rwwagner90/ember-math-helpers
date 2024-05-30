@@ -139,7 +139,7 @@ importers:
         version: 4.1.0(ember-source@5.8.0)
       ember-qunit:
         specifier: ^8.0.2
-        version: 8.0.2(@ember/test-helpers@3.3.0)(ember-source@5.8.0)(qunit@2.20.1)
+        version: 8.0.2(@ember/test-helpers@3.3.0)(ember-source@5.8.0)(qunit@2.21.0)
       ember-resolver:
         specifier: ^11.0.1
         version: 11.0.1(ember-source@5.8.0)
@@ -186,8 +186,8 @@ importers:
         specifier: ^3.2.5
         version: 3.2.5
       qunit:
-        specifier: ^2.20.1
-        version: 2.20.1
+        specifier: ^2.21.0
+        version: 2.21.0
       qunit-dom:
         specifier: ^3.1.2
         version: 3.1.2
@@ -405,7 +405,7 @@ importers:
         version: 8.2.3(ember-source@5.8.0)
       ember-qunit:
         specifier: ^8.0.2
-        version: 8.0.2(@ember/test-helpers@3.3.0)(ember-source@5.8.0)(qunit@2.20.1)
+        version: 8.0.2(@ember/test-helpers@3.3.0)(ember-source@5.8.0)(qunit@2.21.0)
       ember-resolver:
         specifier: ^11.0.1
         version: 11.0.1(ember-source@5.8.0)
@@ -449,8 +449,8 @@ importers:
         specifier: ^3.2.5
         version: 3.2.5
       qunit:
-        specifier: ^2.20.1
-        version: 2.20.1
+        specifier: ^2.21.0
+        version: 2.21.0
       qunit-dom:
         specifier: ^3.1.2
         version: 3.1.2
@@ -8946,7 +8946,7 @@ packages:
       - supports-color
     dev: true
 
-  /ember-qunit@8.0.2(@ember/test-helpers@3.3.0)(ember-source@5.8.0)(qunit@2.20.1):
+  /ember-qunit@8.0.2(@ember/test-helpers@3.3.0)(ember-source@5.8.0)(qunit@2.21.0):
     resolution: {integrity: sha512-Rf60jeUTWNsF3Imf/FLujW/B/DFmKVXKmXO1lirTXjpertKfwRhp/3MnN8a/U/WyodTIsERkInGT1IqTtphCdQ==}
     peerDependencies:
       '@ember/test-helpers': '>=3.0.3'
@@ -8958,7 +8958,7 @@ packages:
       '@embroider/macros': 1.13.2
       ember-cli-test-loader: 3.1.0
       ember-source: 5.8.0(@babel/core@7.24.6)(@glimmer/component@1.1.2)(rsvp@4.8.5)(webpack@5.91.0)
-      qunit: 2.20.1
+      qunit: 2.21.0
     transitivePeerDependencies:
       - '@glint/template'
       - supports-color
@@ -15506,8 +15506,8 @@ packages:
     resolution: {integrity: sha512-urHvzhDxihYrMBpsT/Fk7So79CPfvS0ZwZw2VPA+0JV1Q1XP2IhDg/PLHTt+r2j7787iQAOpILx2GjwAa6CpnA==}
     dev: true
 
-  /qunit@2.20.1:
-    resolution: {integrity: sha512-scZfyhX8mmP3u/CN2y3CutQb+ppalbpqmm7g/X62M2yOt8ofzsxrRaC+MPmYm/tXxpzs9HGrVeCxZwLoP0tuAA==}
+  /qunit@2.21.0:
+    resolution: {integrity: sha512-kJJ+uzx5xDWk0oRrbOZ3zsm+imPULE58ZMIrNl+3POZl4a1k6VXj2E4OiqTmZ9j6hh9egE3kNgnAti9Q+BG6Yw==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
