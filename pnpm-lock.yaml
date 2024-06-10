@@ -141,8 +141,8 @@ importers:
         specifier: ^8.0.2
         version: 8.0.2(@ember/test-helpers@3.3.0)(ember-source@5.9.0)(qunit@2.21.0)
       ember-resolver:
-        specifier: ^11.0.1
-        version: 11.0.1(ember-source@5.9.0)
+        specifier: ^12.0.0
+        version: 12.0.0(ember-source@5.9.0)
       ember-source:
         specifier: ~5.9.0
         version: 5.9.0(@babel/core@7.24.7)(@glimmer/component@1.1.2)(rsvp@4.8.5)(webpack@5.91.0)
@@ -407,8 +407,8 @@ importers:
         specifier: ^8.0.2
         version: 8.0.2(@ember/test-helpers@3.3.0)(ember-source@5.9.0)(qunit@2.21.0)
       ember-resolver:
-        specifier: ^11.0.1
-        version: 11.0.1(ember-source@5.9.0)
+        specifier: ^12.0.0
+        version: 12.0.0(ember-source@5.9.0)
       ember-source:
         specifier: ~5.9.0
         version: 5.9.0(@babel/core@7.24.7)(@glimmer/component@1.1.2)(rsvp@4.8.5)(webpack@5.91.0)
@@ -1903,7 +1903,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.24.7
-      '@babel/helper-module-imports': 7.24.6
+      '@babel/helper-module-imports': 7.24.7
       '@babel/helper-plugin-utils': 7.24.7
       babel-plugin-polyfill-corejs2: 0.3.3(@babel/core@7.24.7)
       babel-plugin-polyfill-corejs3: 0.6.0(@babel/core@7.24.7)
@@ -9391,8 +9391,8 @@ packages:
       - supports-color
     dev: true
 
-  /ember-resolver@11.0.1(ember-source@5.9.0):
-    resolution: {integrity: sha512-ucBk3oM+PR+AfYoSUXeQh8cDQS1sSiEKp4Pcgbew5cFMSqPxJfqd1zyZsfQKNTuyubeGmWxBOyMVSTvX2LeCyg==}
+  /ember-resolver@12.0.0(ember-source@5.9.0):
+    resolution: {integrity: sha512-JOD8Ja0wU8Q8ZX3NJwprgnbJKO7cbLtoaqHtFdkV4avkLAT8McLWYv82tp4j7EVsZsYhthRJV9jVsX+G/hm0Mg==}
     engines: {node: 14.* || 16.* || >= 18}
     peerDependencies:
       ember-source: ^4.8.3 || >= 5.0.0
