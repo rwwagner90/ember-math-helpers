@@ -44,7 +44,7 @@
     "@ember/test-helpers": "^3.3.0",
     "@embroider/compat": "^3.5.2",
     "@embroider/core": "^3.4.10",
-    "@embroider/webpack": "^4.0.1",
+    "@embroider/webpack": "^4.0.2",
     "@glimmer/component": "^1.1.2",
     "@glimmer/tracking": "^1.1.2",
     "autoprefixer": "^10.4.19",
