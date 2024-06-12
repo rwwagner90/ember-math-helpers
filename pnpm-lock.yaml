@@ -138,8 +138,8 @@ importers:
         specifier: ^4.1.0
         version: 4.1.0(ember-source@5.9.0)
       ember-qunit:
-        specifier: ^8.0.2
-        version: 8.0.2(@ember/test-helpers@3.3.0)(ember-source@5.9.0)(qunit@2.21.0)
+        specifier: ^8.1.0
+        version: 8.1.0(@ember/test-helpers@3.3.0)(ember-source@5.9.0)(qunit@2.21.0)
       ember-resolver:
         specifier: ^11.0.1
         version: 11.0.1(ember-source@5.9.0)
@@ -404,8 +404,8 @@ importers:
         specifier: ^8.2.3
         version: 8.2.3(ember-source@5.9.0)
       ember-qunit:
-        specifier: ^8.0.2
-        version: 8.0.2(@ember/test-helpers@3.3.0)(ember-source@5.9.0)(qunit@2.21.0)
+        specifier: ^8.1.0
+        version: 8.1.0(@ember/test-helpers@3.3.0)(ember-source@5.9.0)(qunit@2.21.0)
       ember-resolver:
         specifier: ^11.0.1
         version: 11.0.1(ember-source@5.9.0)
@@ -678,7 +678,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0
     dependencies:
-      '@babel/core': 7.24.7
+      '@babel/core': 7.24.7(supports-color@8.1.1)
       '@babel/helper-annotate-as-pure': 7.24.7
       regexpu-core: 5.2.2
 
@@ -1328,7 +1328,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
-      '@babel/core': 7.24.7
+      '@babel/core': 7.24.7(supports-color@8.1.1)
       '@babel/helper-create-regexp-features-plugin': 7.20.5(@babel/core@7.24.7)
       '@babel/helper-plugin-utils': 7.24.7
 
@@ -1337,7 +1337,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
-      '@babel/core': 7.24.7(supports-color@8.1.1)
+      '@babel/core': 7.24.7
       '@babel/helper-plugin-utils': 7.24.7
 
   /@babel/plugin-syntax-class-properties@7.12.13(@babel/core@7.24.7):
@@ -1354,7 +1354,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
-      '@babel/core': 7.24.7(supports-color@8.1.1)
+      '@babel/core': 7.24.7
       '@babel/helper-plugin-utils': 7.24.7
 
   /@babel/plugin-syntax-decorators@7.24.7(@babel/core@7.24.7):
@@ -1379,7 +1379,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
-      '@babel/core': 7.24.7(supports-color@8.1.1)
+      '@babel/core': 7.24.7
       '@babel/helper-plugin-utils': 7.24.7
 
   /@babel/plugin-syntax-import-assertions@7.20.0(@babel/core@7.24.7):
@@ -1396,7 +1396,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
-      '@babel/core': 7.24.7(supports-color@8.1.1)
+      '@babel/core': 7.24.7
       '@babel/helper-plugin-utils': 7.24.7
 
   /@babel/plugin-syntax-logical-assignment-operators@7.10.4(@babel/core@7.24.7):
@@ -1404,7 +1404,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
-      '@babel/core': 7.24.7(supports-color@8.1.1)
+      '@babel/core': 7.24.7
       '@babel/helper-plugin-utils': 7.24.7
 
   /@babel/plugin-syntax-nullish-coalescing-operator@7.8.3(@babel/core@7.24.7):
@@ -1412,7 +1412,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
-      '@babel/core': 7.24.7(supports-color@8.1.1)
+      '@babel/core': 7.24.7
       '@babel/helper-plugin-utils': 7.24.7
 
   /@babel/plugin-syntax-numeric-separator@7.10.4(@babel/core@7.24.7):
@@ -1420,7 +1420,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
-      '@babel/core': 7.24.7(supports-color@8.1.1)
+      '@babel/core': 7.24.7
       '@babel/helper-plugin-utils': 7.24.7
 
   /@babel/plugin-syntax-object-rest-spread@7.8.3(@babel/core@7.24.7):
@@ -1428,7 +1428,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
-      '@babel/core': 7.24.7(supports-color@8.1.1)
+      '@babel/core': 7.24.7
       '@babel/helper-plugin-utils': 7.24.7
 
   /@babel/plugin-syntax-optional-catch-binding@7.8.3(@babel/core@7.24.7):
@@ -1436,7 +1436,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
-      '@babel/core': 7.24.7(supports-color@8.1.1)
+      '@babel/core': 7.24.7
       '@babel/helper-plugin-utils': 7.24.7
 
   /@babel/plugin-syntax-optional-chaining@7.8.3(@babel/core@7.24.7):
@@ -1444,7 +1444,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
-      '@babel/core': 7.24.7(supports-color@8.1.1)
+      '@babel/core': 7.24.7
       '@babel/helper-plugin-utils': 7.24.7
 
   /@babel/plugin-syntax-private-property-in-object@7.14.5(@babel/core@7.24.7):
@@ -1453,7 +1453,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
-      '@babel/core': 7.24.7(supports-color@8.1.1)
+      '@babel/core': 7.24.7
       '@babel/helper-plugin-utils': 7.24.7
 
   /@babel/plugin-syntax-top-level-await@7.14.5(@babel/core@7.24.7):
@@ -1605,7 +1605,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
-      '@babel/core': 7.24.7
+      '@babel/core': 7.24.7(supports-color@8.1.1)
       '@babel/helper-create-regexp-features-plugin': 7.20.5(@babel/core@7.24.7)
       '@babel/helper-plugin-utils': 7.24.7
 
@@ -1822,7 +1822,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
-      '@babel/core': 7.24.7(supports-color@8.1.1)
+      '@babel/core': 7.24.7
       '@babel/helper-plugin-utils': 7.24.7
 
   /@babel/plugin-transform-property-literals@7.18.6(@babel/core@7.24.7):
@@ -9330,19 +9330,20 @@ packages:
       - supports-color
     dev: true
 
-  /ember-qunit@8.0.2(@ember/test-helpers@3.3.0)(ember-source@5.9.0)(qunit@2.21.0):
-    resolution: {integrity: sha512-Rf60jeUTWNsF3Imf/FLujW/B/DFmKVXKmXO1lirTXjpertKfwRhp/3MnN8a/U/WyodTIsERkInGT1IqTtphCdQ==}
+  /ember-qunit@8.1.0(@ember/test-helpers@3.3.0)(ember-source@5.9.0)(qunit@2.21.0):
+    resolution: {integrity: sha512-55/xqvVQwhiNcnh/tCzWyvlYzrYqwDY0/cIPyDQbAxGKtkUt9jCfRUGllfyOofC6LX0fL/0fIi+5e9sg1m6vXw==}
     peerDependencies:
       '@ember/test-helpers': '>=3.0.3'
       ember-source: '>=4.0.0'
       qunit: ^2.13.0
     dependencies:
       '@ember/test-helpers': 3.3.0(ember-source@5.9.0)(webpack@5.91.0)
-      '@embroider/addon-shim': 1.8.8
-      '@embroider/macros': 1.13.2
+      '@embroider/addon-shim': 1.8.9
+      '@embroider/macros': 1.16.2(@glint/template@1.4.0)
       ember-cli-test-loader: 3.1.0
       ember-source: 5.9.0(@babel/core@7.24.7)(@glimmer/component@1.1.2)(rsvp@4.8.5)(webpack@5.91.0)
       qunit: 2.21.0
+      qunit-theme-ember: 1.0.0
     transitivePeerDependencies:
       - '@glint/template'
       - supports-color
@@ -15878,6 +15879,10 @@ packages:
 
   /qunit-dom@3.1.2:
     resolution: {integrity: sha512-urHvzhDxihYrMBpsT/Fk7So79CPfvS0ZwZw2VPA+0JV1Q1XP2IhDg/PLHTt+r2j7787iQAOpILx2GjwAa6CpnA==}
+    dev: true
+
+  /qunit-theme-ember@1.0.0:
+    resolution: {integrity: sha512-vdMVVo6ecdCkWttMTKeyq1ZTLGHcA6zdze2zhguNuc3ritlJMhOXY5RDseqazOwqZVfCg3rtlmL3fMUyIzUyFQ==}
     dev: true
 
   /qunit@2.21.0:
