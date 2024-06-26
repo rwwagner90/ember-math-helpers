@@ -57,8 +57,8 @@ importers:
         specifier: ^3.3.0
         version: 3.3.0(ember-source@5.9.0)(webpack@5.92.1)
       '@embroider/compat':
-        specifier: ^3.5.4
-        version: 3.5.4(@embroider/core@3.4.14)
+        specifier: ^3.5.5
+        version: 3.5.5(@embroider/core@3.4.14)
       '@embroider/core':
         specifier: ^3.4.14
         version: 3.4.14(@glint/template@1.4.0)
@@ -335,14 +335,14 @@ importers:
         specifier: ^3.3.0
         version: 3.3.0(ember-source@5.9.0)(webpack@5.92.1)
       '@embroider/compat':
-        specifier: ^3.5.4
-        version: 3.5.4(@embroider/core@3.4.14)
+        specifier: ^3.5.5
+        version: 3.5.5(@embroider/core@3.4.14)
       '@embroider/core':
         specifier: ^3.4.14
         version: 3.4.14(@glint/template@1.4.0)
       '@embroider/test-setup':
         specifier: ^4.0.0
-        version: 4.0.0(@embroider/compat@3.5.4)(@embroider/core@3.4.14)(@embroider/webpack@4.0.4)
+        version: 4.0.0(@embroider/compat@3.5.5)(@embroider/core@3.4.14)(@embroider/webpack@4.0.4)
       '@embroider/webpack':
         specifier: ^4.0.4
         version: 4.0.4(@embroider/core@3.4.14)(webpack@5.92.1)
@@ -378,7 +378,7 @@ importers:
         version: 3.0.0
       ember-cli-code-coverage:
         specifier: ^3.0.0
-        version: 3.0.0(@embroider/compat@3.5.4)(@embroider/core@3.4.14)
+        version: 3.0.0(@embroider/compat@3.5.5)(@embroider/core@3.4.14)
       ember-cli-dependency-checker:
         specifier: ^3.3.2
         version: 3.3.2(ember-cli@5.2.1)
@@ -2463,12 +2463,12 @@ packages:
       - webpack
     dev: true
 
-  /@embroider/compat@3.5.4(@embroider/core@3.4.14):
-    resolution: {integrity: sha512-WTHR2PnBYtFrHsDJ0glU8feWr5sMmb3eDolH4M0n3oUNzfEkerRqeosNHAjSfQTlJIh2KDHd4Pf2XYLhRrDFPg==}
+  /@embroider/compat@3.5.5(@embroider/core@3.4.14):
+    resolution: {integrity: sha512-AFdsoitgxdU4VDmoGJohvPJtcQ0hpNrueHDHaeY1agPw18+CD+NQNtKI6BbGltEvneNBgWn8xaRChNqj+1tXoQ==}
     engines: {node: 12.* || 14.* || >= 16}
     hasBin: true
     peerDependencies:
-      '@embroider/core': ^3.4.13
+      '@embroider/core': ^3.4.14
     dependencies:
       '@babel/code-frame': 7.24.7
       '@babel/core': 7.24.7
@@ -2478,7 +2478,7 @@ packages:
       '@babel/runtime': 7.24.7
       '@babel/traverse': 7.24.7
       '@embroider/core': 3.4.14(@glint/template@1.4.0)
-      '@embroider/macros': 1.16.4
+      '@embroider/macros': 1.16.5(@glint/template@1.4.0)
       '@types/babel__code-frame': 7.0.3
       '@types/yargs': 17.0.20
       assert-never: 1.2.1
@@ -2738,7 +2738,7 @@ packages:
       - supports-color
     dev: true
 
-  /@embroider/test-setup@4.0.0(@embroider/compat@3.5.4)(@embroider/core@3.4.14)(@embroider/webpack@4.0.4):
+  /@embroider/test-setup@4.0.0(@embroider/compat@3.5.5)(@embroider/core@3.4.14)(@embroider/webpack@4.0.4):
     resolution: {integrity: sha512-1S3Ebk0CEh3XDqD93AWSwQZBCk+oGv03gtkaGgdgyXGIR7jrVyDgEnEuslN/hJ0cuU8TqhiXrzHMw7bJwIGhWw==}
     engines: {node: 12.* || 14.* || >= 16}
     peerDependencies:
@@ -2753,7 +2753,7 @@ packages:
       '@embroider/webpack':
         optional: true
     dependencies:
-      '@embroider/compat': 3.5.4(@embroider/core@3.4.14)
+      '@embroider/compat': 3.5.5(@embroider/core@3.4.14)
       '@embroider/core': 3.4.14(@glint/template@1.4.0)
       '@embroider/webpack': 4.0.4(@embroider/core@3.4.14)(webpack@5.92.1)
       lodash: 4.17.21
@@ -8708,7 +8708,7 @@ packages:
       - supports-color
     dev: true
 
-  /ember-cli-code-coverage@3.0.0(@embroider/compat@3.5.4)(@embroider/core@3.4.14):
+  /ember-cli-code-coverage@3.0.0(@embroider/compat@3.5.5)(@embroider/core@3.4.14):
     resolution: {integrity: sha512-IAVET5oKS0IkEAPUTKOzHlNk1Z+986//8LZmfqhkSGkGJ76tFLw8AAS+BloUctX7J/xCUNn/1voBVqb5oabMPw==}
     engines: {node: '>= 18'}
     peerDependencies:
@@ -8720,7 +8720,7 @@ packages:
       '@embroider/core':
         optional: true
     dependencies:
-      '@embroider/compat': 3.5.4(@embroider/core@3.4.14)
+      '@embroider/compat': 3.5.5(@embroider/core@3.4.14)
       '@embroider/core': 3.4.14(@glint/template@1.4.0)
       babel-plugin-istanbul: 6.1.1
       body-parser: 1.20.1
