@@ -56,7 +56,7 @@
     "eslint-plugin-decorator-position": "5.0.2",
     "eslint-plugin-ember": "12.1.1",
     "eslint-plugin-import": "2.29.1",
-    "eslint-plugin-json": "4.0.0",
+    "eslint-plugin-json": "4.0.1",
     "eslint-plugin-n": "^17.10.2",
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-simple-import-sort": "12.1.1",
