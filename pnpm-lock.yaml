@@ -238,8 +238,8 @@ importers:
         specifier: ^7.25.2
         version: 7.25.2(@babel/core@7.25.2)
       '@babel/runtime':
-        specifier: ^7.25.4
-        version: 7.25.4
+        specifier: ^7.25.6
+        version: 7.25.6
       '@embroider/addon-dev':
         specifier: ^5.0.0
         version: 5.0.0(@glint/template@1.4.0)(rollup@4.21.1)
@@ -1155,12 +1155,12 @@ packages:
   '@babel/runtime@7.12.18':
     resolution: {integrity: sha512-BogPQ7ciE6SYAUPtlm9tWbgI9+2AgqSam6QivMgXgAT+fKbgppaj4ZX15MHeLC1PVF5sNk70huBu20XxWOs8Cg==}
 
-  '@babel/runtime@7.25.0':
-    resolution: {integrity: sha512-7dRy4DwXwtzBrPbZflqxnvfxLF8kdZXPkhymtDeFoFqE6ldzjQFgYTtYIFARcLEYDrqfBfYcZt1WqFxRoyC9Rw==}
-    engines: {node: '>=6.9.0'}
-
   '@babel/runtime@7.25.4':
     resolution: {integrity: sha512-DSgLeL/FNcpXuzav5wfYvHCGvynXkJbn3Zvc3823AEe9nPwW9IK4UoCSS5yGymmQzN0pCPvivtgS6/8U2kkm1w==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/runtime@7.25.6':
+    resolution: {integrity: sha512-VBj9MYyDb9tuLq7yzqjgzt6Q+IBQLrGZfdjOekyEirZPHxXWoTSGUTMrpsfi58Up73d13NfYLv8HT9vmznjzhQ==}
     engines: {node: '>=6.9.0'}
 
   '@babel/template@7.25.0':
@@ -11103,11 +11103,11 @@ snapshots:
     dependencies:
       regenerator-runtime: 0.13.11
 
-  '@babel/runtime@7.25.0':
+  '@babel/runtime@7.25.4':
     dependencies:
       regenerator-runtime: 0.14.1
 
-  '@babel/runtime@7.25.4':
+  '@babel/runtime@7.25.6':
     dependencies:
       regenerator-runtime: 0.14.1
 
@@ -11346,7 +11346,7 @@ snapshots:
       '@babel/plugin-syntax-dynamic-import': 7.8.3(@babel/core@7.25.2)
       '@babel/plugin-transform-runtime': 7.19.6(@babel/core@7.25.2)
       '@babel/preset-env': 7.20.2(@babel/core@7.25.2)
-      '@babel/runtime': 7.25.0
+      '@babel/runtime': 7.25.4
       '@babel/traverse': 7.24.8
       '@embroider/core': 3.4.14(@glint/template@1.4.0)
       '@embroider/macros': 1.16.5(@glint/template@1.4.0)
@@ -15021,7 +15021,7 @@ snapshots:
 
   date-fns@2.30.0:
     dependencies:
-      '@babel/runtime': 7.25.4
+      '@babel/runtime': 7.25.6
 
   date-time@2.1.0:
     dependencies:
@@ -17911,7 +17911,7 @@ snapshots:
 
   is-language-code@3.1.0:
     dependencies:
-      '@babel/runtime': 7.25.4
+      '@babel/runtime': 7.25.6
 
   is-negative-zero@2.0.3: {}
 
@@ -20119,7 +20119,7 @@ snapshots:
 
   regenerator-transform@0.15.1:
     dependencies:
-      '@babel/runtime': 7.25.4
+      '@babel/runtime': 7.25.6
 
   regex-not@1.0.2:
     dependencies:
