@@ -50,7 +50,7 @@
     "autoprefixer": "^10.4.20",
     "broccoli-asset-rev": "^3.0.0",
     "concurrently": "^8.2.2",
-    "cssnano": "^7.0.5",
+    "cssnano": "^7.0.6",
     "ember-auto-import": "^2.7.4",
     "ember-cli": "~5.2.1",
     "ember-cli-app-version": "^7.0.0",
