@@ -40,7 +40,7 @@
     "@babel/plugin-transform-class-static-block": "^7.24.7",
     "@babel/plugin-transform-typescript": "^7.25.2",
     "@babel/runtime": "^7.25.6",
-    "@embroider/addon-dev": "^5.0.0",
+    "@embroider/addon-dev": "^6.0.0",
     "@glint/core": "^1.4.0",
     "@glint/environment-ember-loose": "^1.4.0",
     "@glint/environment-ember-template-imports": "^1.4.0",
