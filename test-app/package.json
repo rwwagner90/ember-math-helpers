@@ -43,7 +43,7 @@
     "@ember/string": "^4.0.0",
     "@ember/test-helpers": "^4.0.4",
     "@embroider/compat": "^3.7.0",
-    "@embroider/core": "^3.4.17",
+    "@embroider/core": "^3.4.19",
     "@embroider/test-setup": "^4.0.0",
     "@embroider/webpack": "^4.0.6",
     "@glimmer/component": "^1.1.2",
