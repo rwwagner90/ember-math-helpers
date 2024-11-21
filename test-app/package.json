@@ -45,7 +45,7 @@
     "@embroider/compat": "^3.7.0",
     "@embroider/core": "^3.4.19",
     "@embroider/test-setup": "^4.0.0",
-    "@embroider/webpack": "^4.0.6",
+    "@embroider/webpack": "^4.0.8",
     "@glimmer/component": "^1.1.2",
     "@glimmer/tracking": "^1.1.2",
     "broccoli-asset-rev": "^3.0.0",
