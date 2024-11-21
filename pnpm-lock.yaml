@@ -241,8 +241,8 @@ importers:
         specifier: ^7.26.0
         version: 7.26.0
       '@embroider/addon-dev':
-        specifier: ^6.0.0
-        version: 6.0.0(@glint/template@1.4.0)(rollup@4.27.3)
+        specifier: ^7.0.0
+        version: 7.0.0(@glint/template@1.4.0)(rollup@4.27.3)
       '@glint/core':
         specifier: ^1.5.0
         version: 1.5.0(typescript@5.4.3)
@@ -1306,8 +1306,8 @@ packages:
     resolution: {integrity: sha512-bb9h95ktG2wKY9+ja1sdsFBdOms2lB19VWs8wmNpzgHv1NCetonBoV5jHBV4DHt0uS1tg9z66cZqhUVlYs96KQ==}
     engines: {node: 10.* || 12.* || >= 14.*}
 
-  '@embroider/addon-dev@6.0.0':
-    resolution: {integrity: sha512-PI5SAJ4basNIut8VUmIeoaPOCB0CURobZyvEASO9eFiSuxMGSGEQ8xPxYQTLGE1Vi/zMeqtI5J106N2r8S9KgQ==}
+  '@embroider/addon-dev@7.0.0':
+    resolution: {integrity: sha512-jxRh++d2YXnEAjPxvjHGsTqx/Gd9U3LDeuLYBhLW6wzXakCyvU3K6V7jbYfx5fAxbdGkr2jFIp2gmGEsai2fpQ==}
     engines: {node: 12.* || 14.* || >= 16}
     hasBin: true
     peerDependencies:
@@ -3735,6 +3735,9 @@ packages:
 
   content-tag@2.0.1:
     resolution: {integrity: sha512-jxsETSDs5NbNwyiDuIp672fUMhUyu8Qxc5MOBOJOcgW/fQESI6o5K1LBDrnEE7Bh810a685lWEZHTF4jQYGEEw==}
+
+  content-tag@3.0.0:
+    resolution: {integrity: sha512-HxWPmF9hzehv5PV7TSK7QSzlVBhmwQA8NgBrXmL+fqXfM3L1r3ResAPzeiGbxra3Zw6U3gdhw3cIDJADQnuCVQ==}
 
   content-type@1.0.4:
     resolution: {integrity: sha512-hIP3EEPs8tB9AT1L+NUqtwOAps4mk2Zob89MWXMHjHWg9milF/j4osnnQLXBCBFBk/tvIG/tUc9mOUJiPBhPXA==}
@@ -10654,11 +10657,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@embroider/addon-dev@6.0.0(@glint/template@1.4.0)(rollup@4.27.3)':
+  '@embroider/addon-dev@7.0.0(@glint/template@1.4.0)(rollup@4.27.3)':
     dependencies:
       '@embroider/core': 3.4.19(@glint/template@1.4.0)
       '@rollup/pluginutils': 4.2.1
-      content-tag: 2.0.1
+      content-tag: 3.0.0
       fs-extra: 10.1.0
       minimatch: 3.1.2
       rollup-plugin-copy-assets: 2.0.3(rollup@4.27.3)
@@ -13978,6 +13981,8 @@ snapshots:
       safe-buffer: 5.2.1
 
   content-tag@2.0.1: {}
+
+  content-tag@3.0.0: {}
 
   content-type@1.0.4: {}
 
