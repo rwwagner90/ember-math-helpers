@@ -45,7 +45,7 @@
     "@embroider/compat": "^3.7.0",
     "@embroider/core": "^3.4.19",
     "@embroider/webpack": "^4.0.8",
-    "@glimmer/component": "^1.1.2",
+    "@glimmer/component": "^2.0.0",
     "@glimmer/tracking": "^1.1.2",
     "autoprefixer": "^10.4.20",
     "broccoli-asset-rev": "^3.0.0",
