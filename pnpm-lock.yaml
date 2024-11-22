@@ -159,8 +159,8 @@ importers:
         specifier: ^9.1.0
         version: 9.1.0(eslint@8.57.0)
       eslint-plugin-ember:
-        specifier: ^12.2.1
-        version: 12.2.1(@babel/core@7.26.0)(@typescript-eslint/parser@8.15.0(eslint@8.57.0)(typescript@5.4.3))(eslint@8.57.0)
+        specifier: ^12.3.2
+        version: 12.3.2(@babel/core@7.26.0)(@typescript-eslint/parser@8.15.0(eslint@8.57.0)(typescript@5.4.3))(eslint@8.57.0)
       eslint-plugin-n:
         specifier: ^17.13.2
         version: 17.13.2(eslint@8.57.0)
@@ -283,8 +283,8 @@ importers:
         specifier: 5.0.2
         version: 5.0.2(@babel/eslint-parser@7.25.7(@babel/core@7.26.0)(eslint@8.57.0))(eslint@8.57.0)
       eslint-plugin-ember:
-        specifier: 12.2.1
-        version: 12.2.1(@babel/core@7.26.0)(@typescript-eslint/parser@8.15.0(eslint@8.57.0)(typescript@5.4.3))(eslint@8.57.0)
+        specifier: 12.3.2
+        version: 12.3.2(@babel/core@7.26.0)(@typescript-eslint/parser@8.15.0(eslint@8.57.0)(typescript@5.4.3))(eslint@8.57.0)
       eslint-plugin-import:
         specifier: 2.31.0
         version: 2.31.0(@typescript-eslint/parser@8.15.0(eslint@8.57.0)(typescript@5.4.3))(eslint@8.57.0)
@@ -428,8 +428,8 @@ importers:
         specifier: ^9.1.0
         version: 9.1.0(eslint@8.57.0)
       eslint-plugin-ember:
-        specifier: ^12.2.1
-        version: 12.2.1(@babel/core@7.26.0)(@typescript-eslint/parser@8.15.0(eslint@8.57.0)(typescript@5.4.3))(eslint@8.57.0)
+        specifier: ^12.3.2
+        version: 12.3.2(@babel/core@7.26.0)(@typescript-eslint/parser@8.15.0(eslint@8.57.0)(typescript@5.4.3))(eslint@8.57.0)
       eslint-plugin-n:
         specifier: ^17.13.2
         version: 17.13.2(eslint@8.57.0)
@@ -4354,8 +4354,8 @@ packages:
     resolution: {integrity: sha512-bWMGo3R7PgiMHuzXHM9D2Nokn76iyNGuTU25AJcKWgy74o265Z2f3gzeZl2Hj2mpwI3w6MehAuHrwcQUB4P98g==}
     engines: {node: 6.* || 8.* || >= 10.*}
 
-  ember-eslint-parser@0.5.2:
-    resolution: {integrity: sha512-289KjJ08QxK1Ytf+aq04QMoQ8WvhXCInJixcGuS5SWBFNlVuEs9yAZ06VXzVSuZ9zMAqX24MTMvD7ICVFN7QSg==}
+  ember-eslint-parser@0.5.4:
+    resolution: {integrity: sha512-WA2ZfCT4ePtWfCjYlCLRBnl/xS4mWZ5S2xqBDFtx6j0RIKLZoSYWn252S3NyA4VavVb9DVjd06j1CBaLe9kjcA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       '@babel/core': ^7.23.6
@@ -4651,8 +4651,8 @@ packages:
       '@babel/eslint-parser':
         optional: true
 
-  eslint-plugin-ember@12.2.1:
-    resolution: {integrity: sha512-HZZueTKXmQRDVxREiMLdh87sLFmmkjH3z37gsS0pLWtnZECJiG447GCd+odVgWpSKoDpB4Hce0BtoJeY2HGSlg==}
+  eslint-plugin-ember@12.3.2:
+    resolution: {integrity: sha512-Hwrp66lzG6fsatHXgaoc6bqx3tZ01W97vSNPNL+B6VhsIc4ujg2M3QRsM1CYX1o38H5ET6UGqZNqvEmFmKNNig==}
     engines: {node: 18.* || 20.* || >= 21}
     peerDependencies:
       '@typescript-eslint/parser': '*'
@@ -15580,7 +15580,7 @@ snapshots:
       - '@babel/core'
       - supports-color
 
-  ember-eslint-parser@0.5.2(@babel/core@7.26.0)(@typescript-eslint/parser@8.15.0(eslint@8.57.0)(typescript@5.4.3))(eslint@8.57.0):
+  ember-eslint-parser@0.5.4(@babel/core@7.26.0)(@typescript-eslint/parser@8.15.0(eslint@8.57.0)(typescript@5.4.3))(eslint@8.57.0):
     dependencies:
       '@babel/core': 7.26.0
       '@babel/eslint-parser': 7.25.7(@babel/core@7.26.0)(eslint@8.57.0)
@@ -16123,11 +16123,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-ember@12.2.1(@babel/core@7.26.0)(@typescript-eslint/parser@8.15.0(eslint@8.57.0)(typescript@5.4.3))(eslint@8.57.0):
+  eslint-plugin-ember@12.3.2(@babel/core@7.26.0)(@typescript-eslint/parser@8.15.0(eslint@8.57.0)(typescript@5.4.3))(eslint@8.57.0):
     dependencies:
       '@ember-data/rfc395-data': 0.0.4
       css-tree: 2.3.1
-      ember-eslint-parser: 0.5.2(@babel/core@7.26.0)(@typescript-eslint/parser@8.15.0(eslint@8.57.0)(typescript@5.4.3))(eslint@8.57.0)
+      ember-eslint-parser: 0.5.4(@babel/core@7.26.0)(@typescript-eslint/parser@8.15.0(eslint@8.57.0)(typescript@5.4.3))(eslint@8.57.0)
       ember-rfc176-data: 0.3.18
       eslint: 8.57.0
       eslint-utils: 3.0.0(eslint@8.57.0)
