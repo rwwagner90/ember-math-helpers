@@ -157,6 +157,9 @@ importers:
       '@embroider/core':
         specifier: ^3.4.19
         version: 3.4.19(@glint/template@1.5.0)
+      '@embroider/macros':
+        specifier: ^1.16.9
+        version: 1.16.9(@glint/template@1.5.0)
       '@embroider/test-setup':
         specifier: ^4.0.0
         version: 4.0.0(@embroider/compat@3.7.0(@embroider/core@3.4.19(@glint/template@1.5.0))(@glint/template@1.5.0))(@embroider/core@3.4.19(@glint/template@1.5.0))(@embroider/webpack@4.0.8(@embroider/core@3.4.19(@glint/template@1.5.0))(webpack@5.97.0))
@@ -11169,7 +11172,7 @@ snapshots:
 
   '@embroider/shared-internals@2.8.1':
     dependencies:
-      babel-import-util: 2.0.0
+      babel-import-util: 2.1.1
       debug: 4.3.7
       ember-rfc176-data: 0.3.18
       fs-extra: 9.1.0
@@ -11186,7 +11189,7 @@ snapshots:
 
   '@embroider/shared-internals@2.8.1(supports-color@8.1.1)':
     dependencies:
-      babel-import-util: 2.0.0
+      babel-import-util: 2.1.1
       debug: 4.3.7(supports-color@8.1.1)
       ember-rfc176-data: 0.3.18
       fs-extra: 9.1.0
@@ -13148,7 +13151,7 @@ snapshots:
   babel-plugin-ember-template-compilation@2.2.0:
     dependencies:
       '@glimmer/syntax': 0.84.3
-      babel-import-util: 2.0.0
+      babel-import-util: 2.1.1
 
   babel-plugin-ember-template-compilation@2.3.0:
     dependencies:
