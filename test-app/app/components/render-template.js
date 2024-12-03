@@ -2,11 +2,7 @@ import Component from '@glimmer/component';
 import { compileHBS } from 'ember-repl/formats/hbs';
 import * as helpers from 'ember-math-helpers';
 import { cached } from '@glimmer/tracking';
-import {
-  macroCondition,
-  dependencySatisfies,
-  importSync,
-} from '@embroider/macros';
+import { macroCondition, dependencySatisfies } from '@embroider/macros';
 
 export default class RenderTemplate extends Component {
   @cached
