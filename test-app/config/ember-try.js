@@ -7,7 +7,7 @@ module.exports = async function () {
   return {
     usePnpm: true,
     buildManagerOptions() {
-      return ['--ignore-scripts'];
+      return ['--ignore-scripts', '--no-frozen-lockfile'];
     },
     scenarios: [
       {
