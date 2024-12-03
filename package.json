@@ -8,19 +8,16 @@
     "url": "https://github.com/RobbieTheWagner"
   },
   "scripts": {
-    "ember-try-one": "pnpm -F test-app ember-try-one",
-    "prepare": "pnpm -F ember-math-helpers prepare",
+    "build": "pnpm --filter ember-math-helpers build",
     "release": "pnpm prepare && pnpm -F ember-math-helpers release",
-    "start": "npm-run-all --parallel start:*",
-    "start:addon": "pnpm -F ember-math-helpers start",
-    "start:test-app": "pnpm -F test-app start",
     "lint": "pnpm --filter '*' lint",
     "lint:fix": "pnpm --filter '*' lint:fix",
-    "test": "pnpm prepare && pnpm -F test-app test:ember",
-    "test:test-app": "pnpm -F test-app test",
-    "test:watch": "npm-run-all --aggregate-output --continue-on-error --parallel test:watch:*",
-    "test:watch:test-app": "pnpm -F test-app test --server",
-    "test:watch:addon": "pnpm -F ember-math-helpers start"
+    "prepare": "pnpm build",
+    "start": "concurrently 'pnpm:start:*' --restart-after 5000 --prefix-colors cyan,white,yellow",
+    "start:addon": "pnpm --filter ember-shepherd start --no-watch.clearScreen",
+    "start:test-app": "pnpm --filter test-app start",
+    "test": "pnpm --filter '*' test",
+    "test:ember": "pnpm --filter '*' test:ember"
   },
   "devDependencies": {
     "@release-it-plugins/lerna-changelog": "^7.0.0",
