@@ -1,1 +1,11 @@
-/* Ember supports plain CSS out of the box. More info: https://cli.emberjs.com/release/advanced-use/stylesheets/ */
+:root {
+  --brand-primary: #ef898b;
+}
+
+body {
+  background-color: white !important;
+}
+
+.hero {
+  padding: 0 2rem;
+}

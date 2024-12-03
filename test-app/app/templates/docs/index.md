@@ -12,25 +12,8 @@
 
 HTMLBars template helpers for doing basic arithmetic operations
 
-## Compatibility
-
-* Ember.js v3.28 or above
-* Ember CLI v3.28 or above
-
-
 ## Installation
 
-`ember install ember-math-helpers`
-
-## Documentation
-
-[View Docs](https://robbiethewagner.github.io/ember-math-helpers/)
-
-## Contributing
-
-See the [Contributing](CONTRIBUTING.md) guide for details.
-
-
-## License
-
-This project is licensed under the [MIT License](LICENSE.md).
+```sh
+ember install ember-math-helpers
+```
