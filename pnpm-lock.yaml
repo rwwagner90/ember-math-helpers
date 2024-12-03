@@ -267,9 +267,6 @@ importers:
       concurrently:
         specifier: 9.1.0
         version: 9.1.0
-      ember-source:
-        specifier: ~6.0.1
-        version: 6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.96.1)
       eslint:
         specifier: ^8.57.1
         version: 8.57.1

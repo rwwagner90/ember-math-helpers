@@ -51,7 +51,6 @@
     "@typescript-eslint/eslint-plugin": "^8.17.0",
     "@typescript-eslint/parser": "^8.17.0",
     "concurrently": "9.1.0",
-    "ember-source": "~6.0.1",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-decorator-position": "6.0.0",
