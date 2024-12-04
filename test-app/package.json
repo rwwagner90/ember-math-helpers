@@ -3,7 +3,7 @@
   "version": "4.0.0",
   "private": true,
   "description": "The test app to run tests for ember-math-helpers",
-  "repository": "",
+  "repository": "https://github.com/RobbieTheWagner/ember-math-helpers",
   "license": "MIT",
   "author": "",
   "directories": {
