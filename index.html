@@ -1,48 +1,19 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Ember Math Helpers</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <title>TestApp</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--favicons-->
-
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/favicons/apple-touch-icon-d36db0fefb3ccde43c5f632afaaaacdf.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/favicons/favicon-32x32-801a69dfd9c2b6c349dbc0c554c8352d.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/favicons/favicon-16x16-3d7b667827dbfb022348028512730f55.png"
-    />
-    <link rel="manifest" href="/favicons/manifest.json" />
-    <link
-      rel="mask-icon"
-      href="/favicons/safari-pinned-tab.svg"
-      color="#426170"
-    />
-    <link rel="shortcut icon" href="/favicons/favicon.ico" />
-    <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
-    <meta name="theme-color" content="#ffffff" />
+    <meta name="test-app/config/environment" content="%7B%22modulePrefix%22%3A%22test-app%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2Ftest-app%2F%22%2C%22locationType%22%3A%22history%22%2C%22EmberENV%22%3A%7B%22EXTEND_PROTOTYPES%22%3Afalse%2C%22FEATURES%22%3A%7B%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Atrue%2C%22_JQUERY_INTEGRATION%22%3Afalse%2C%22_NO_IMPLICIT_ROUTE_MODEL%22%3Atrue%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22APP%22%3A%7B%22name%22%3A%22test-app%22%2C%22version%22%3A%22v4.1.0%2B76bd725b%22%7D%2C%22ember-cli-addon-docs%22%3A%7B%22projectName%22%3A%22ember-math-helpers%22%2C%22projectDescription%22%3A%22HTMLBars%20helpers%20for%20basic%20arithmetic%22%2C%22projectTag%22%3A%224.1.0%22%2C%22projectHref%22%3A%22https%3A%2F%2Fgithub.com%2FRobbieTheWagner%2Fember-math-helpers%22%2C%22docsAppPathInRepo%22%3A%22test-app%2Fapp%22%2C%22addonPathInRepo%22%3A%22ember-math-helpers%2Fsrc%22%2C%22primaryBranch%22%3A%22master%22%2C%22latestVersionName%22%3A%22-latest%22%2C%22deployVersion%22%3A%7B%22path%22%3A%22%22%2C%22name%22%3A%22Latest%22%2C%22sha%22%3A%2276bd725b079cc6383702bc139a36103343f602c2%22%2C%22tag%22%3A%22v4.1.0%22%2C%22key%22%3A%22-latest%22%7D%2C%22searchTokenSeparator%22%3A%22%5C%5Cs%2B%22%2C%22showImportPaths%22%3Atrue%7D%2C%22ember-modal-dialog%22%3A%7B%22hasEmberTether%22%3A%223.1.0%22%7D%7D">
 
     
-<meta name="docs/config/environment" content="%7B%22modulePrefix%22%3A%22docs%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2Fember-math-helpers%2F%22%2C%22locationType%22%3A%22auto%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Atrue%2C%22_JQUERY_INTEGRATION%22%3Afalse%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22APP%22%3A%7B%22name%22%3A%22docs%22%2C%22version%22%3A%22v3.0.0%2B75c4dde2%22%7D%2C%22ember-cli-addon-docs%22%3A%7B%22projectName%22%3A%22ember-math-helpers%22%2C%22projectDescription%22%3A%22HTMLBars%20helpers%20for%20basic%20arithmetic%22%2C%22projectTag%22%3A%223.0.0%22%2C%22projectHref%22%3A%22https%3A%2F%2Fgithub.com%2Frwwagner90%2Fember-math-helpers%22%2C%22docsAppPathInRepo%22%3A%22docs%2Fapp%22%2C%22addonPathInRepo%22%3A%22addon%22%2C%22primaryBranch%22%3A%22master%22%2C%22latestVersionName%22%3A%22-latest%22%2C%22deployVersion%22%3A%7B%22path%22%3A%22%22%2C%22name%22%3A%22Latest%22%2C%22sha%22%3A%2275c4dde2f3321f503deb25b24efdc7fd7594224f%22%2C%22tag%22%3A%22v3.0.0%22%2C%22key%22%3A%22-latest%22%7D%2C%22searchTokenSeparator%22%3A%22%5C%5Cs%2B%22%2C%22showImportPaths%22%3Atrue%7D%2C%22ember-modal-dialog%22%3A%7B%22hasEmberTether%22%3A%222.0.0%22%7D%2C%22exportApplicationGlobal%22%3Afalse%7D" />
 
-    <link integrity="" rel="stylesheet" href="/ember-math-helpers/assets/vendor-17a65c5acc85c16bf0fecc5dccc6b0ed.css" />
-    <link integrity="" rel="stylesheet" href="/ember-math-helpers/assets/docs-84c52d416bde8f4ab1c2f2c04046d8f2.css" />
+<link integrity="" rel="stylesheet" href="/test-app/assets/vendor.fed99e26894dc7fa6885f8e46ca270d1.css">
+    
 
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,600" rel="stylesheet">
+<link integrity="" rel="stylesheet" href="/test-app/assets/test-app.84c52d416bde8f4ab1c2f2c04046d8f2.css">
+
+    
   </head>
   <body>
     <!-- Start Single Page Apps for GitHub Pages -->
@@ -78,9 +49,15 @@
 <!-- End Single Page Apps for GitHub Pages -->
 
 
-    <script src="/ember-math-helpers/assets/vendor-1220338d919d35fe2f79f8fb3815724d.js"></script>
-    <script src="/ember-math-helpers/assets/docs-79ac7e03efea7b7929229f30b34e0a84.js"></script>
+    
+<script src="/test-app/assets/vendor.f4f8dc871ac9c9a34c9a93f7b12c18f9.js"></script>
 
     
-  </body>
-</html>
+<script src="/test-app/assets/chunk.3fbb35783c919ef0a805.js"></script>
+<script src="/test-app/assets/chunk.407a3c8dfc350276d3cf.js"></script>
+
+
+    
+  
+
+</body></html>
