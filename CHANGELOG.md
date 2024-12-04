@@ -3,6 +3,32 @@
 
 
 
+
+## v4.1.0 (2024-12-04)
+
+#### :rocket: Enhancement
+* [#1798](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1798) Add Ember v6 Peer Support ([@jrjohnson](https://github.com/jrjohnson))
+* [#1539](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1539) Re-export helpers from index ([@charlesfries](https://github.com/charlesfries))
+* [#1423](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1423) use types shipped by ember-source ([@jelhan](https://github.com/jelhan))
+
+#### :bug: Bug Fix
+* [#1694](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1694) fix: Make sure that global imports/exports do work ([@MichalBryxi](https://github.com/MichalBryxi))
+
+#### :memo: Documentation
+* [#1857](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1857) Fix helper docs generation ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+* [#1851](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1851) Add back addon-docs ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+
+#### :house: Internal
+* [#1852](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1852) Switch to ember-repl ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+* [#1844](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1844) Use workspace versions of ember-math-helpers, remove docfy ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+
+#### Committers: 5
+- Charles Fries ([@charlesfries](https://github.com/charlesfries))
+- Jeldrik Hanschke ([@jelhan](https://github.com/jelhan))
+- Jon Johnson ([@jrjohnson](https://github.com/jrjohnson))
+- Michal Bryxí ([@MichalBryxi](https://github.com/MichalBryxi))
+- Robbie Wagner ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+
 ## v4.0.0 (2023-11-02)
 
 #### :boom: Breaking Change
