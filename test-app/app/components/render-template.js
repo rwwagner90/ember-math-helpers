@@ -1,13 +1,17 @@
 import Component from '@glimmer/component';
-import { compileHBS } from 'ember-repl/formats/hbs';
 import * as helpers from 'ember-math-helpers';
 import { cached } from '@glimmer/tracking';
-import { macroCondition, dependencySatisfies } from '@embroider/macros';
+import {
+  importSync,
+  macroCondition,
+  dependencySatisfies,
+} from '@embroider/macros';
 
 export default class RenderTemplate extends Component {
   @cached
   get compileResult() {
     if (macroCondition(dependencySatisfies('ember-source', '>= 5.0.0'))) {
+      const { compileHBS } = importSync('ember-repl/formats/hbs');
       return compileHBS(this.args.templateString, {
         scope: { ...helpers },
       });
