@@ -14,7 +14,7 @@
     "lint:fix": "pnpm --filter '*' lint:fix",
     "prepare": "pnpm build",
     "start": "concurrently 'pnpm:start:*' --restart-after 5000 --prefix-colors cyan,white,yellow",
-    "start:addon": "pnpm --filter ember-shepherd start --no-watch.clearScreen",
+    "start:addon": "pnpm --filter ember-math-helpers start --no-watch.clearScreen",
     "start:test-app": "pnpm --filter test-app start",
     "test": "pnpm --filter '*' test",
     "test:ember": "pnpm --filter '*' test:ember"

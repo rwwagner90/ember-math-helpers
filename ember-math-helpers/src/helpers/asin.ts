@@ -14,8 +14,9 @@ export interface AsinSignature {
  * {{asin a}}
  * ```
  *
- * @param number The number to pass to `Math.asin`
- * @return The asin of the passed number
+ * @function asin
+ * @param {number} number The number to pass to `Math.asin`
+ * @return {number} The asin of the passed number
  */
 export function asin([number]: [number]) {
   return Math.asin(number);

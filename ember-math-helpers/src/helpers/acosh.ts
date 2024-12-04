@@ -14,8 +14,9 @@ export interface AcoshSignature {
  * {{acosh a}}
  * ```
  *
- * @param number The number to pass to `Math.acosh`
- * @return The acosh of the passed number
+ * @function acosh
+ * @param {number} number The number to pass to `Math.acosh`
+ * @return {number} The acosh of the passed number
  */
 export function acosh([number]: [number]) {
   return Math.acosh(number);

@@ -14,8 +14,9 @@ export interface TruncSignature {
  * {{trunc a}}
  * ```
  *
- * @param number The number to pass to `Math.trunc`
- * @return The trunc of the passed number
+ * @function trunc
+ * @param {number} number The number to pass to `Math.trunc`
+ * @return {number} The trunc of the passed number
  */
 export function trunc([number]: [number]) {
   return Math.trunc(number);

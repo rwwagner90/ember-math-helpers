@@ -14,8 +14,9 @@ export interface Log1pSignature {
  * {{log1p a}}
  * ```
  *
- * @param number The number to pass to `Math.log1p`
- * @return The log1p of the passed number
+ * @function log1p
+ * @param {number} number The number to pass to `Math.log1p`
+ * @return {number} The log1p of the passed number
  */
 export function log1p([number]: [number]) {
   return Math.log1p(number);

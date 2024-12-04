@@ -14,9 +14,10 @@ export interface GcdSignature {
  * {{gcd a b}}
  * ```
  *
- * @param number1 The first number
- * @param number2 The second number
- * @return The GCD of the two numbers passed
+ * @function gcd
+ * @param {number} number1 The first number
+ * @param {number} number2 The second number
+ * @return {number} The GCD of the two numbers passed
  */
 export function gcd([number1 = 0, number2 = 0]) {
   const a = Math.abs(number1);

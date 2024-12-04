@@ -14,8 +14,9 @@ export interface MultSignature {
  * {{mult a b}}
  * ```
  *
- * @param numbers A list of numbers to multiply
- * @return The product of all the passed numbers
+ * @function mult
+ * @param {number[]} numbers A list of numbers to multiply
+ * @return {number} The product of all the passed numbers
  */
 export function mult(numbers: Array<number>) {
   return numbers.reduce((a, b) => Number(a) * Number(b));

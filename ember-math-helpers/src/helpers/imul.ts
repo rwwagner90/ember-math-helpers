@@ -14,9 +14,10 @@ export interface ImulSignature {
  * {{imul a}}
  * ```
  *
- * @param number1 The first number to pass to `Math.imul`
- * @param number2 The second number to pass to `Math.imul`
- * @return The imul of the passed numbers
+ * @function imul
+ * @param {number} number1 The first number to pass to `Math.imul`
+ * @param {number} number2 The second number to pass to `Math.imul`
+ * @return {number} The imul of the passed numbers
  */
 export function imul([number1, number2]: [number, number]) {
   return Math.imul(number1, number2);

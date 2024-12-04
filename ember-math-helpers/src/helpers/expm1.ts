@@ -14,8 +14,9 @@ export interface Expm1Signature {
  * {{expm1 a}}
  * ```
  *
- * @param number The number to pass to `Math.expm1`
- * @return The expm1 of the passed number
+ * @function expm1
+ * @param {number} number The number to pass to `Math.expm1`
+ * @return {number} The expm1 of the passed number
  */
 export function expm1([number]: [number]) {
   return Math.expm1(number);

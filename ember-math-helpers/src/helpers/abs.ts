@@ -14,8 +14,9 @@ export interface AbsSignature {
  * {{abs a}}
  * ```
  *
- * @param number The number to take the absolute value of
- * @return The absolute value of the passed number
+ * @function abs
+ * @param {number} number The number to take the absolute value of
+ * @return {number} The absolute value of the passed number
  */
 export function abs([number]: [number]) {
   return Math.abs(number);

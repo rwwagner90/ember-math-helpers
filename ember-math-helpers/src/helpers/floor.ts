@@ -14,6 +14,7 @@ export interface FloorSignature {
  * {{floor a}}
  * ```
  *
+ * @function floor
  * @param {number} number The number to pass to `Math.floor`
  * @return {number} The floor of the passed number
  */

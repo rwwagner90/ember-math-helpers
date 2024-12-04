@@ -14,8 +14,9 @@ export interface AcosSignature {
  * {{acos a}}
  * ```
  *
- * @param number The number to pass to `Math.acos`
- * @return The acos of the passed number
+ * @function acos
+ * @param {number} number The number to pass to `Math.acos`
+ * @return {number} The acos of the passed number
  */
 export function acos([number]: [number]) {
   return Math.acos(number);

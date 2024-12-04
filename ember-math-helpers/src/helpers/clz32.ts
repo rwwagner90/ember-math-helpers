@@ -14,8 +14,9 @@ export interface Clz32Signature {
  * {{clz32 a}}
  * ```
  *
- * @param number The number to pass to `Math.clz32`
- * @return The clz32 of the passed number
+ * @function clz32
+ * @param {number} number The number to pass to `Math.clz32`
+ * @return {number} The clz32 of the passed number
  */
 export function clz32([number]: [number]) {
   return Math.clz32(number);

@@ -14,8 +14,9 @@ export interface SqrtSignature {
  * {{sqrt a}}
  * ```
  *
- * @param number The number to pass to `Math.sqrt`
- * @return The sqrt of the passed number
+ * @function sqrt
+ * @param {number} number The number to pass to `Math.sqrt`
+ * @return {number} The sqrt of the passed number
  */
 export function sqrt([number]: [number]) {
   return Math.sqrt(number);

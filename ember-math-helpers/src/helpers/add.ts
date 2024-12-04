@@ -14,8 +14,9 @@ export interface AddSignature {
  * {{add a b}}
  * ```
  *
- * @param numbers A list of numbers to sum
- * @return The sum of all the passed numbers
+ * @function add
+ * @param {number[]} numbers A list of numbers to sum
+ * @return {number} The sum of all the passed numbers
  */
 export function add(numbers: Array<number>) {
   return numbers.reduce((a, b) => Number(a) + Number(b));

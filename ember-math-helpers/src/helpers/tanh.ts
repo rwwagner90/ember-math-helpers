@@ -14,8 +14,9 @@ export interface TanhSignature {
  * {{tanh a}}
  * ```
  *
- * @param number The number to pass to `Math.tanh`
- * @return The tanh of the passed number
+ * @function tanh
+ * @param {number} number The number to pass to `Math.tanh`
+ * @return {number} The tanh of the passed number
  */
 export function tanh([number]: [number]) {
   return Math.tanh(number);
