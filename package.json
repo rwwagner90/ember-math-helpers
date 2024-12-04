@@ -29,11 +29,12 @@
   "release-it": {
     "plugins": {
       "@release-it-plugins/workspaces": {
-        "publish": false
+        "workspaces": [
+          "ember-math-helpers"
+        ]
       },
       "@release-it-plugins/lerna-changelog": {
-        "infile": "CHANGELOG.md",
-        "launchEditor": true
+        "infile": "CHANGELOG.md"
       }
     },
     "git": {
@@ -42,7 +43,8 @@
     "github": {
       "release": true,
       "tokenRef": "GITHUB_AUTH"
-    }
+    },
+    "npm": false
   },
   "pnpm": {
     "overrides": {
