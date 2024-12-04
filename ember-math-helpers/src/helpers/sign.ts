@@ -14,8 +14,9 @@ export interface SignSignature {
  * {{sign a}}
  * ```
  *
- * @param number The number to pass to `Math.sign`
- * @return The sign of the passed number
+ * @function sign
+ * @param {number} number The number to pass to `Math.sign`
+ * @return {number} The sign of the passed number
  */
 export function sign([number]: [number]) {
   return Math.sign(number);

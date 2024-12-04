@@ -14,8 +14,9 @@ export interface AtanhSignature {
  * {{atanh a}}
  * ```
  *
- * @param number The number to pass to `Math.atanh`
- * @return The atanh of the passed number
+ * @function atanh
+ * @param {number} number The number to pass to `Math.atanh`
+ * @return {number} The atanh of the passed number
  */
 export function atanh([number]: [number]) {
   return Math.atanh(number);

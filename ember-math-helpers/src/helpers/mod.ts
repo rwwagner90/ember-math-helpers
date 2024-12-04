@@ -14,8 +14,9 @@ export interface ModSignature {
  * {{mod a b}}
  * ```
  *
- * @param numbers A list of numbers to modulus
- * @return The modulus of all the passed numbers
+ * @function mod
+ * @param {number[]} numbers A list of numbers to modulus
+ * @return {number} The modulus of all the passed numbers
  */
 export function mod(numbers: Array<number>) {
   return numbers.reduce((a, b) => Number(a) % Number(b));

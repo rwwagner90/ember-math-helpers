@@ -14,8 +14,9 @@ export interface MaxSignature {
  * {{max a b}}
  * ```
  *
- * @param numbers A list of numbers to pass to `Math.max`
- * @return The max of the set of numbers
+ * @function max
+ * @param {number[]} numbers A list of numbers to pass to `Math.max`
+ * @return {number} The max of the set of numbers
  */
 export function max(numbers: Array<number>) {
   return Math.max(...numbers);

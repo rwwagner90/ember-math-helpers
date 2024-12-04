@@ -14,8 +14,9 @@ export interface HypotSignature {
  * {{max a b}}
  * ```
  *
- * @param numbers A list of numbers to pass to `Math.hypot`
- * @return The hypot of the set of numbers
+ * @function hypot
+ * @param {number[]} numbers A list of numbers to pass to `Math.hypot`
+ * @return {number} The hypot of the set of numbers
  */
 export function hypot(numbers: Array<number>) {
   return Math.hypot(...numbers);

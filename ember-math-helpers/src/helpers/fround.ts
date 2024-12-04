@@ -14,8 +14,9 @@ export interface FroundSignature {
  * {{fround a}}
  * ```
  *
- * @param number The number to pass to `Math.fround`
- * @return The fround of the passed number
+ * @function fround
+ * @param {number} number The number to pass to `Math.fround`
+ * @return {number} The fround of the passed number
  */
 export function fround([number]: [number]) {
   return Math.fround(number);

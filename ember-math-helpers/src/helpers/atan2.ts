@@ -14,9 +14,10 @@ export interface Atan2Signature {
  * {{atan2 a b}}
  * ```
  *
- * @param number1 The first number to pass to `Math.atan2`
- * @param number2 The second number to pass to `Math.atan2`
- * @return The atan2 of the passed numbers
+ * @function atan2
+ * @param {number} number1 The first number to pass to `Math.atan2`
+ * @param {number} number2 The second number to pass to `Math.atan2`
+ * @return {number} The atan2 of the passed numbers
  */
 export function atan2([number1, number2]: [number, number]) {
   return Math.atan2(number1, number2);

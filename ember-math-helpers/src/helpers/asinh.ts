@@ -14,8 +14,9 @@ export interface AsinhSignature {
  * {{asinh a}}
  * ```
  *
- * @param number The number to pass to `Math.asinh`
- * @return The asinh of the passed number
+ * @function asinh
+ * @param {number} number The number to pass to `Math.asinh`
+ * @return {number} The asinh of the passed number
  */
 export function asinh([number]: [number]) {
   return Math.asinh(number);

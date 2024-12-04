@@ -14,8 +14,9 @@ export interface MinSignature {
  * {{min a b}}
  * ```
  *
- * @param numbers A list of numbers to pass to `Math.min`
- * @return The min of the set of numbers
+ * @function min
+ * @param {number[]} numbers A list of numbers to pass to `Math.min`
+ * @return {number} The min of the set of numbers
  */
 export function min(numbers: Array<number>) {
   return Math.min(...numbers);

@@ -14,8 +14,9 @@ export interface LogESignature {
  * {{log-e a}}
  * ```
  *
- * @param number The number to pass to `Math.log`
- * @return The log of the passed number
+ * @function log-e
+ * @param {number} number The number to pass to `Math.log`
+ * @return {number} The log of the passed number
  */
 export function logE([number]: [number]) {
   return Math.log(number);

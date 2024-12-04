@@ -14,8 +14,9 @@ export interface TanSignature {
  * {{tan a}}
  * ```
  *
- * @param number The number to pass to `Math.tan`
- * @return The tan of the passed number
+ * @function tan
+ * @param {number} number The number to pass to `Math.tan`
+ * @return {number} The tan of the passed number
  */
 export function tan([number]: [number]) {
   return Math.tan(number);

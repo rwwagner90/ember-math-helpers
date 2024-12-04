@@ -14,8 +14,9 @@ export interface CosSignature {
  * {{cos a}}
  * ```
  *
- * @param number The number to pass to `Math.cos`
- * @return The cos of the passed number
+ * @function cos
+ * @param {number} number The number to pass to `Math.cos`
+ * @return {number} The cos of the passed number
  */
 export function cos([number]: [number]) {
   return Math.cos(number);

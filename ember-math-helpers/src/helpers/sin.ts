@@ -14,8 +14,9 @@ export interface SinSignature {
  * {{sin a}}
  * ```
  *
- * @param number The number to pass to `Math.sin`
- * @return The sin of the passed number
+ * @function sin
+ * @param {number} number The number to pass to `Math.sin`
+ * @return {number} The sin of the passed number
  */
 export function sin([number]: [number]) {
   return Math.sin(number);

@@ -14,8 +14,9 @@ export interface Log10Signature {
  * {{log10 a}}
  * ```
  *
- * @param number The number to pass to `Math.log10`
- * @return The log10 of the passed number
+ * @function log10
+ * @param {number} number The number to pass to `Math.log10`
+ * @return {number} The log10 of the passed number
  */
 export function log10([number]: [number]) {
   return Math.log10(number);

@@ -14,8 +14,9 @@ export interface DivSignature {
  * {{div a b}}
  * ```
  *
- * @param numbers A list of numbers to divide
- * @return The result of dividing all the passed numbers
+ * @function div
+ * @param {number[]} numbers A list of numbers to divide
+ * @return {number} The result of dividing all the passed numbers
  */
 export function div(numbers: Array<number>) {
   return numbers.reduce((a, b) => Number(a) / Number(b));

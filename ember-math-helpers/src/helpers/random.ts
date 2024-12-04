@@ -37,9 +37,11 @@ const DEFAULT_OPTS = {
  * {{random 21 1797}} or {{random 21 1797 decimals=4}}
  * ```
  *
+ * @function random
  * @param {number} upperBound
  * @param {number} lowerBound
- * @param {object} { decimals } decimal precision value
+ * @param {object} named The set of named arguments, currently just `decimals`.
+ * @param {number} [named.decimals] An optional decimal precision value.
  * @return {number} The random generated number
  */
 export function random(

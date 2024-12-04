@@ -14,8 +14,9 @@ export interface CbrtSignature {
  * {{cbrt a}}
  * ```
  *
- * @param number The number to pass to `Math.cbrt`
- * @return The cbrt of the passed number
+ * @function cbrt
+ * @param {number} number The number to pass to `Math.cbrt`
+ * @return {number} The cbrt of the passed number
  */
 export function cbrt([number]: [number]) {
   return Math.cbrt(number);

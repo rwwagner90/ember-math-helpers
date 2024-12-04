@@ -14,8 +14,9 @@ export interface CoshSignature {
  * {{cosh a}}
  * ```
  *
- * @param number The number to pass to `Math.cosh`
- * @return The cosh of the passed number
+ * @function cosh
+ * @param {number} number The number to pass to `Math.cosh`
+ * @return {number} The cosh of the passed number
  */
 export function cosh([number]: [number]) {
   return Math.cosh(number);

@@ -13,9 +13,9 @@ export interface AtanSignature {
  * ```hbs
  * {{atan a}}
  * ```
- *
- * @param number The number to pass to `Math.atan`
- * @return The atan of the passed number
+ * @function atan
+ * @param {number} number The number to pass to `Math.atan`
+ * @return {number} The atan of the passed number
  */
 export function atan([number]: [number]) {
   return Math.atan(number);

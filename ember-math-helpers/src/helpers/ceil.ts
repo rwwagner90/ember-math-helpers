@@ -14,8 +14,9 @@ export interface CeilSignature {
  * {{ceil a}}
  * ```
  *
- * @param number The number to pass to `Math.ceil`
- * @return The ceil of the passed number
+ * @function ceil
+ * @param {number} number The number to pass to `Math.ceil`
+ * @return {number} The ceil of the passed number
  */
 export function ceil([number]: [number]) {
   return Math.ceil(number);
