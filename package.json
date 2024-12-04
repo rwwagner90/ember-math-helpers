@@ -1,4 +1,5 @@
 {
+  "version": "4.1.1",
   "private": true,
   "repository": "https://github.com/RobbieTheWagner/ember-math-helpers",
   "license": "MIT",
@@ -20,41 +21,18 @@
     "test:ember": "pnpm --filter '*' test:ember"
   },
   "devDependencies": {
-    "@release-it-plugins/lerna-changelog": "^7.0.0",
-    "@release-it-plugins/workspaces": "^4.2.0",
     "concurrently": "^9.1.0",
     "npm-run-all": "^4.1.5",
-    "release-it": "^17.10.0"
-  },
-  "release-it": {
-    "plugins": {
-      "@release-it-plugins/workspaces": {
-        "workspaces": [
-          "ember-math-helpers"
-        ]
-      },
-      "@release-it-plugins/lerna-changelog": {
-        "infile": "CHANGELOG.md"
-      }
-    },
-    "git": {
-      "tagName": "v${version}"
-    },
-    "github": {
-      "release": true,
-      "tokenRef": "GITHUB_AUTH"
-    },
-    "npm": false
+    "release-plan": "^0.11.0"
   },
   "pnpm": {
-    "overrides": {
-      "@glimmer/validator": "^0.84.3"
-    },
     "peerDependencyRules": {
       "ignoreMissing": [
         "ember-cli-htmlbars"
       ]
+    },
+    "overrides": {
+      "@glimmer/validator": "^0.84.3"
     }
-  },
-  "version": "4.1.1"
+  }
 }
