@@ -136,5 +136,11 @@
     "name": "v4.1.1",
     "sha": "8b7c33058a003f7efa97f6e520c1bf7286e90908",
     "tag": "v4.1.1"
+  },
+  "main": {
+    "path": "versions/main",
+    "name": "main",
+    "sha": "295b8e435586eaf7e4eaaaaea7696766d77922ee",
+    "tag": null
   }
 }
