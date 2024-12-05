@@ -6,10 +6,6 @@ module.exports = function (deployTarget) {
     git: {
       repo: 'git@github.com:RobbieTheWagner/ember-math-helpers.git',
     },
-    'git-ci': {
-      userName: 'github-actions[bot]',
-      userEmail: '41898282+github-actions[bot]@users.noreply.github.com',
-    },
   };
 
   if (deployTarget === 'development') {
