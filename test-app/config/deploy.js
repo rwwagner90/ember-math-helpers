@@ -4,7 +4,7 @@ module.exports = function (deployTarget) {
   let ENV = {
     build: {},
     git: {
-      repo: 'https://github.com/RobbieTheWagner/ember-math-helpers.git',
+      repo: 'git@github.com:RobbieTheWagner/ember-math-helpers.git',
     },
   };
 
