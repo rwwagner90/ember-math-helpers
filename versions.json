@@ -5,108 +5,6 @@
     "sha": "8b7c33058a003f7efa97f6e520c1bf7286e90908",
     "tag": "v4.1.1"
   },
-  "v2.7.1": {
-    "path": "versions/v2.7.1",
-    "name": "v2.7.1",
-    "sha": "dda09522cea7cc6f7898dcf84cd3915971957db6",
-    "tag": "v2.7.1"
-  },
-  "v2.8.0": {
-    "path": "versions/v2.8.0",
-    "name": "v2.8.0",
-    "sha": "294e3a4383ff6bdbf07fd9dc1d0ced5ee12e2c98",
-    "tag": "v2.8.0"
-  },
-  "v2.8.1": {
-    "path": "versions/v2.8.1",
-    "name": "v2.8.1",
-    "sha": "b06d8289efa3b7767c1e3c9a9345f62de78c9a9e",
-    "tag": "v2.8.1"
-  },
-  "v2.11.0": {
-    "path": "versions/v2.11.0",
-    "name": "v2.11.0",
-    "sha": "b74f59e4c99bee71a8bdc0cfa302983bf72e7f3a",
-    "tag": "v2.11.0"
-  },
-  "v2.11.1": {
-    "path": "versions/v2.11.1",
-    "name": "v2.11.1",
-    "sha": "bf77a6cd37f88a232a9719957f3420d23c037cf7",
-    "tag": "v2.11.1"
-  },
-  "v2.11.2": {
-    "path": "versions/v2.11.2",
-    "name": "v2.11.2",
-    "sha": "58b2eb91b62e4338f4d6bb6004a9aa6a23ced1d8",
-    "tag": "v2.11.2"
-  },
-  "v2.11.3": {
-    "path": "versions/v2.11.3",
-    "name": "v2.11.3",
-    "sha": "e7b12c29de04fabcb4b26aec22b73a4b95e1c8c0",
-    "tag": "v2.11.3"
-  },
-  "v2.12.0": {
-    "path": "versions/v2.12.0",
-    "name": "v2.12.0",
-    "sha": "2a337261c18b9e57f1c71ee3c1d951a2030c6e5f",
-    "tag": "v2.12.0"
-  },
-  "v2.12.1": {
-    "path": "versions/v2.12.1",
-    "name": "v2.12.1",
-    "sha": "c3a95159a36109ba526b60a6e95b05830bdaba6c",
-    "tag": "v2.12.1"
-  },
-  "v2.13.0": {
-    "path": "versions/v2.13.0",
-    "name": "v2.13.0",
-    "sha": "fb54b4c2d4880327b872d009f9a43ef7684c6d96",
-    "tag": "v2.13.0"
-  },
-  "v2.14.0": {
-    "path": "versions/v2.14.0",
-    "name": "v2.14.0",
-    "sha": "6d645b1e3ed51476c4f5d7cf3daed6e84a9c68d3",
-    "tag": "v2.14.0"
-  },
-  "v2.15.0": {
-    "path": "versions/v2.15.0",
-    "name": "v2.15.0",
-    "sha": "e3ac6a0a1a81c91a9c5f07458fc3a9dbbdfa3f94",
-    "tag": "v2.15.0"
-  },
-  "v2.17.0": {
-    "path": "versions/v2.17.0",
-    "name": "v2.17.0",
-    "sha": "69f895c682f1054e2c31774b1106645b3b57246e",
-    "tag": "v2.17.0"
-  },
-  "v2.17.1": {
-    "path": "versions/v2.17.1",
-    "name": "v2.17.1",
-    "sha": "5cd4511fa58fe746c44e35b3eb7e3af7e2e2f06f",
-    "tag": "v2.17.1"
-  },
-  "v2.17.2": {
-    "path": "versions/v2.17.2",
-    "name": "v2.17.2",
-    "sha": "917aae80277ea435c94ffaa4742db8d500668c6f",
-    "tag": "v2.17.2"
-  },
-  "v2.17.3": {
-    "path": "versions/v2.17.3",
-    "name": "v2.17.3",
-    "sha": "0ede25c472e4b2bf9843a6c56c29ea3424a7bdb1",
-    "tag": "v2.17.3"
-  },
-  "v2.18.0": {
-    "path": "versions/v2.18.0",
-    "name": "v2.18.0",
-    "sha": "8b5f92a4fe46d44272897432f4d9c57e87546c46",
-    "tag": "v2.18.0"
-  },
   "v2.18.1": {
     "path": "versions/v2.18.1",
     "name": "v2.18.1",
@@ -118,12 +16,6 @@
     "name": "v3.0.0",
     "sha": "75c4dde2f3321f503deb25b24efdc7fd7594224f",
     "tag": "v3.0.0"
-  },
-  "v4.1.0": {
-    "path": "versions/v4.1.0",
-    "name": "v4.1.0",
-    "sha": "76bd725b079cc6383702bc139a36103343f602c2",
-    "tag": "v4.1.0"
   },
   "v4.1.1": {
     "path": "versions/v4.1.1",
