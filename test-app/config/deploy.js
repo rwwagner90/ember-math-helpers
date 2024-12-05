@@ -9,8 +9,7 @@ module.exports = function (deployTarget) {
     'git-ci': {
       userName: 'github-actions[bot]',
       userEmail: '41898282+github-actions[bot]@users.noreply.github.com',
-      deployKey: process.env.DEPLOY_KEY
-    }
+    },
   };
 
   if (deployTarget === 'development') {
