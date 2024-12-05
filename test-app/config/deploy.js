@@ -3,7 +3,9 @@
 module.exports = function (deployTarget) {
   let ENV = {
     build: {},
-    // include other plugin configuration that applies to all deploy targets here
+    git: {
+      repo: 'https://github.com/RobbieTheWagner/ember-math-helpers.git',
+    },
   };
 
   if (deployTarget === 'development') {
