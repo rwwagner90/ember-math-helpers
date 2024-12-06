@@ -44,4 +44,6 @@ jobs:
         run: pnpm install --no-lockfile
       - name: Deploy Docs
         if: env.SHORT_CIRCUIT == 'false'
-        run: pnpm ember deploy production
+        run: |
+          cd test-app
+          pnpm ember deploy production
