@@ -2,6 +2,27 @@
 
 ## Release (2024-12-06)
 
+ember-math-helpers 4.2.0 (minor)
+
+#### :rocket: Enhancement
+* `ember-math-helpers`, `test-app`
+  * [#1863](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1863) More pnpm updates ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+* Other
+  * [#1861](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1861) pnpm update ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+
+#### :house: Internal
+* Other
+  * [#1862](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1862) Prepare Release ([@github-actions[bot]](https://github.com/apps/github-actions))
+  * [#1859](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1859) Prepare Release ([@github-actions[bot]](https://github.com/apps/github-actions))
+* `test-app`
+  * [#1858](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1858) Switch to release-plan ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+
+#### Committers: 2
+- Robbie Wagner ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+- [@github-actions[bot]](https://github.com/apps/github-actions)
+
+## Release (2024-12-06)
+
 
 
 #### :rocket: Enhancement
