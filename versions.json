@@ -28,5 +28,11 @@
     "name": "main",
     "sha": "19938ae6e739ab86dd59502c262204ffd6623063",
     "tag": null
+  },
+  "v4.2.0-ember-math-helpers": {
+    "path": "versions/v4.2.0-ember-math-helpers",
+    "name": "v4.2.0-ember-math-helpers",
+    "sha": "19938ae6e739ab86dd59502c262204ffd6623063",
+    "tag": "v4.2.0-ember-math-helpers"
   }
 }
