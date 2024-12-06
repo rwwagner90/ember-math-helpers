@@ -1,5 +1,16 @@
 # Changelog
 
+## Release (2024-12-06)
+
+
+
+#### :house: Internal
+* `test-app`
+  * [#1858](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1858) Switch to release-plan ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+
+#### Committers: 1
+- Robbie Wagner ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+
 ## v4.1.1 (2024-12-04)
 
 ## v4.1.0 (2024-12-04)

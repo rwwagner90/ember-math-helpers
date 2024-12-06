@@ -1,0 +1,8 @@
+{
+  "solution": {
+    "ember-math-helpers": {
+      "oldVersion": "4.1.1"
+    }
+  },
+  "description": "## Release (2024-12-06)\n\n\n\n#### :house: Internal\n* `test-app`\n  * [#1858](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1858) Switch to release-plan ([@RobbieTheWagner](https://github.com/RobbieTheWagner))\n\n#### Committers: 1\n- Robbie Wagner ([@RobbieTheWagner](https://github.com/RobbieTheWagner))\n"
+}
