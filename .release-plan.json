@@ -1,8 +1,17 @@
 {
   "solution": {
     "ember-math-helpers": {
-      "oldVersion": "4.1.1"
+      "impact": "minor",
+      "oldVersion": "4.1.1",
+      "newVersion": "4.2.0",
+      "constraints": [
+        {
+          "impact": "minor",
+          "reason": "Appears in changelog section :rocket: Enhancement"
+        }
+      ],
+      "pkgJSONPath": "./ember-math-helpers/package.json"
     }
   },
-  "description": "## Release (2024-12-06)\n\n\n\n#### :rocket: Enhancement\n* [#1861](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1861) pnpm update ([@RobbieTheWagner](https://github.com/RobbieTheWagner))\n\n#### :house: Internal\n* Other\n  * [#1859](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1859) Prepare Release ([@github-actions[bot]](https://github.com/apps/github-actions))\n* `test-app`\n  * [#1858](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1858) Switch to release-plan ([@RobbieTheWagner](https://github.com/RobbieTheWagner))\n\n#### Committers: 2\n- Robbie Wagner ([@RobbieTheWagner](https://github.com/RobbieTheWagner))\n- [@github-actions[bot]](https://github.com/apps/github-actions)\n"
+  "description": "## Release (2024-12-06)\n\nember-math-helpers 4.2.0 (minor)\n\n#### :rocket: Enhancement\n* `ember-math-helpers`, `test-app`\n  * [#1863](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1863) More pnpm updates ([@RobbieTheWagner](https://github.com/RobbieTheWagner))\n* Other\n  * [#1861](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1861) pnpm update ([@RobbieTheWagner](https://github.com/RobbieTheWagner))\n\n#### :house: Internal\n* Other\n  * [#1862](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1862) Prepare Release ([@github-actions[bot]](https://github.com/apps/github-actions))\n  * [#1859](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1859) Prepare Release ([@github-actions[bot]](https://github.com/apps/github-actions))\n* `test-app`\n  * [#1858](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1858) Switch to release-plan ([@RobbieTheWagner](https://github.com/RobbieTheWagner))\n\n#### Committers: 2\n- Robbie Wagner ([@RobbieTheWagner](https://github.com/RobbieTheWagner))\n- [@github-actions[bot]](https://github.com/apps/github-actions)\n"
 }
