@@ -120,8 +120,7 @@
       "./helpers/sum.js": "./dist/_app_/helpers/sum.js",
       "./helpers/tan.js": "./dist/_app_/helpers/tan.js",
       "./helpers/tanh.js": "./dist/_app_/helpers/tanh.js",
-      "./helpers/trunc.js": "./dist/_app_/helpers/trunc.js",
-      "./index.js": "./dist/_app_/index.js"
+      "./helpers/trunc.js": "./dist/_app_/helpers/trunc.js"
     }
   },
   "files": [
