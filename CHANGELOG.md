@@ -1,5 +1,16 @@
 # Changelog
 
+## Release (2024-12-10)
+
+ember-math-helpers 4.2.1 (patch)
+
+#### :bug: Bug Fix
+* `ember-math-helpers`
+  * [#1872](https://github.com/RobbieTheWagner/ember-math-helpers/pull/1872) Remove app reexport of index ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+
+#### Committers: 1
+- Robbie Wagner ([@RobbieTheWagner](https://github.com/RobbieTheWagner))
+
 ## Release (2024-12-06)
 
 ember-math-helpers 4.2.0 (minor)
