@@ -46,8 +46,8 @@ importers:
         specifier: ^7.26.0
         version: 7.26.0
       '@embroider/addon-dev':
-        specifier: ^7.1.0
-        version: 7.1.0(@glint/template@1.5.0)(rollup@4.28.1)
+        specifier: ^7.1.1
+        version: 7.1.1(@glint/template@1.5.0)(rollup@4.28.1)
       '@glint/core':
         specifier: ^1.5.0
         version: 1.5.0(typescript@5.7.2)
@@ -1096,8 +1096,8 @@ packages:
     resolution: {integrity: sha512-bb9h95ktG2wKY9+ja1sdsFBdOms2lB19VWs8wmNpzgHv1NCetonBoV5jHBV4DHt0uS1tg9z66cZqhUVlYs96KQ==}
     engines: {node: 10.* || 12.* || >= 14.*}
 
-  '@embroider/addon-dev@7.1.0':
-    resolution: {integrity: sha512-VOv9NCdRX1tGQlfAbq4/tqvi2yB7s843QL8T98NSvCVBcO4x+xqv5I8t9oy1pOVbD8yk2PSfnzlDWZl/H4sZvw==}
+  '@embroider/addon-dev@7.1.1':
+    resolution: {integrity: sha512-81xGvfvIULEvZTZIswdF4X2Ag7dRKfiUfIQsQ9s11ScozexVj7gyBsMZ4iIwpPmv9iz7WZdBu+ptyJjOdx+HgA==}
     engines: {node: 12.* || 14.* || >= 16}
     hasBin: true
     peerDependencies:
@@ -10580,7 +10580,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@embroider/addon-dev@7.1.0(@glint/template@1.5.0)(rollup@4.28.1)':
+  '@embroider/addon-dev@7.1.1(@glint/template@1.5.0)(rollup@4.28.1)':
     dependencies:
       '@embroider/core': 3.4.20(@glint/template@1.5.0)
       '@rollup/pluginutils': 4.2.1
