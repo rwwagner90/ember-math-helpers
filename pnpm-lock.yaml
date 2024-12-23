@@ -156,10 +156,10 @@ importers:
         version: 1.16.10(@glint/template@1.5.0)
       '@embroider/test-setup':
         specifier: ^4.0.0
-        version: 4.0.0(@embroider/compat@3.7.1(@embroider/core@3.4.20(@glint/template@1.5.0))(@glint/template@1.5.0))(@embroider/core@3.4.20(@glint/template@1.5.0))(@embroider/webpack@4.0.8(@embroider/core@3.4.20(@glint/template@1.5.0))(webpack@5.97.1))
+        version: 4.0.0(@embroider/compat@3.7.1(@embroider/core@3.4.20(@glint/template@1.5.0))(@glint/template@1.5.0))(@embroider/core@3.4.20(@glint/template@1.5.0))(@embroider/webpack@4.0.9(@embroider/core@3.4.20(@glint/template@1.5.0))(webpack@5.97.1))
       '@embroider/webpack':
-        specifier: ^4.0.8
-        version: 4.0.8(@embroider/core@3.4.20(@glint/template@1.5.0))(webpack@5.97.1)
+        specifier: ^4.0.9
+        version: 4.0.9(@embroider/core@3.4.20(@glint/template@1.5.0))(webpack@5.97.1)
       '@glimmer/component':
         specifier: ^2.0.0
         version: 2.0.0
@@ -1188,11 +1188,11 @@ packages:
       '@glint/template':
         optional: true
 
-  '@embroider/webpack@4.0.8':
-    resolution: {integrity: sha512-5i1v6+eH1gMHOqtaCzkFX6JPekmapN1+Clacxu+lxiv/piufuJV6bkugyPxIqqGBWjF8bOQA12ncM9BgpLae8A==}
+  '@embroider/webpack@4.0.9':
+    resolution: {integrity: sha512-4pRnY6fC8sdGrhD+Tk8ilblmHbwzlsy1BrA0r1dYGd23TpmGOgrit/CIv3C2ffRQ4EaiZh1XYO0KDVNTMYUFAw==}
     engines: {node: 12.* || 14.* || >= 16}
     peerDependencies:
-      '@embroider/core': ^3.4.19
+      '@embroider/core': ^3.4.20
       webpack: ^5.0.0
 
   '@eslint-community/eslint-utils@4.4.1':
@@ -8472,11 +8472,6 @@ packages:
       uglify-js:
         optional: true
 
-  terser@5.36.0:
-    resolution: {integrity: sha512-IYV9eNMuFAV4THUspIRXkLakHnV6XO7FEdtKjf/mDyrnqUg9LnlOn6/RwRvM9SZjR4GUq8Nk8zj67FzVARr74w==}
-    engines: {node: '>=10'}
-    hasBin: true
-
   terser@5.37.0:
     resolution: {integrity: sha512-B8wRRkmre4ERucLM/uXx4MOV5cbnOlVAqUst+1+iLKPI0dOgFO28f84ptoQt9HEI537PMzfYa/d+GEPKTRXmYA==}
     engines: {node: '>=10'}
@@ -10783,14 +10778,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@embroider/test-setup@4.0.0(@embroider/compat@3.7.1(@embroider/core@3.4.20(@glint/template@1.5.0))(@glint/template@1.5.0))(@embroider/core@3.4.20(@glint/template@1.5.0))(@embroider/webpack@4.0.8(@embroider/core@3.4.20(@glint/template@1.5.0))(webpack@5.97.1))':
+  '@embroider/test-setup@4.0.0(@embroider/compat@3.7.1(@embroider/core@3.4.20(@glint/template@1.5.0))(@glint/template@1.5.0))(@embroider/core@3.4.20(@glint/template@1.5.0))(@embroider/webpack@4.0.9(@embroider/core@3.4.20(@glint/template@1.5.0))(webpack@5.97.1))':
     dependencies:
       lodash: 4.17.21
       resolve: 1.22.8
     optionalDependencies:
       '@embroider/compat': 3.7.1(@embroider/core@3.4.20(@glint/template@1.5.0))(@glint/template@1.5.0)
       '@embroider/core': 3.4.20(@glint/template@1.5.0)
-      '@embroider/webpack': 4.0.8(@embroider/core@3.4.20(@glint/template@1.5.0))(webpack@5.97.1)
+      '@embroider/webpack': 4.0.9(@embroider/core@3.4.20(@glint/template@1.5.0))(webpack@5.97.1)
 
   '@embroider/util@1.13.2(@glint/environment-ember-loose@1.5.0(@glimmer/component@2.0.0)(@glint/template@1.5.0)(ember-cli-htmlbars@6.3.0)(ember-modifier@4.2.0(@babel/core@7.26.0)(ember-source@6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.97.1))))(@glint/template@1.5.0)(ember-source@6.0.1(@glimmer/component@2.0.0)(@glint/template@1.5.0)(rsvp@4.8.5)(webpack@5.97.1))':
     dependencies:
@@ -10804,7 +10799,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@embroider/webpack@4.0.8(@embroider/core@3.4.20(@glint/template@1.5.0))(webpack@5.97.1)':
+  '@embroider/webpack@4.0.9(@embroider/core@3.4.20(@glint/template@1.5.0))(webpack@5.97.1)':
     dependencies:
       '@babel/core': 7.26.0(supports-color@8.1.1)
       '@babel/preset-env': 7.26.0(@babel/core@7.26.0)(supports-color@8.1.1)
@@ -10827,7 +10822,7 @@ snapshots:
       source-map-url: 0.4.1
       style-loader: 2.0.0(webpack@5.97.1)
       supports-color: 8.1.1
-      terser: 5.36.0
+      terser: 5.37.0
       thread-loader: 3.0.4(webpack@5.97.1)
       webpack: 5.97.1
     transitivePeerDependencies:
@@ -20530,13 +20525,6 @@ snapshots:
       serialize-javascript: 6.0.2
       terser: 5.37.0
       webpack: 5.97.1
-
-  terser@5.36.0:
-    dependencies:
-      '@jridgewell/source-map': 0.3.6
-      acorn: 8.14.0
-      commander: 2.20.3
-      source-map-support: 0.5.21
 
   terser@5.37.0:
     dependencies:
