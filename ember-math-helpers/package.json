@@ -41,7 +41,7 @@
     "@babel/plugin-transform-typescript": "^7.26.5",
     "@babel/runtime": "^7.26.7",
     "@embroider/addon-dev": "^7.1.1",
-    "@glint/core": "^1.5.1",
+    "@glint/core": "^1.5.2",
     "@glint/environment-ember-loose": "^1.5.2",
     "@glint/environment-ember-template-imports": "^1.5.2",
     "@glint/template": "^1.5.1",
