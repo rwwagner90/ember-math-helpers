@@ -43,8 +43,8 @@ importers:
         specifier: ^7.26.5
         version: 7.26.5(@babel/core@7.26.0)
       '@babel/runtime':
-        specifier: ^7.26.0
-        version: 7.26.0
+        specifier: ^7.26.7
+        version: 7.26.7
       '@embroider/addon-dev':
         specifier: ^7.1.1
         version: 7.1.1(@glint/template@1.5.1)(rollup@4.32.0)
@@ -878,8 +878,8 @@ packages:
   '@babel/runtime@7.12.18':
     resolution: {integrity: sha512-BogPQ7ciE6SYAUPtlm9tWbgI9+2AgqSam6QivMgXgAT+fKbgppaj4ZX15MHeLC1PVF5sNk70huBu20XxWOs8Cg==}
 
-  '@babel/runtime@7.26.0':
-    resolution: {integrity: sha512-FDSOghenHTiToteC/QRlv2q3DhPZ/oOXTBoirfWNx1Cx3TMVcGWQtMMmQcSvb/JjpNeGzx8Pq/b4fKEJuWm1sw==}
+  '@babel/runtime@7.26.7':
+    resolution: {integrity: sha512-AOPI3D+a8dXnja+iwsUqGRjr1BbZIe771sXdapOtYI531gSqpi92vXivKcq2asu/DFpdl1ceFAKZyRzK2PCVcQ==}
     engines: {node: '>=6.9.0'}
 
   '@babel/standalone@7.26.3':
@@ -10545,7 +10545,7 @@ snapshots:
     dependencies:
       regenerator-runtime: 0.13.11
 
-  '@babel/runtime@7.26.0':
+  '@babel/runtime@7.26.7':
     dependencies:
       regenerator-runtime: 0.14.1
 
@@ -10898,7 +10898,7 @@ snapshots:
       '@babel/plugin-syntax-typescript': 7.25.9(@babel/core@7.26.0)
       '@babel/plugin-transform-runtime': 7.25.9(@babel/core@7.26.0)
       '@babel/preset-env': 7.26.0(@babel/core@7.26.0)
-      '@babel/runtime': 7.26.0
+      '@babel/runtime': 7.26.7
       '@babel/traverse': 7.26.4
       '@embroider/core': 3.5.0(@glint/template@1.5.1)
       '@embroider/macros': 1.16.10(@glint/template@1.5.1)
@@ -17897,7 +17897,7 @@ snapshots:
 
   is-language-code@3.1.0:
     dependencies:
-      '@babel/runtime': 7.26.0
+      '@babel/runtime': 7.26.7
 
   is-map@2.0.3: {}
 
@@ -19996,7 +19996,7 @@ snapshots:
 
   regenerator-transform@0.15.2:
     dependencies:
-      '@babel/runtime': 7.26.0
+      '@babel/runtime': 7.26.7
 
   regex-not@1.0.2:
     dependencies:
